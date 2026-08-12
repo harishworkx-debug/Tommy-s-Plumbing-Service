@@ -173,7 +173,7 @@ export function ServicePage({ service }: { service: Service }) {
                 className="flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-3 text-sm font-semibold hover:border-primary"
               >
                 <Wrench className="h-4 w-4 text-primary" />
-                {service.name} in {l.name}
+                {l.name}
               </a>
             </Reveal>
           ))}

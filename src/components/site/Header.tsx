@@ -68,7 +68,7 @@ export function Header() {
                       href={locationPath(l.slug)}
                       className="rounded-xl px-3 py-2 text-sm font-semibold text-popover-foreground hover:bg-secondary"
                     >
-                      Plumber in {l.name}
+                      {l.name}
                     </AppLink>
                   ))}
                 </div>
@@ -133,7 +133,7 @@ export function Header() {
                     onClick={() => setOpen(false)}
                     className="rounded-lg px-2 py-2 text-sm font-semibold hover:bg-secondary"
                   >
-                    Plumber in {l.name}
+                    {l.name}
                   </AppLink>
                 ))}
               </div>

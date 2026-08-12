@@ -416,7 +416,7 @@ function Home() {
             <LinkCard
               key={l.slug}
               href={`/plumber-${l.slug}-ca/`}
-              title={`Plumber in ${l.name}, CA`}
+              title={l.name}
               text={l.lede.slice(0, 120) + "…"}
               image={img(l.image)}
               alt={l.alt}
@@ -493,44 +493,7 @@ function Home() {
         </div>
       </Section>
 
-      {/* 13. Savings / discount */}
-      <Section tone="muted">
-        <div className="grid items-center gap-10 lg:grid-cols-2">
-          <Reveal>
-            <img
-              src={img("contact-estimate")}
-              alt="Bakersfield plumber writing a free estimate for a homeowner"
-              className="w-full rounded-3xl object-cover shadow-[var(--shadow-card)]"
-              loading="lazy"
-            />
-          </Reveal>
-          <Reveal delay={0.08}>
-            <h2 className="text-3xl md:text-4xl">Free Estimates and a 10% Senior &amp; Military Discount</h2>
-            <p className="mt-4 leading-relaxed text-muted-foreground">
-              Every job starts with a free estimate. We diagnose the problem, show you what we
-              found and explain what a repair costs versus a replacement so you can make the call
-              with real information. Seniors and military personnel receive 10% off plumbing
-              services, and we accept credit cards, NFC mobile payments, Apple Pay and Google Pay.
-            </p>
-            <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
-              {[
-                "No charge to diagnose and quote",
-                "Specialized warranties on qualifying work",
-                "Repair-versus-replace guidance in plain language",
-                "Flexible, modern payment options",
-              ].map((i) => (
-                <li key={i} className="flex gap-2">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  {i}
-                </li>
-              ))}
-            </ul>
-            <div className="mt-7">
-              <CallButton />
-            </div>
-          </Reveal>
-        </div>
-      </Section>
+
 
       {/* 14. Maintenance tips */}
       <Section>

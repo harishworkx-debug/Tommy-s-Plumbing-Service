@@ -64,7 +64,7 @@ export function Footer() {
             {locations.map((l) => (
               <li key={l.slug}>
                 <AppLink href={`/plumber-${l.slug}-ca/`} className="hover:text-accent">
-                  Plumber in {l.name}, CA
+                  {l.name}
                 </AppLink>
               </li>
             ))}
