@@ -9,7 +9,7 @@ export const Route = createFileRoute("/reviews")({
     pageHead({
       title: "Reviews | Tommy's Plumbing Service, Bakersfield CA",
       description:
-        "Tommy's Plumbing Service is rated 4.5 stars on Google and Yahoo Local by Bakersfield homeowners and businesses. Call 661-319-9432 for 24/7 service.",
+        "Tommy's Plumbing Service is rated 4.5 stars on Google and Yahoo Local by Bakersfield homeowners and businesses. Call 661-592-2721 for 24/7 service.",
       path: "/reviews/",
     }),
   component: ReviewsPage,

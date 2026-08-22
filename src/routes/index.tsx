@@ -34,9 +34,9 @@ import { faqSchema, pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/")({
   head: () =>
     pageHead({
-      title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661-319-9432",
+      title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661-592-2721",
       description:
-        "Licensed 24/7 plumber in Bakersfield, CA. Emergency plumbing, drain cleaning, leak detection, sewer and water heater service. Free estimates. Call 661-319-9432.",
+        "Licensed 24/7 plumber in Bakersfield, CA. Emergency plumbing, drain cleaning, leak detection, sewer and water heater service. Free estimates. Call 661-592-2721.",
       path: "/",
     }),
   component: Home,
@@ -45,7 +45,7 @@ export const Route = createFileRoute("/")({
 const homeFaqs = [
   {
     q: "Are you available 24 hours a day in Bakersfield?",
-    a: "Yes. Tommy's Plumbing Service is open 24 hours a day, 7 days a week, including nights, weekends and holidays. Call 661-319-9432 and you will reach a real local plumbing company, not an answering service that routes work elsewhere.",
+    a: "Yes. Tommy's Plumbing Service is open 24 hours a day, 7 days a week, including nights, weekends and holidays. Call 661-592-2721 and you will reach a real local plumbing company, not an answering service that routes work elsewhere.",
   },
   {
     q: "Do you charge for estimates?",
@@ -73,7 +73,7 @@ const homeFaqs = [
   },
   {
     q: "How fast can you get here for an emergency?",
-    a: "For emergencies inside Bakersfield we dispatch as soon as a truck is free, usually the same hour. Call 661-319-9432 and we will walk you through shutting the water off while we are on the way.",
+    a: "For emergencies inside Bakersfield we dispatch as soon as a truck is free, usually the same hour. Call 661-592-2721 and we will walk you through shutting the water off while we are on the way.",
   },
 ];
 

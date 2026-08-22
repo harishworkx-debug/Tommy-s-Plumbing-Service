@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
     pageHead({
       title: "About Tommy's Plumbing Service | Bakersfield, CA Plumber",
       description:
-        "Licensed and insured plumbing contractor in Bakersfield, CA, open 24/7 with free estimates. California State License #957013. Call 661-319-9432.",
+        "Licensed and insured plumbing contractor in Bakersfield, CA, open 24/7 with free estimates. California State License #957013. Call 661-592-2721.",
       path: "/about/",
     }),
   component: AboutPage,

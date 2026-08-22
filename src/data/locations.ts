@@ -36,7 +36,7 @@ export const locations: Location[] = [
     alt: "Residential street with stucco homes and dry hills in Bakersfield, California",
     title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Licensed plumber in Bakersfield, CA for residential and commercial plumbing, drains, sewers, leaks and water heaters. 24/7, free estimates. Call 661-319-9432.",
+      "Licensed plumber in Bakersfield, CA for residential and commercial plumbing, drains, sewers, leaks and water heaters. 24/7, free estimates. Call 661-592-2721.",
     h1: "Plumber in Bakersfield, CA",
     lede:
       "Tommy's Plumbing Service is based at 3740 Sillect Ave #3c in Bakersfield and works across the entire city, from the older neighborhoods near downtown to the newer developments spreading northwest and southwest.",
@@ -53,7 +53,7 @@ export const locations: Location[] = [
     commercial:
       "On the commercial side we serve restaurants along the Rosedale and Ming corridors, offices downtown, retail centers, salons, medical suites and multi-unit rental properties. Commercial work is scheduled around business hours where possible, and grease-heavy kitchen lines are jetted on a preventative cycle rather than after a service-time backup.",
     emergency:
-      "Emergency plumbing in Bakersfield means burst supply lines, sewer backups into tubs and showers, failed water heaters flooding garages and main line breaks in front yards. We answer 24/7 at 661-319-9432, walk you through shutting off the correct valve, and contain the damage before beginning any repair.",
+      "Emergency plumbing in Bakersfield means burst supply lines, sewer backups into tubs and showers, failed water heaters flooding garages and main line breaks in front yards. We answer 24/7 at 661-592-2721, walk you through shutting off the correct valve, and contain the damage before beginning any repair.",
     drains:
       "Drain problems here trend toward grease in kitchen lines, hair and soap in bath lines and root intrusion in older main lines. We cable branch lines, hydro-jet where grease and scale need scouring, and camera the main when the same stoppage keeps returning.",
     sewer:
@@ -89,7 +89,7 @@ export const locations: Location[] = [
     ],
     faqs: [
       { q: "Where is Tommy's Plumbing Service located in Bakersfield?", a: "We are located at 3740 Sillect Ave #3c, Bakersfield, CA 93308, and we serve the entire city plus surrounding Kern County communities." },
-      { q: "Are you available for emergencies at night in Bakersfield?", a: "Yes. We are open 24 hours a day, 7 days a week, including nights, weekends and holidays. Call 661-319-9432." },
+      { q: "Are you available for emergencies at night in Bakersfield?", a: "Yes. We are open 24 hours a day, 7 days a week, including nights, weekends and holidays. Call 661-592-2721." },
       { q: "Do you charge for estimates in Bakersfield?", a: "No. Estimates are free. We diagnose the issue, explain the options and provide pricing before any work begins." },
       { q: "What payment methods do you accept?", a: "Credit cards, Apple Pay, Google Pay and NFC mobile payments. Seniors and military personnel receive a 10% discount." },
       { q: "Do you work on both homes and businesses?", a: "Yes, we are a licensed residential and commercial plumbing contractor and handle everything from single fixture repairs to commercial kitchen and multi-unit property work." },
@@ -105,7 +105,7 @@ export const locations: Location[] = [
     alt: "Newer suburban neighborhood with tract homes in Rosedale, California",
     title: "Plumber in Rosedale, CA | Tommy's Plumbing Service",
     description:
-      "Licensed plumber serving Rosedale, CA. Drain cleaning, leak detection, water heaters and 24/7 emergency plumbing. Free estimates. Call 661-319-9432.",
+      "Licensed plumber serving Rosedale, CA. Drain cleaning, leak detection, water heaters and 24/7 emergency plumbing. Free estimates. Call 661-592-2721.",
     h1: "Plumber in Rosedale, CA",
     lede:
       "Rosedale's newer subdivisions and larger lots create a distinct plumbing profile, and Tommy's Plumbing Service works here daily from our Bakersfield shop just minutes east.",
@@ -158,7 +158,7 @@ export const locations: Location[] = [
       { q: "Do you serve all of Rosedale?", a: "Yes, we serve Rosedale from the Calloway corridor west to Allen Road and Renfro, including the semi-rural properties beyond the newer subdivisions." },
       { q: "Why does my Rosedale home run out of hot water?", a: "Usually the tank was sized for a smaller household than the one using it now, or sediment has reduced usable capacity. We measure actual demand before recommending a replacement." },
       { q: "Can you find an underground leak on a large lot?", a: "Yes. We verify the loss at the meter, isolate the irrigation and domestic sides separately and use acoustic equipment to locate the leak before digging." },
-      { q: "How fast can you get to Rosedale in an emergency?", a: "We are based on Sillect Ave in Bakersfield, only minutes away, and we answer emergency calls 24 hours a day at 661-319-9432." },
+      { q: "How fast can you get to Rosedale in an emergency?", a: "We are based on Sillect Ave in Bakersfield, only minutes away, and we answer emergency calls 24 hours a day at 661-592-2721." },
       { q: "Do you work on newer PEX plumbing systems?", a: "Yes. We repair PEX fittings, manifolds and crimp failures as readily as we work on copper and galvanized systems." },
     ],
     nearby: ["bakersfield", "oildale", "shafter", "wasco"],
@@ -172,7 +172,7 @@ export const locations: Location[] = [
     alt: "Older residential neighborhood with mature trees and oilfield hills in Oildale, California",
     title: "Plumber in Oildale, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Oildale, CA. Repairs for older plumbing, drain cleaning, sewer lines and water heaters. 24/7 service, free estimates. Call 661-319-9432.",
+      "Plumber serving Oildale, CA. Repairs for older plumbing, drain cleaning, sewer lines and water heaters. 24/7 service, free estimates. Call 661-592-2721.",
     h1: "Plumber in Oildale, CA",
     lede:
       "Oildale's housing stock is older than most of Kern County, and that shapes almost every plumbing call we take here. We are just across the river from the neighborhood and work in it constantly.",
@@ -226,7 +226,7 @@ export const locations: Location[] = [
       { q: "Why does my main line keep backing up?", a: "In Oildale it is usually root intrusion at clay pipe joints. Cleaning clears it temporarily; a camera inspection shows whether the joint needs a spot repair to stop the cycle." },
       { q: "Can you service rental properties?", a: "Yes. We work with landlords and property managers throughout Oildale on repairs, tenant coordination and preventative maintenance." },
       { q: "Is my old water heater installation still legal?", a: "Many older installations lack current strapping, pan and venting requirements. We bring the installation up to current California code when we replace a unit." },
-      { q: "Are you available at night in Oildale?", a: "Yes, 24 hours a day, 7 days a week. Call 661-319-9432." },
+      { q: "Are you available at night in Oildale?", a: "Yes, 24 hours a day, 7 days a week. Call 661-592-2721." },
     ],
     nearby: ["bakersfield", "rosedale", "shafter", "mcfarland"],
     featuredServices: ["plumbing-repair", "drain-cleaning", "sewer-line-repair", "water-heater-repair"],
@@ -239,7 +239,7 @@ export const locations: Location[] = [
     alt: "Residential street bordered by farmland in Lamont, California",
     title: "Plumber in Lamont, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Lamont, CA with emergency plumbing, drain cleaning, repairs and water heaters. Free estimates and 24/7 service. Call 661-319-9432.",
+      "Plumber serving Lamont, CA with emergency plumbing, drain cleaning, repairs and water heaters. Free estimates and 24/7 service. Call 661-592-2721.",
     h1: "Plumber in Lamont, CA",
     lede:
       "Lamont is a working agricultural community southeast of Bakersfield, and Tommy's Plumbing Service covers it for both household repairs and the after-hours emergencies that cannot wait for a trip into the city.",
@@ -289,7 +289,7 @@ export const locations: Location[] = [
       { h: "Follow-up guidance", p: "Practical advice for reducing wear in a busy household." },
     ],
     faqs: [
-      { q: "Do you come out to Lamont at night?", a: "Yes. We provide 24 hour emergency plumbing throughout Lamont and the surrounding area. Call 661-319-9432." },
+      { q: "Do you come out to Lamont at night?", a: "Yes. We provide 24 hour emergency plumbing throughout Lamont and the surrounding area. Call 661-592-2721." },
       { q: "What size water heater does a large household need?", a: "It depends on occupants, bathrooms and peak use. We measure actual demand rather than simply matching the old tank, because undersized heaters are the most common complaint we hear here." },
       { q: "My kitchen drain clogs every few months. Why?", a: "Grease buildup coats the pipe wall and rebuilds after each cabling. Hydro-jetting scours the line back closer to full diameter, which usually breaks the cycle." },
       { q: "Can you find a leak in a yard line?", a: "Yes. We isolate the yard from the house at the meter and use acoustic equipment to locate the loss before any digging." },
@@ -306,7 +306,7 @@ export const locations: Location[] = [
     alt: "Small town main street with brick storefronts and orchards in Shafter, California",
     title: "Plumber in Shafter, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Shafter, CA for residential and commercial plumbing, water heaters, drains and emergencies. Free estimates. Call 661-319-9432.",
+      "Plumber serving Shafter, CA for residential and commercial plumbing, water heaters, drains and emergencies. Free estimates. Call 661-592-2721.",
     h1: "Plumber in Shafter, CA",
     lede:
       "Shafter combines a historic small-town core with newer housing and significant logistics and agricultural business, and each of those needs a different kind of plumbing support.",
@@ -359,7 +359,7 @@ export const locations: Location[] = [
       { q: "Do you serve commercial facilities in Shafter?", a: "Yes. We handle restrooms, break areas, kitchens and utility plumbing for Shafter businesses, plus construction plumbing for tenant improvements, with after-hours scheduling available." },
       { q: "Can you work on older downtown homes?", a: "Yes, we regularly repair and replace galvanized supply lines and cast iron waste lines in Shafter's older housing stock." },
       { q: "Why do my outdoor faucets keep failing?", a: "Full valley sun degrades exposed plastic and rubber components quickly. We replace them with materials suited to the exposure and add proper support." },
-      { q: "How quickly can you reach Shafter?", a: "Shafter is a short drive from our Bakersfield location, and we dispatch emergency calls 24 hours a day at 661-319-9432." },
+      { q: "How quickly can you reach Shafter?", a: "Shafter is a short drive from our Bakersfield location, and we dispatch emergency calls 24 hours a day at 661-592-2721." },
       { q: "Are estimates free in Shafter?", a: "Yes, estimates are free for both residential and commercial work." },
     ],
     nearby: ["bakersfield", "wasco", "rosedale", "oildale"],
@@ -373,7 +373,7 @@ export const locations: Location[] = [
     alt: "Rural road through rose fields and farmland near Wasco, California",
     title: "Plumber in Wasco, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Wasco, CA. Sewer line repair, drain cleaning, leak detection and 24/7 emergency plumbing. Free estimates. Call 661-319-9432.",
+      "Plumber serving Wasco, CA. Sewer line repair, drain cleaning, leak detection and 24/7 emergency plumbing. Free estimates. Call 661-592-2721.",
     h1: "Plumber in Wasco, CA",
     lede:
       "Wasco sits in the heart of Kern County agriculture, and the plumbing here reflects it: older housing, long underground runs, heavy mineral content and properties that often include more than just a house.",
@@ -440,7 +440,7 @@ export const locations: Location[] = [
     alt: "Residential street with mountains and vineyards in the distance in Arvin, California",
     title: "Plumber in Arvin, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Arvin, CA for leak detection, drain cleaning, repairs and emergency plumbing. Free estimates, 24/7 service. Call 661-319-9432.",
+      "Plumber serving Arvin, CA for leak detection, drain cleaning, repairs and emergency plumbing. Free estimates, 24/7 service. Call 661-592-2721.",
     h1: "Plumber in Arvin, CA",
     lede:
       "Arvin sits at the base of the mountains southeast of Bakersfield, surrounded by vineyards and orchards. We serve the community for everything from a running toilet to a failed main line.",
@@ -490,7 +490,7 @@ export const locations: Location[] = [
       { h: "Prevention advice", p: "Practical steps, including winter protection for exposed lines." },
     ],
     faqs: [
-      { q: "Do you come out to Arvin?", a: "Yes, we serve Arvin and the surrounding area for scheduled work and 24 hour emergency plumbing. Call 661-319-9432." },
+      { q: "Do you come out to Arvin?", a: "Yes, we serve Arvin and the surrounding area for scheduled work and 24 hour emergency plumbing. Call 661-592-2721." },
       { q: "My pipe split during a cold morning. Can you repair it?", a: "Yes. We repair freeze-split supply lines and hose bibs, and we can insulate exposed runs to prevent it happening again." },
       { q: "How do you find a leak I cannot see?", a: "We confirm the loss at the water meter, isolate zones and use acoustic listening equipment to pinpoint the location before opening any surface." },
       { q: "Can you install a larger water heater?", a: "Yes. We size the unit around your household's actual peak demand and install to current California code with proper strapping and venting." },
@@ -507,7 +507,7 @@ export const locations: Location[] = [
     alt: "Hillside homes and oilfield terrain in Taft, California",
     title: "Plumber in Taft, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Taft, CA for commercial plumbing, repairs, drains and water heaters. 24/7 availability and free estimates. Call 661-319-9432.",
+      "Plumber serving Taft, CA for commercial plumbing, repairs, drains and water heaters. 24/7 availability and free estimates. Call 661-592-2721.",
     h1: "Plumber in Taft, CA",
     lede:
       "Taft's older housing and industrial history give it a plumbing profile all its own, and we serve both the residential neighborhoods and the businesses that keep the town running.",
@@ -574,7 +574,7 @@ export const locations: Location[] = [
     alt: "Quiet residential street with older homes and vineyards in McFarland, California",
     title: "Plumber in McFarland, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving McFarland, CA for pipe repair, drain cleaning, water heaters and emergency plumbing. Free estimates. Call 661-319-9432.",
+      "Plumber serving McFarland, CA for pipe repair, drain cleaning, water heaters and emergency plumbing. Free estimates. Call 661-592-2721.",
     h1: "Plumber in McFarland, CA",
     lede:
       "McFarland is a small agricultural community north of Bakersfield with older housing and hard-working plumbing systems. We serve it for repairs, replacements and after-hours emergencies.",
@@ -641,7 +641,7 @@ export const locations: Location[] = [
     alt: "Mountain town neighborhood with pines and snow-dusted ridges in Tehachapi, California",
     title: "Plumber in Tehachapi, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Tehachapi, CA for frozen and burst pipes, water heaters, drains and emergencies. Free estimates, 24/7 service. Call 661-319-9432.",
+      "Plumber serving Tehachapi, CA for frozen and burst pipes, water heaters, drains and emergencies. Free estimates, 24/7 service. Call 661-592-2721.",
     h1: "Plumber in Tehachapi, CA",
     lede:
       "Tehachapi's elevation changes the plumbing equation entirely. Freezing nights, snow and larger rural properties create failures you simply do not see down in the valley.",
