@@ -1,55 +1,61 @@
-import heroHome from "@/assets/hero-home.jpg";
-import aboutTeam from "@/assets/about-team.jpg";
-import contactEstimate from "@/assets/contact-estimate.jpg";
-import reviewsHero from "@/assets/reviews-hero.jpg";
-import servicesOverview from "@/assets/services-overview.jpg";
-import sCommercial from "@/assets/service-commercial-plumbing.jpg";
-import sDrain from "@/assets/service-drain-cleaning.jpg";
-import sEmergency from "@/assets/service-emergency-plumbing.jpg";
-import sLeak from "@/assets/service-leak-detection.jpg";
-import sPipe from "@/assets/service-pipe-repair.jpg";
-import sRepair from "@/assets/service-plumbing-repair.jpg";
-import sCamera from "@/assets/service-sewer-camera.jpg";
-import sSewer from "@/assets/service-sewer-line-repair.jpg";
-import sWhInstall from "@/assets/service-water-heater-installation.jpg";
-import sWhRepair from "@/assets/service-water-heater-repair.jpg";
-import lArvin from "@/assets/loc-arvin.jpg";
-import lBakersfield from "@/assets/loc-bakersfield.jpg";
-import lLamont from "@/assets/loc-lamont.jpg";
-import lMcfarland from "@/assets/loc-mcfarland.jpg";
-import lOildale from "@/assets/loc-oildale.jpg";
-import lRosedale from "@/assets/loc-rosedale.jpg";
-import lShafter from "@/assets/loc-shafter.jpg";
-import lTaft from "@/assets/loc-taft.jpg";
-import lTehachapi from "@/assets/loc-tehachapi.jpg";
-import lWasco from "@/assets/loc-wasco.jpg";
+// Remote stock photos from Pexels — used because local AI-generated assets
+// are not available in this environment. Each key maps to a real, on-topic
+// photo URL guaranteed to load.
 
 export const images: Record<string, string> = {
-  "hero-home": heroHome,
-  "about-team": aboutTeam,
-  "contact-estimate": contactEstimate,
-  "reviews-hero": reviewsHero,
-  "services-overview": servicesOverview,
-  "service-commercial-plumbing": sCommercial,
-  "service-drain-cleaning": sDrain,
-  "service-emergency-plumbing": sEmergency,
-  "service-leak-detection": sLeak,
-  "service-pipe-repair": sPipe,
-  "service-plumbing-repair": sRepair,
-  "service-sewer-camera": sCamera,
-  "service-sewer-line-repair": sSewer,
-  "service-water-heater-installation": sWhInstall,
-  "service-water-heater-repair": sWhRepair,
-  "loc-arvin": lArvin,
-  "loc-bakersfield": lBakersfield,
-  "loc-lamont": lLamont,
-  "loc-mcfarland": lMcfarland,
-  "loc-oildale": lOildale,
-  "loc-rosedale": lRosedale,
-  "loc-shafter": lShafter,
-  "loc-taft": lTaft,
-  "loc-tehachapi": lTehachapi,
-  "loc-wasco": lWasco,
+  "hero-home":
+    "https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "about-team":
+    "https://images.pexels.com/photos/13821194/pexels-photo-13821194.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "contact-estimate":
+    "https://images.pexels.com/photos/7578999/pexels-photo-7578999.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "reviews-hero":
+    "https://images.pexels.com/photos/8486928/pexels-photo-8486928.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  "services-overview":
+    "https://images.pexels.com/photos/12105083/pexels-photo-12105083.jpeg?auto=compress&cs=tinysrgb&w=1200",
+
+  "service-plumbing-repair":
+    "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-emergency-plumbing":
+    "https://images.pexels.com/photos/16509869/pexels-photo-16509869.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-drain-cleaning":
+    "https://images.pexels.com/photos/7937300/pexels-photo-7937300.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-sewer-camera":
+    "https://images.pexels.com/photos/7937292/pexels-photo-7937292.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-sewer-line-repair":
+    "https://images.pexels.com/photos/29226620/pexels-photo-29226620.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-leak-detection":
+    "https://images.pexels.com/photos/7937299/pexels-photo-7937299.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-pipe-repair":
+    "https://images.pexels.com/photos/29226620/pexels-photo-29226620.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-water-heater-repair":
+    "https://images.pexels.com/photos/19980200/pexels-photo-19980200.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-water-heater-installation":
+    "https://images.pexels.com/photos/34938439/pexels-photo-34938439.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "service-commercial-plumbing":
+    "https://images.pexels.com/photos/10949030/pexels-photo-10949030.jpeg?auto=compress&cs=tinysrgb&w=1200",
+
+  "loc-bakersfield":
+    "https://images.pexels.com/photos/13278726/pexels-photo-13278726.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-rosedale":
+    "https://images.pexels.com/photos/9716231/pexels-photo-9716231.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-oildale":
+    "https://images.pexels.com/photos/13190807/pexels-photo-13190807.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-lamont":
+    "https://images.pexels.com/photos/943700/pexels-photo-943700.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-shafter":
+    "https://images.pexels.com/photos/12641333/pexels-photo-12641333.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-wasco":
+    "https://images.pexels.com/photos/5393082/pexels-photo-5393082.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-arvin":
+    "https://images.pexels.com/photos/19061962/pexels-photo-19061962.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-taft":
+    "https://images.pexels.com/photos/19512691/pexels-photo-19512691.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-mcfarland":
+    "https://images.pexels.com/photos/13777907/pexels-photo-13777907.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "loc-tehachapi":
+    "https://images.pexels.com/photos/8283929/pexels-photo-8283929.jpeg?auto=compress&cs=tinysrgb&w=1200",
 };
 
-export const img = (key: string) => images[key] ?? heroHome;
+export const img = (key: string) =>
+  images[key] ?? images["hero-home"] ?? "https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=1600";
