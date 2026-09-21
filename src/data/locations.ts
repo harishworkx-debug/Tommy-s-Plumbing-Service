@@ -147,7 +147,7 @@ export const locations: Location[] = [
     process: [
       { h: "Describe the symptom", p: "We ask about the bill, the fixtures affected and any recent remodeling, which narrows the cause before we arrive." },
       { h: "On-site diagnosis", p: "Meter verification for suspected leaks, camera for repeat drain issues, or direct inspection for fixture problems." },
-      { h: "Free written estimate", p: "Clear pricing, with options where more than one approach is reasonable." },
+      { h: "Written estimate provided", p: "Clear pricing, with options where more than one approach is reasonable." },
       { h: "Complete the work", p: "Repairs and installations performed to code with the property protected." },
       { h: "Verify and explain", p: "Testing under real use, plus guidance on preventing a repeat." },
     ],
@@ -304,7 +304,7 @@ export const locations: Location[] = [
       "Plumber serving Shafter, CA for residential and residential plumbing, water heaters, drains and emergencies. pricing details. Call 661-592-2721.",
     h1: "Plumber in Shafter, CA",
     lede:
-      "Shafter combines a historic small-town core with newer housing and significant logistics and agricultural business, and each of those needs a different kind of plumbing support.",
+      "Shafter combines a historic small-town core with newer housing and agricultural properties, and each of those needs a different kind of plumbing support.",
     intro: [
       "The older homes near the center of town have the plumbing you would expect from mid-century building: galvanized branches, cast iron waste lines, original fixtures still in service. New subdivisions on the edges of town are modern PEX and ABS. And the residential and residential facilities around the logistics corridor have their own requirements entirely.",
       "We work across all three, from a leaking angle stop in a 1950s bungalow to a high-recovery water heater in a residential break area.",
@@ -354,7 +354,7 @@ export const locations: Location[] = [
       { q: "Can you work on older downtown homes?", a: "Yes, we regularly repair and replace galvanized supply lines and cast iron waste lines in Shafter's older housing stock." },
       { q: "Why do my outdoor faucets keep failing?", a: "Full valley sun degrades exposed plastic and rubber components quickly. We replace them with materials suited to the exposure and add proper support." },
       { q: "How quickly can you reach Shafter?", a: "Shafter is a short drive from our Bakersfield location, and we dispatch emergency calls provider availabilitys a day at 661-592-2721." },
-      { q: "Are estimates free in Shafter?", a: "Yes, estimates are free for both residential and residential work." },
+      { q: "Are estimates provided in Shafter?", a: "Yes, estimates are provided for residential work." },
     ],
     nearby: ["bakersfield", "wasco", "rosedale", "oildale"],
     featuredServices: ["plumbing-repair", "water-heater-repair", "emergency-plumbing", "plumbing-repair"],
@@ -486,7 +486,7 @@ export const locations: Location[] = [
       { q: "My pipe split during a cold morning. Can you repair it?", a: "Yes. We repair freeze-split supply lines and hose bibs, and we can insulate exposed runs to prevent it happening again." },
       { q: "How do you find a leak I cannot see?", a: "We confirm the loss at the water meter, isolate zones and use acoustic listening equipment to pinpoint the location before opening any surface." },
       { q: "Can you install a larger water heater?", a: "Yes. We size the unit around your household's actual peak demand and install to current California code with proper strapping and venting." },
-      { q: "Are your estimates free in Arvin?", a: "Yes, estimates are always free and pricing is explained before work begins." },
+      { q: "Are estimates provided in Arvin?", a: "Yes, pricing is explained before work begins." },
     ],
     nearby: ["lamont", "bakersfield", "tehachapi", "taft"],
     featuredServices: ["leak-detection", "emergency-plumbing", "drain-cleaning", "plumbing-repair"],
@@ -552,7 +552,7 @@ export const locations: Location[] = [
       { q: "Why is my water pressure low throughout the house?", a: "In older Taft homes it is usually internally rusted galvanized pipe reducing the effective diameter, sometimes combined with a failing pressure regulator. We measure before recommending anything." },
       { q: "Can you handle residential plumbing for local homeowners?", a: "Yes, including restrooms, kitchens, break areas, drain jetting and residential water heating, with scheduling outside operating hours when needed." },
       { q: "Is my old water heater installation up to code?", a: "Many older installations are not. We check strapping, venting, pan and relief valve routing and bring the installation to current California code when we replace a unit." },
-      { q: "Do you charge extra to travel to Taft?", a: "Estimates are free and pricing is discussed before work begins, so you always know the cost in advance." },
+      { q: "Do you charge extra to travel to Taft?", a: "Estimates are provided and pricing is discussed before work begins, so you always know the cost in advance." },
     ],
     nearby: ["bakersfield", "arvin", "rosedale", "tehachapi"],
     featuredServices: ["plumbing-repair", "plumbing-repair", "water-heater-repair", "drain-cleaning"],
@@ -574,9 +574,9 @@ export const locations: Location[] = [
       "Households here are often large, so plumbing runs at high duty every day. Water heaters, toilets and kitchen drains take the brunt of it.",
     ],
     character:
-      "Surrounded by vineyards and row crops, McFarland has a compact residential core, a small business district and agricultural properties on the outskirts. Water hardness and older infrastructure define most of the plumbing work here.",
+      "Surrounded by vineyards and row crops, McFarland has a compact residential core and agricultural properties on the outskirts. Water hardness and older infrastructure define most of the plumbing work here.",
     coverage:
-      "We cover the McFarland area including the residential neighborhoods, the local business district and nearby rural properties toward Delano and Wasco.",
+      "We cover the McFarland area including the residential neighborhoods and nearby rural properties toward Delano and Wasco.",
     residential:
       "Residential work centers on pipe repair and replacement, drain cleaning, water heater service, toilet and faucet repair and general plumbing repairs. For families with one or two bathrooms, we prioritize getting fixtures back in service quickly.",
 
@@ -618,7 +618,7 @@ export const locations: Location[] = [
       { q: "Why is my water brown in the morning?", a: "That is a classic sign of internally rusted galvanized supply pipe. Replacing the affected branches with copper or PEX restores both water quality and pressure." },
       { q: "My kitchen drain clogs constantly. What will actually fix it?", a: "Hydro-jetting removes the grease layer coating the pipe wall rather than punching a hole through it, which is why it breaks the cycle when cabling alone does not." },
       { q: "Can you replace a water heater the one visit?", a: "In most cases yes. We carry common sizes and can usually complete a standard replacement in a few hours, including removal of the old unit." },
-      { q: "Are estimates free?", a: "Yes, estimates are always free and pricing is explained before any work begins." },
+      { q: "Are estimates provided?", a: "Yes, pricing is explained before any work begins." },
     ],
     nearby: ["wasco", "shafter", "oildale", "bakersfield"],
     featuredServices: ["pipe-repair", "drain-cleaning", "water-heater-repair", "emergency-plumbing"],
@@ -684,7 +684,7 @@ export const locations: Location[] = [
       { q: "How do I prevent my pipes from freezing?", a: "Disconnect hoses from outdoor faucets, insulate exposed lines in garages and crawl spaces, keep the structure above freezing, and know where your main shut-off is. We can also insulate or reroute vulnerable runs." },
       { q: "Is a tankless water heater a good idea at this elevation?", a: "It can be, but colder incoming water reduces the flow a unit can heat. We size for winter conditions rather than summer, so the system performs when you actually need it." },
       { q: "My second home smells like sewer when I arrive. Why?", a: "Trap water evaporates in unused fixtures, letting sewer gas in. Running every fixture briefly on arrival usually resolves it, and we can check venting if it persists." },
-      { q: "Are estimates free in Tehachapi?", a: "Yes, estimates are free and we explain pricing before any work begins." },
+      { q: "Are estimates provided in Tehachapi?", a: "Yes, we explain pricing before any work begins." },
     ],
     nearby: ["arvin", "lamont", "bakersfield", "taft"],
     featuredServices: ["emergency-plumbing", "pipe-repair", "water-heater-installation", "plumbing-repair"],

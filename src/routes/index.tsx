@@ -64,7 +64,7 @@ const homeFaqs = [
   },
   {
     q: "How fast can you get here for an emergency?",
-    a: "For emergencies inside Bakersfield we dispatch as soon as a truck is free, usually the same hour. Call 661-592-2721 and we will walk you through shutting the water off while we are on the way.",
+    a: "Participating providers respond as quickly as possible. Call 661-592-2721 to connect with an available emergency plumber.",
   },
 ];
 
@@ -143,14 +143,12 @@ function Home() {
       {/* 3. Intro */}
       <Section>
         <div className="prose-local mx-auto max-w-3xl text-center">
-          <h2 className="!mt-0">Bakersfield&apos;s Local Plumbing Company Since Day One</h2>
+          <h2 className="!mt-0">Connecting Bakersfield Homeowners Since Day One</h2>
           <p>
             Tommy&apos;s Plumbing Service operates out of {business.street} in Bakersfield, and
-            everything we do is built around this valley: hard mineral-rich water, triple-digit
+            helps connect you with local professionals who understand this valley: hard mineral-rich water, triple-digit
             summers, expansive soils that shift under sewer laterals and slab-on-grade homes where
-            a copper pinhole leak hides under concrete for months. We are not a franchise routing
-            calls to whoever is available. When you call {business.phoneDisplay}, you reach the
-            company that shows up.
+            a copper pinhole leak hides under concrete for months. We connect you with an independent local provider.
           </p>
           <p>
             That local focus matters because plumbing failures in Kern County follow patterns. In
@@ -241,7 +239,7 @@ function Home() {
           <h3 className="text-2xl">Residential services and local connections</h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
             Homeowners can request help with faucets, toilets, drains, leaks, sewer lines, pipes,
-            and water heaters. Tommy&apos;s Plumbing Service is a free connection service, not the
+            and water heaters. Tommy&apos;s Plumbing Service is a connection service, not the
             contractor performing the work. We help homeowners find an independent local provider
             and encourage them to confirm scope, pricing, licensing, insurance, and availability
             directly with that provider.

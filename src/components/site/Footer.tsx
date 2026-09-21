@@ -14,7 +14,7 @@ export function Footer() {
             Tommy&apos;s Plumbing Service
           </p>
           <p className="mt-3 text-sm leading-relaxed text-navy-foreground/75">
-            A free service helping homeowners connect with independent local residential plumbing
+            A service helping homeowners connect with independent local residential plumbing
             providers in Bakersfield and Kern County.
           </p>
           <ul className="mt-5 space-y-2 text-sm text-navy-foreground/80">

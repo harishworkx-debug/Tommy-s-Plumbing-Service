@@ -142,7 +142,7 @@ export const services: Service[] = [
       { h: "Supply line and pipe bursts", p: "Braided hoses, old galvanized nipples and pressure-stressed copper are the most common failures. Water can move through drywall and flooring in minutes, so shutting the main off first matters more than finding the exact spot." },
       { h: "Sewer backups", p: "Waste rising into the lowest fixture in the house is a main line problem, not a fixture problem. It needs cabling or hydro-jetting and often a camera inspection to find what caused it." },
       { h: "Water heater failure", p: "A tank that ruptures releases forty gallons plus whatever keeps refilling it. Shutting off the cold inlet and gas or breaker is the immediate step; replacement usually follows." },
-      { h: "No water at all", p: "A failed main valve, a broken service line or a stuck pressure regulator can cut supply to the whole property. This is an emergency for households and a business-stopping event for residential kitchens." },
+      { h: "No water at all", p: "A failed main valve, a broken service line or a stuck pressure regulator can cut supply to the whole property. This is an emergency for households and a major inconvenience for home kitchens." },
       { h: "Gas odors near appliances", p: "Leave the building and call from outside. Once the property is safe, we can inspect and repair the appliance connection." },
     ],
     signs: [
@@ -221,7 +221,7 @@ export const services: Service[] = [
       "Main sewer line cabling through cleanouts",
       "Hydro-jetting for grease-heavy residential and residential lines",
       "Drain inspection and camera verification after clearing",
-      "residential kitchen line maintenance and grease interceptor drainage issues",
+      "Home kitchen line maintenance and drainage issues",
     ],
     problems: [
       { h: "Kitchen grease buildup", p: "Cooking fats cool and coat the inside of the drain, narrowing it a little more with every meal until water backs up. Cabling opens a channel; jetting removes the layer." },
@@ -269,7 +269,7 @@ export const services: Service[] = [
       "Use strainers in showers and tubs to catch hair before it reaches the trap",
       "Run plenty of cold water while a garbage disposal is grinding, and keep fibrous scraps out",
       "Flush infrequently used floor drains so the trap does not dry out and release odor",
-      "Schedule preventative jetting for residential kitchens rather than waiting for a backup",
+      "Schedule preventative jetting for heavily used home kitchens rather than waiting for a backup",
     ],
     safety:
       "Do not mix chemical drain products, and never cable a line after chemicals have been poured in without telling the technician; caustic liquid can splash back. If waste has overflowed onto floors, treat it as contaminated and keep children and pets away until it is cleaned.",
@@ -278,7 +278,7 @@ export const services: Service[] = [
       { q: "Is hydro-jetting better than cabling?", a: "They solve different problems. Cabling breaks through and cuts obstructions such as roots. Jetting scours grease, sludge and scale off the pipe wall and restores closer to full flow. We recommend based on what is in your line." },
       { q: "Why does my drain keep clogging?", a: "Repeat clogs usually mean the underlying cause was never removed, or the pipe has a defect such as a belly, offset joint or root intrusion. A sewer camera inspection answers that question definitively." },
       { q: "Are chemical drain cleaners safe to use first?", a: "We do not recommend them. They can damage older pipe and fixtures, rarely clear a real blockage, and create a splash hazard for the technician who opens the line afterward." },
-      { q: "Do you clean drains for residential kitchens?", a: "Yes. We handle residential and residential drain lines including preventative jetting scheduled outside provider scheduling." },
+      { q: "Do you clean drains for home kitchens?", a: "Yes. We handle residential drain lines including preventative jetting scheduled at your convenience." },
     ],
     related: ["sewer-camera-inspection", "sewer-line-repair", "plumbing-repair", "plumbing-repair"],
   },
@@ -419,7 +419,7 @@ export const services: Service[] = [
       { h: "Camera and locate", p: "We inspect the full lateral, mark defect positions on the surface and record the depth." },
       { h: "Confirm materials and route", p: "Knowing whether the line is clay, cast iron, ABS or Orangeburg changes the repair method and the price." },
       { h: "Check utilities", p: "Underground utilities are identified before any digging begins." },
-      { h: "Present repair options", p: "Spot repair, partial replacement or full replacement, each with a free written estimate." },
+      { h: "Present repair options", p: "Spot repair, partial replacement or full replacement, each with a written estimate." },
     ],
     work: [
       { h: "Controlled excavation", p: "We open only the area needed, protecting surrounding landscape and hardscape wherever possible." },
@@ -514,7 +514,7 @@ export const services: Service[] = [
       { h: "Clean and document", p: "Work area cleaned, photos provided for insurance where relevant." },
     ],
     expect:
-      "Detection is usually completed in a single visit. We explain the confidence level of the location before opening anything, and estimates for the repair are free so you can decide with real numbers.",
+      "Detection is usually completed in a single visit. We explain the confidence level of the location before opening anything, and estimates for the repair are provided so you can decide with real numbers.",
     residential:
       "Slab-on-grade homes throughout Bakersfield are the most common setting for our detection work. We also find irrigation and service line leaks in larger lots out toward Rosedale and Arvin, where landscape watering can hide a loss for a long time.",
 
@@ -599,7 +599,7 @@ export const services: Service[] = [
       { h: "Restore access points", p: "Openings are left clean and ready for patching, and we tell you exactly what was done and where." },
     ],
     expect:
-      "Simple section repairs are typically single-visit. Branch repipes and reroutes take longer and are scheduled with a clear plan for water shutoff windows so your household or business can plan around them.",
+      "Simple section repairs are typically single-visit. Branch repipes and reroutes take longer and are scheduled with a clear plan for water shutoff windows so your household can plan around them.",
     residential:
       "Older homes throughout Bakersfield and Oildale frequently need galvanized branches replaced. Newer homes more often need fitting-level repairs and slab reroutes. We work carefully in finished spaces and keep access openings as small as practical.",
 
@@ -762,7 +762,7 @@ export const services: Service[] = [
       { h: "Assess demand", p: "Occupants, bathrooms, appliance use and peak simultaneous demand determine capacity or flow rate." },
       { h: "Evaluate the space", p: "Clearances, combustion air, venting path, drain availability and access all affect what can be installed." },
       { h: "Check gas and electrical capacity", p: "Especially critical for tankless conversions, where gas line sizing decides feasibility." },
-      { h: "Provide options", p: "You get a free written estimate with realistic pros and cons for tank and tankless, not a single push." },
+      { h: "Provide options", p: "You get a written estimate with realistic pros and cons for tank and tankless, not a single push." },
     ],
     work: [
       { h: "Remove the old unit", p: "Drained, disconnected safely and hauled away as part of the job." },
@@ -793,92 +793,6 @@ export const services: Service[] = [
       { q: "Do you offer discounts on installation?", a: "Yes, seniors and military personnel receive a 10% discount, estimates are free, and specialized warranties are available on qualifying work." },
     ],
     related: ["water-heater-repair", "plumbing-repair", "plumbing-repair", "pipe-repair"],
-  },
-
-  {
-    slug: "plumbing-repair",
-    name: "residential Plumbing",
-    short: "Service, repair and building plumbing for Bakersfield homeowners and properties.",
-    image: "service-plumbing-repair",
-    alt: "Plumber servicing stainless steel sink piping in a residential residential kitchen",
-    title: "residential Plumbing in Bakersfield, CA | Tommy's Plumbing Service",
-    description:
-      "residential plumbing in Bakersfield, CA for residentials, homes, residential and multi-unit properties. provider availability service, pricing details. Call 661-592-2721.",
-    h1: "residential Plumbing in Bakersfield, CA",
-    lede:
-      "residential plumbing has a different cost of failure: closed doors, idle staff and unhappy homeowners. We work on business timelines, including nights and weekends, so operations keep running.",
-    intro: [
-      "residential systems carry heavier loads, use different fixtures and face stricter requirements than residential plumbing. Flush valves instead of tank toilets, grease interceptors on kitchen waste, backflow requirements on irrigation and process lines, and high-recovery water heating for continuous demand.",
-      "Tommy's Plumbing Service supports Bakersfield homeowners with responsive service work, planned maintenance and building plumbing. Because we are available provider availabilitys a day, urgent work does not have to wait until Monday morning.",
-    ],
-    includes: [
-      "residential and residential kitchen plumbing, including drain and grease line service",
-      "Restroom fixture repair, flush valve service and toilet installation",
-      "residential drain cleaning and scheduled hydro-jetting",
-      "Water heater repair and replacement for high-demand applications",
-      "Leak detection and pipe repair in occupied buildings",
-      "Underground plumbing and sewer line work on residential property",
-      "building plumbing for homeowner improvements and build-outs",
-      "Preventative plumbing maintenance programs and plumbing inspections",
-    ],
-    problems: [
-      { h: "Grease-loaded kitchen lines", p: "residential kitchens push fats and solids into drain lines all day. Without scheduled jetting, a backup during dinner service is a matter of time." },
-      { h: "Flush valve and fixture wear", p: "High-traffic restrooms wear diaphragms, sensors and supply stops far faster than residential fixtures." },
-      { h: "Inadequate hot water recovery", p: "Salons, laundries and food service need continuous hot water. A residential-grade approach cannot keep up." },
-      { h: "Aging underground lines", p: "Older residential properties often have original laterals carrying decades of heavy use, with no service records at all." },
-      { h: "Deferred maintenance across homeowners", p: "In multi-unit properties, small unreported issues accumulate until several fail at once." },
-    ],
-    signs: [
-      "Recurring drain backups in kitchen or restroom areas",
-      "Rising water bills across a property with no operational change",
-      "Fixtures that run continuously or fail to shut off cleanly",
-      "Sewer odor in service corridors or near floor drains",
-      "homeowner complaints about pressure or hot water availability",
-    ],
-    professional:
-      "residential work brings code requirements, health department expectations and liability that make licensed service essential. We are independent provider credentials under California State License #957013 and can provide documentation for property owners, managers and insurers.",
-    benefits: [
-      "Scheduling around provider scheduling, including overnight work",
-      "One contractor for service, repair, maintenance and build-out plumbing",
-      "provider availability emergency availability so downtime is measured in hours, not days",
-      "Documented inspections and maintenance for owners and managers",
-      "pricing details and clear pricing before work begins",
-    ],
-    diagnostic: [
-      { h: "Understand the operation", p: "How the space is used determines load, peak hours and when work can realistically be done." },
-      { h: "Survey the system", p: "Fixtures, water heating, drain lines, cleanouts and shut-off locations are documented." },
-      { h: "Prioritize by risk", p: "What could close the business gets addressed first; cosmetic and minor items are scheduled." },
-      { h: "Provide written scope and pricing", p: "pricing details with enough detail for owners and managers to approve confidently." },
-    ],
-    work: [
-      { h: "Coordinate access", p: "Keys, alarm codes, homeowner notice and shutdown windows arranged before the crew arrives." },
-      { h: "Contain the work zone", p: "Barriers, floor protection and clear paths so customers and staff stay safe." },
-      { h: "Complete to code", p: "residential-grade materials and fixtures installed to California plumbing code." },
-      { h: "Test under real load", p: "Systems are tested at operational demand, not just a single fixture." },
-      { h: "Report and document", p: "Written summary of work performed for records, insurers and future service." },
-    ],
-    expect:
-      "We confirm scope and pricing in writing, arrive within the agreed window and keep the site clean and safe. For ongoing accounts we maintain records of prior work so recurring issues are visible rather than rediscovered each time.",
-    residential:
-      "Many of our residential clients are also landlords and property owners. We service single-family rentals and small multi-unit buildings with the same responsiveness, including homeowner coordination.",
-
-    maintenance: [
-      "Schedule hydro-jetting for kitchen lines before the busy season, not after a backup",
-      "Inspect flush valves and supply stops on a routine cycle in high-traffic restrooms",
-      "Keep a current map of shut-off valves and cleanouts for every unit",
-      "Track water heater age and plan replacement rather than reacting to failure",
-      "Run periodic plumbing inspections across multi-unit properties",
-    ],
-    safety:
-      "Wet floors in public areas are a liability; we barricade and dry as we work. Grease line and sewer work is handled with proper containment, and gas appliance work is verified for correct combustion and venting before we leave.",
-    faqs: [
-      { q: "Can you work outside of provider scheduling?", a: "Yes. We are available provider availabilitys a day, 7 days a week and regularly schedule residential work overnight or on weekends so homeowners do not lose operating time." },
-      { q: "Do you handle residential kitchen plumbing?", a: "Yes, including drain line jetting, grease-related drainage issues, fixture and faucet repair, water heating and emergency response during service hours." },
-      { q: "Can you provide documentation for homeowner support?", a: "Yes. We provide written estimates and summaries of work performed, which owners, managers and insurers can keep on file." },
-      { q: "Do you take on homeowner improvement and building plumbing?", a: "Yes, we perform building plumbing for build-outs and homeowner improvements, coordinating with the other trades on site." },
-      { q: "How quickly can you respond to a residential emergency?", a: "residential emergencies are prioritized by impact. Call 661-592-2721 at any hour and we will give you an honest arrival window." },
-    ],
-    related: ["drain-cleaning", "water-heater-installation", "sewer-line-repair", "emergency-plumbing"],
   },
 ];
 

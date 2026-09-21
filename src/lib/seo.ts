@@ -39,7 +39,7 @@ export const localBusinessSchema = {
   telephone: business.phoneDisplay,
   email: business.email,
   description:
-    "A free service helping homeowners connect with independent local residential plumbing providers.",
+    "A service helping homeowners connect with independent local residential plumbing providers.",
 };
 
 export function faqSchema(faqs: { q: string; a: string }[]) {

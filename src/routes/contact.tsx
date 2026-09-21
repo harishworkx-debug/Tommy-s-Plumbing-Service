@@ -21,7 +21,7 @@ function ContactPage() {
     <>
       <PageHero
         image={img("contact-estimate")}
-        alt="Plumber providing a free written estimate to a Bakersfield homeowner"
+        alt="Plumber providing a written estimate to a Bakersfield homeowner"
         h1="Contact Tommy's Plumbing Service"
         lede="Call to request help connecting with an independent local residential plumbing provider in Bakersfield and Kern County."
       />

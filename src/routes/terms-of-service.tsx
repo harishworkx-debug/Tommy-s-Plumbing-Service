@@ -17,7 +17,7 @@ export const Route = createFileRoute("/terms-of-service")({
         <h1 className="text-4xl">Terms of Service</h1>
         <h2>Estimates</h2>
         <p>
-          Estimates are free and are based on the conditions visible at the time of inspection.
+          Estimates are based on the conditions visible at the time of inspection.
           Concealed conditions — for example damage inside a wall or under a slab — may change
           scope, and we will review any change with you before proceeding.
         </p>
@@ -28,10 +28,8 @@ export const Route = createFileRoute("/terms-of-service")({
         </p>
         <h2>Workmanship and licensing</h2>
         <p>
-          Work is performed by an independent provider. Homeowners should verify the provider&apos;s
-          license and insurance required for the work being performed.
-          contractor, California State License {business.license}. Specialized warranties apply to
-          qualifying work and are explained before the job begins.
+          Work is performed by independent service providers. Homeowners should verify the provider&apos;s
+          license, insurance, and any warranties offered before the job begins.
         </p>
         <h2>Payment</h2>
         <p>

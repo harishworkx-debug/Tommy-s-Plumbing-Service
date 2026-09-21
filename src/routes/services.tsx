@@ -42,7 +42,7 @@ function ServicesPage() {
       </Section>
       <CtaBand
         heading="Not Sure Which Service You Need?"
-        text={`Call ${business.phoneDisplay} and describe what you are seeing. Diagnosis and estimates are free.`}
+        text={`Call ${business.phoneDisplay} to connect with a provider for diagnosis and estimates.`}
       />
     </>
   );
