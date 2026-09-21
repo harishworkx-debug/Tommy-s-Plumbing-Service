@@ -51,7 +51,7 @@ export function ServiceLocationPage({
       <Section>
         <div className="prose-local mx-auto max-w-3xl">
           <h2>
-            {service.name} for {location.name} Homes and Businesses
+            {service.name} for {location.name} Homeowners
           </h2>
           {data.intro.map((p) => (
             <p key={p}>{p}</p>
@@ -63,13 +63,12 @@ export function ServiceLocationPage({
               <p>{l.p}</p>
             </div>
           ))}
-          <h2>What You Get With Tommy&apos;s Plumbing Service</h2>
+          <h2>What Homeowners Can Expect</h2>
           <ul>
-            <li>Licensed and insured California contractor, State License {business.license}</li>
-            <li>Open 24 hours a day, 7 days a week for emergencies in {location.name}</li>
-            <li>Free estimates with pricing explained before any work starts</li>
-            <li>{business.discount}</li>
-            <li>4.5 star ratings on both Google and Yahoo Local</li>
+            <li>Help connecting with an independent local residential provider</li>
+            <li>Provider availability depends on location, participation, and appointment capacity</li>
+            <li>Pricing and scope are provided by the independent provider before work begins</li>
+            <li>Homeowners should verify the provider&apos;s required license and insurance</li>
           </ul>
         </div>
       </Section>
@@ -102,7 +101,7 @@ export function ServiceLocationPage({
 
       <CtaBand
         heading={`${service.name} in ${location.name} — Call ${business.phoneDisplay}`}
-        text="Licensed, insured and available around the clock with free estimates."
+        text="Connect with an independent local provider for residential plumbing help."
       />
     </>
   );

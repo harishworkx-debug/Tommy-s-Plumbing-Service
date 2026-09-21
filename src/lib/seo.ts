@@ -31,44 +31,15 @@ export function pageHead({ title, description, path, image }: MetaInput) {
 
 export const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "Plumber",
+  "@type": "Organization",
   name: business.name,
   image: `${SITE_URL}/og-image.jpg`,
   "@id": `${SITE_URL}/#business`,
   url: SITE_URL,
   telephone: business.phoneDisplay,
   email: business.email,
-  priceRange: "$$",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: business.street,
-    addressLocality: business.city,
-    addressRegion: business.state,
-    postalCode: business.zip,
-    addressCountry: business.country,
-  },
-  geo: { "@type": "GeoCoordinates", latitude: business.lat, longitude: business.lng },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday",
-      ],
-      opens: "00:00",
-      closes: "23:59",
-    },
-  ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: business.google.rating,
-    reviewCount: business.google.count + business.yahoo.count,
-  },
+  description:
+    "A free service helping homeowners connect with independent local residential plumbing providers.",
 };
 
 export function faqSchema(faqs: { q: string; a: string }[]) {

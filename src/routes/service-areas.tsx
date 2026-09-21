@@ -23,7 +23,7 @@ function AreasPage() {
         image={img("loc-bakersfield")}
         alt="Bakersfield California residential street served by Tommy's Plumbing Service"
         h1="Plumbing Service Areas Across Kern County"
-        lede="We serve Bakersfield and nine surrounding communities with the same 24/7 availability, licensing and free estimates."
+        lede="We provide residential plumbing information and help homeowners request local provider connections across Bakersfield and nine surrounding communities."
       />
       <Section>
         <SectionHead title="Pick Your City" />

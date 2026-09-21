@@ -3,7 +3,7 @@ import { business } from "@/data/site";
 import { services } from "@/data/services";
 import { locations } from "@/data/locations";
 import { serviceLocations } from "@/data/service-locations";
-import { AppLink, Stars } from "./ui";
+import { AppLink } from "./ui";
 
 export function Footer() {
   return (
@@ -14,8 +14,8 @@ export function Footer() {
             Tommy&apos;s Plumbing Service
           </p>
           <p className="mt-3 text-sm leading-relaxed text-navy-foreground/75">
-            Licensed and insured residential and commercial plumbing contractor serving Bakersfield
-            and Kern County 24 hours a day.
+            A free service helping homeowners connect with independent local residential plumbing
+            providers in Bakersfield and Kern County.
           </p>
           <ul className="mt-5 space-y-2 text-sm text-navy-foreground/80">
             <li className="flex gap-2">
@@ -39,10 +39,6 @@ export function Footer() {
               <span>{business.hours}</span>
             </li>
           </ul>
-          <div className="mt-4 flex items-center gap-2 text-sm text-navy-foreground/80">
-            <Stars rating={4.5} />
-            <span>4.5 stars on Google &amp; Yahoo</span>
-          </div>
         </div>
 
         <div>
@@ -103,11 +99,23 @@ export function Footer() {
       </div>
 
       <div className="border-t border-navy-foreground/15 py-6">
-        <div className="container-page flex flex-col gap-3 text-xs text-navy-foreground/65 md:flex-row md:items-center md:justify-between">
+        <div className="container-page flex flex-col gap-4 text-xs text-navy-foreground/65">
           <p>
-            © {new Date().getFullYear()} Tommy&apos;s Plumbing Service · California State License{" "}
-            {business.license} · Licensed &amp; Insured
+            Disclaimer: Tommy&apos;s Plumbing Service is a free service to assist homeowners in
+            connecting with local service providers. All contractors/providers are independent and
+            Tommy&apos;s Plumbing Service does not warrant or guarantee any work performed. It is the
+            responsibility of the homeowner to verify that the hired contractor furnishes the
+            necessary license and insurance required for the work being performed. All persons
+            depicted in a photo or video are actors or models and not contractors listed on
+            Tommy&apos;s Plumbing Service.
           </p>
+          <p>
+            Same-day and 24/7 emergency services are subject to provider participation, location,
+            technician availability, and demand. Availability is not guaranteed and may vary by
+            market and appointment capacity.
+          </p>
+          <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <p>© {new Date().getFullYear()} Tommy&apos;s Plumbing Service</p>
           <div className="flex gap-4">
             <AppLink href="/privacy-policy/" className="hover:text-accent">
               Privacy Policy
@@ -118,6 +126,7 @@ export function Footer() {
             <AppLink href="/contact/" className="hover:text-accent">
               Contact
             </AppLink>
+          </div>
           </div>
         </div>
       </div>

@@ -23,12 +23,13 @@ export const Route = createFileRoute("/terms-of-service")({
         </p>
         <h2>Scheduling and emergency service</h2>
         <p>
-          We are open 24 hours a day. Emergency response times depend on current call volume and
+          Provider availability varies. Emergency response times depend on current call volume and
           travel distance within Kern County.
         </p>
         <h2>Workmanship and licensing</h2>
         <p>
-          Work is performed to current California plumbing code by a licensed and insured
+          Work is performed by an independent provider. Homeowners should verify the provider&apos;s
+          license and insurance required for the work being performed.
           contractor, California State License {business.license}. Specialized warranties apply to
           qualifying work and are explained before the job begins.
         </p>

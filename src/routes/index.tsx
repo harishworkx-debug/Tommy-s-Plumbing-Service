@@ -10,7 +10,6 @@ import {
   Droplets,
   AlertTriangle,
   CheckCircle2,
-  Star,
 } from "lucide-react";
 import { services } from "@/data/services";
 import { locations } from "@/data/locations";
@@ -36,7 +35,7 @@ export const Route = createFileRoute("/")({
     pageHead({
       title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661-592-2721",
       description:
-        "Licensed 24/7 plumber in Bakersfield, CA. Emergency plumbing, drain cleaning, leak detection, sewer and water heater service. Free estimates. Call 661-592-2721.",
+        "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661-592-2721.",
       path: "/",
     }),
   component: Home,
@@ -44,20 +43,16 @@ export const Route = createFileRoute("/")({
 
 const homeFaqs = [
   {
-    q: "Are you available 24 hours a day in Bakersfield?",
-    a: "Yes. Tommy's Plumbing Service is open 24 hours a day, 7 days a week, including nights, weekends and holidays. Call 661-592-2721 and you will reach a real local plumbing company, not an answering service that routes work elsewhere.",
+    q: "How does the local provider connection work?",
+    a: "Call 661-592-2721 to request help connecting with an independent local residential plumbing provider. Availability depends on provider participation, location, and appointment capacity.",
   },
   {
-    q: "Do you charge for estimates?",
-    a: "No. Estimates are free. We diagnose the problem, explain what is causing it, present your options and give you pricing before any work begins.",
+    q: "How is pricing handled?",
+    a: "The independent provider explains scope and pricing before work begins. Ask the provider about any inspection or estimate charges before scheduling.",
   },
   {
-    q: "Are you licensed and insured?",
-    a: "Yes. We are a licensed and insured California plumbing contractor operating under State License #957013 for both residential and commercial plumbing work.",
-  },
-  {
-    q: "Do you offer any discounts?",
-    a: "We offer a 10% discount for seniors and military personnel on plumbing services.",
+    q: "How can homeowners verify provider credentials?",
+    a: "Providers are independent. Homeowners are responsible for verifying that the provider has the license and insurance required for the work being performed.",
   },
   {
     q: "Which areas around Bakersfield do you serve?",
@@ -66,10 +61,6 @@ const homeFaqs = [
   {
     q: "What payment methods do you accept?",
     a: "Credit cards, NFC mobile payments, Apple Pay and Google Pay.",
-  },
-  {
-    q: "Do you handle commercial plumbing?",
-    a: "Yes. We serve restaurants, offices, retail centers, salons, medical suites and multi-unit rental properties across Bakersfield, including scheduled preventative drain maintenance.",
   },
   {
     q: "How fast can you get here for an emergency?",
@@ -94,15 +85,15 @@ function Home() {
           <div className="max-w-2xl">
             <Reveal>
               <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/15 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-accent">
-                <Clock className="h-3.5 w-3.5" /> Open 24 hours · 7 days a week
+                <Clock className="h-3.5 w-3.5" /> Residential provider connections
               </span>
               <h1 className="mt-5 text-4xl text-navy-foreground md:text-6xl">
-                Licensed Plumber in Bakersfield, CA
+                Residential Plumbing Connections in Bakersfield, CA
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-navy-foreground/80">
-                Tommy&apos;s Plumbing Service handles residential, commercial and emergency
-                plumbing across Bakersfield and Kern County — drains, sewers, leaks, pipes and
-                water heaters — with free estimates and workmanship that lasts.
+                Tommy&apos;s Plumbing Service helps homeowners connect with independent local
+                providers for residential drains, sewers, leaks, pipes, and water heaters across
+                Bakersfield and Kern County.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <CallButton />
@@ -110,7 +101,7 @@ function Home() {
                   href="/contact/"
                   className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/30 px-6 py-3.5 text-base font-bold text-navy-foreground hover:bg-navy-foreground/10"
                 >
-                  Get a Free Estimate
+                  Get Connected
                 </AppLink>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-navy-foreground/75">
@@ -133,9 +124,9 @@ function Home() {
       <div className="border-b border-border bg-card">
         <div className="container-page grid gap-6 py-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: Clock, t: "24/7 Availability", d: "Nights, weekends and holidays" },
-            { icon: ShieldCheck, t: "Licensed & Insured", d: `State License ${business.license}` },
-            { icon: BadgeCheck, t: "Free Estimates", d: "Pricing before work begins" },
+            { icon: Clock, t: "Provider availability", d: "Varies by location and capacity" },
+            { icon: ShieldCheck, t: "Verify credentials", d: "Ask providers about licensing and insurance" },
+            { icon: BadgeCheck, t: "Clear provider terms", d: "Discuss scope and pricing before work" },
             { icon: CreditCard, t: "Easy Payments", d: "Cards, Apple Pay, Google Pay" },
           ].map((i) => (
             <div key={i.t} className="flex items-center gap-3">
@@ -166,7 +157,7 @@ function Home() {
             older neighborhoods near downtown and across the river in Oildale, galvanized supply
             lines have rusted internally for seventy years and clay sewer laterals sit under
             mature trees. In newer developments around Rosedale and the southwest, the piping is
-            modern but slab construction, high static pressure and heavy irrigation create their
+            modern but slab building, high static pressure and heavy irrigation create their
             own failures. We carry parts and equipment for both, so the first visit is usually the
             only visit.
           </p>
@@ -178,7 +169,7 @@ function Home() {
         <SectionHead
           eyebrow="Plumbing Services"
           title="Everything We Repair, Replace and Install"
-          sub="Ten core services covering residential and commercial plumbing across Bakersfield and Kern County."
+          sub="Residential plumbing information and provider connections across Bakersfield and Kern County."
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
@@ -205,11 +196,10 @@ function Home() {
               Burst Pipe or Sewer Backup at 2 a.m.? We Answer.
             </h2>
             <p className="mt-4 leading-relaxed text-navy-foreground/80">
-              Plumbing emergencies do not keep business hours. A supply line lets go behind a
+              Plumbing emergencies can happen at any time. A supply line lets go behind a
               washing machine, a water heater dumps forty gallons into a garage, or sewage backs up
-              into a tub during a holiday weekend. We are open 24 hours a day and stay on the phone
-              with you to find the right shut-off valve before the truck arrives, because minutes
-              of containment save thousands in restoration.
+              into a tub during a holiday weekend. We can help you request a connection with an
+              independent local provider, subject to provider participation and availability.
             </p>
             <ul className="mt-6 grid gap-2 text-sm text-navy-foreground/80 sm:grid-cols-2">
               {[
@@ -241,57 +231,34 @@ function Home() {
         </div>
       </Section>
 
-      {/* 6. Residential vs commercial */}
+      {/* 6. Residential services */}
       <Section>
         <SectionHead
           eyebrow="Who we serve"
-          title="Residential and Commercial Plumbing Under One License"
+          title="Residential Plumbing Help for Bakersfield Homeowners"
         />
-        <div className="grid gap-6 md:grid-cols-2">
-          <Reveal className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)]">
-            <h3 className="text-2xl">Residential Plumbing</h3>
-            <p className="mt-3 leading-relaxed text-muted-foreground">
-              Homes across Bakersfield call us for dripping faucets, running toilets, seized angle
-              stops, garbage disposals, shower cartridges, slab leaks, sewer backups, repiping and
-              water heater replacement. We work clean, protect finished surfaces and explain what
-              failed and why so it does not happen again next season.
-            </p>
-            <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
-              {[
-                "Single family homes, condos and mobile homes",
-                "Remodel fixture installation and rough-in repairs",
-                "Pre-sale plumbing inspections and camera reports",
-                "Landlord and rental property maintenance",
-              ].map((i) => (
-                <li key={i} className="flex gap-2">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  {i}
-                </li>
-              ))}
-            </ul>
-          </Reveal>
-          <Reveal delay={0.08} className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)]">
-            <h3 className="text-2xl">Commercial Plumbing</h3>
-            <p className="mt-3 leading-relaxed text-muted-foreground">
-              Restaurants, offices, retail centers, salons, medical suites and multi-unit
-              properties need plumbing that does not interrupt revenue. We schedule around service
-              hours, jet grease-heavy kitchen lines on a preventative cycle and keep documentation
-              that satisfies inspections and property management requirements.
-            </p>
-            <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
-              {[
-                "Grease line hydro jetting and maintenance programs",
-                "Commercial water heaters and recirculation systems",
-                "Backflow, fixture and ADA-compliant installations",
-                "After-hours service so doors stay open",
-              ].map((i) => (
-                <li key={i} className="flex gap-2">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  {i}
-                </li>
-              ))}
-            </ul>
-          </Reveal>
+        <div className="mx-auto max-w-3xl rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)]">
+          <h3 className="text-2xl">Residential services and local connections</h3>
+          <p className="mt-3 leading-relaxed text-muted-foreground">
+            Homeowners can request help with faucets, toilets, drains, leaks, sewer lines, pipes,
+            and water heaters. Tommy&apos;s Plumbing Service is a free connection service, not the
+            contractor performing the work. We help homeowners find an independent local provider
+            and encourage them to confirm scope, pricing, licensing, insurance, and availability
+            directly with that provider.
+          </p>
+          <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
+            {[
+              "Single-family homes, condos, and other residential properties",
+              "Residential repairs, maintenance, and installations",
+              "Help with urgent residential plumbing needs when providers participate",
+              "Clear provider details before homeowners schedule work",
+            ].map((i) => (
+              <li key={i} className="flex gap-2">
+                <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                {i}
+              </li>
+            ))}
+          </ul>
         </div>
       </Section>
 
@@ -301,28 +268,28 @@ function Home() {
         <div className="grid gap-6 md:grid-cols-3">
           {[
             {
-              t: "A truly local company",
-              d: "Based on Sillect Avenue in Bakersfield. Your call is answered by the company doing the work, not a national dispatch center.",
+              t: "Local residential focus",
+              d: "Information and connection help for homeowners seeking residential plumbing providers in Bakersfield and Kern County.",
             },
             {
-              t: "Licensed, bonded and insured",
-              d: `California State License ${business.license} covering residential and commercial plumbing, with every job performed to current code.`,
+              t: "Independent providers",
+              d: "Providers are independent. Homeowners should verify required licensing, insurance, scope, and pricing before hiring.",
             },
             {
-              t: "Free, honest estimates",
-              d: "We diagnose before we price, show you the failure, and give you repair and replacement options with no pressure.",
+              t: "Clear next steps",
+              d: "Request help connecting with a local provider and discuss the service details directly before work begins.",
             },
             {
-              t: "Open 24 hours a day",
-              d: "Nights, weekends and holidays included. Emergencies get the same technicians and the same standards as scheduled work.",
+              t: "Availability varies",
+              d: "single-visit and emergency options depend on provider participation, location, technician availability, and demand.",
             },
             {
               t: "Diagnostics, not guesswork",
               d: "Camera inspection, acoustic leak location and pressure testing mean we repair the actual defect instead of trenching or opening walls on a hunch.",
             },
             {
-              t: "Respect for your home and budget",
-              d: `Drop cloths, clean work areas, clear explanations, and a ${business.discount.toLowerCase()}.`,
+              t: "Homeowner-first information",
+              d: "Compare the provider's scope and pricing, and confirm the protections you expect before scheduling.",
             },
           ].map((c, i) => (
             <Reveal key={c.t} delay={i * 0.05}>
@@ -343,7 +310,7 @@ function Home() {
           {[
             ["Call us", "Tell us what you are seeing. We ask targeted questions so the right parts and equipment are on the truck."],
             ["On-site diagnosis", "We inspect the failure and the system around it — pressure, valves, venting and related fixtures."],
-            ["Free estimate", "You get plain-language options and pricing before a single fitting is loosened."],
+            ["pricing discussion", "You get plain-language options and pricing before a single fitting is loosened."],
             ["The work", "Performed to California plumbing code with quality materials and your home protected throughout."],
             ["Test and walkthrough", "We test under real conditions, clean up completely and explain what to watch for."],
           ].map(([t, d], i) => (
@@ -377,7 +344,7 @@ function Home() {
             through rubber seats and stiffens cartridges until they drip. Annual flushing and
             periodic aerator cleaning are the cheapest maintenance available here.
           </p>
-          <h3>Slab-on-grade construction</h3>
+          <h3>Slab-on-grade building</h3>
           <p>
             Most subdivisions built since the 1970s sit on concrete slabs with copper supply lines
             run underneath. Over decades those lines develop pinhole leaks from abrasion against
@@ -448,48 +415,17 @@ function Home() {
         </div>
       </Section>
 
-      {/* 12. Reviews */}
+      {/* 12. Homeowner notice */}
       <Section>
         <SectionHead
-          eyebrow="Reviews"
-          title="Rated 4.5 Stars on Google and Yahoo"
-          sub={`${business.google.count} Google ratings and ${business.yahoo.count} Yahoo Local ratings from Bakersfield homeowners and businesses.`}
+          eyebrow="For homeowners"
+          title="Connect with an independent local provider"
+          sub="Provider participation, service scope, pricing, and appointment availability vary by location."
         />
-        <div className="grid gap-6 md:grid-cols-3">
-          {[
-            {
-              n: "Google · 4.5 stars",
-              q: "Called late in the evening with water coming up in the shower. They talked me through what to do, arrived that night and cleared the main line. Straightforward pricing and no mess left behind.",
-            },
-            {
-              n: "Yahoo Local · 4.5 stars",
-              q: "Water heater quit on a Sunday. They diagnosed it honestly, told me the tank was worth replacing rather than repairing, and had hot water back the same day.",
-            },
-            {
-              n: "Google · 4.5 stars",
-              q: "Used them for a restaurant kitchen line that kept backing up. They jetted it properly and set up a maintenance schedule. Haven't had a backup since.",
-            },
-          ].map((r, i) => (
-            <Reveal key={r.n} delay={i * 0.06}>
-              <figure className="h-full rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)]">
-                <Stars rating={4.5} />
-                <blockquote className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                  “{r.q}”
-                </blockquote>
-                <figcaption className="mt-4 text-xs font-bold uppercase tracking-widest text-primary">
-                  {r.n}
-                </figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
-        <div className="mt-8 text-center">
-          <AppLink
-            href="/reviews/"
-            className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-bold hover:border-primary"
-          >
-            Read Customer Reviews
-          </AppLink>
+        <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-card p-6 text-center text-sm leading-relaxed text-muted-foreground">
+          This site does not perform plumbing work or guarantee provider results. Before hiring,
+          ask the independent provider about licensing, insurance, pricing, scheduling, and the
+          work included.
         </div>
       </Section>
 
@@ -625,16 +561,13 @@ function Home() {
           <Reveal delay={0.08}>
             <h2 className="text-3xl md:text-4xl">About Tommy&apos;s Plumbing Service</h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              We are a licensed and insured residential and commercial plumbing contractor working
-              out of {business.street}, {business.city}, {business.state} {business.zip}. Our
-              reputation was built one repair at a time on straightforward pricing, clean work and
-              answering the phone when other companies close for the night.
+              Tommy&apos;s Plumbing Service helps homeowners request connections with independent
+              local residential providers in {business.city}, {business.state}. This site does not
+              perform plumbing work or guarantee provider results.
             </p>
             <p className="mt-3 leading-relaxed text-muted-foreground">
-              Every technician works to California plumbing code under State License{" "}
-              {business.license}. Whether the job is a fifteen-minute valve replacement or a full
-              sewer lateral repair, you get the same diagnostics, the same materials standard and
-              the same explanation of what we found.
+              Homeowners can ask providers about diagnostics, materials, scope, pricing, licensing,
+              insurance, and the expected schedule before authorizing work.
             </p>
             <div className="mt-7">
               <AppLink
@@ -657,7 +590,7 @@ function Home() {
       <Section>
         <div className="grid gap-10 lg:grid-cols-2">
           <Reveal>
-            <h2 className="text-3xl md:text-4xl">Visit or Call Our Bakersfield Office</h2>
+            <h2 className="text-3xl md:text-4xl">Call About Residential Provider Connections</h2>
             <ul className="mt-6 space-y-4 text-sm text-muted-foreground">
               <li className="flex gap-3">
                 <Phone className="mt-0.5 h-5 w-5 text-primary" />
@@ -682,14 +615,6 @@ function Home() {
                   {business.hours}
                 </span>
               </li>
-              <li className="flex gap-3">
-                <Star className="mt-0.5 h-5 w-5 text-primary" />
-                <span>
-                  <span className="block font-bold text-foreground">Ratings</span>
-                  4.5 stars on Google ({business.google.count}) and Yahoo Local (
-                  {business.yahoo.count})
-                </span>
-              </li>
             </ul>
           </Reveal>
           <Reveal delay={0.08}>
@@ -705,8 +630,8 @@ function Home() {
       </Section>
 
       <CtaBand
-        heading="Talk to a Licensed Bakersfield Plumber Now"
-        text={`Call ${business.phoneDisplay} any hour of the day or night for a free estimate. Licensed, insured, and local.`}
+        heading="Talk to a Local Residential Provider"
+        text={`Call ${business.phoneDisplay} to request help connecting with an independent provider.`}
       />
     </>
   );

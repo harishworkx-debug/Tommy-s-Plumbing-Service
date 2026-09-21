@@ -20,7 +20,7 @@ export function Header() {
             {business.license}
           </p>
           <p className="text-navy-foreground/80">
-            Open 24/7 · 10% senior &amp; military discount
+            Residential homeowner connections · Provider availability varies
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ export function Header() {
               Tommy&apos;s Plumbing Service
             </span>
             <span className="text-xs font-semibold uppercase tracking-[0.14em] text-primary">
-              Bakersfield, CA · 24/7
+              Bakersfield, CA · Residential
             </span>
           </AppLink>
 
@@ -141,7 +141,7 @@ export function Header() {
                 {[
                   ["/about/", "About Tommy's Plumbing"],
                   ["/reviews/", "Customer Reviews"],
-                  ["/contact/", "Contact & Free Estimate"],
+                  ["/contact/", "Contact & Get Connected"],
                 ].map(([href, label]) => (
                   <AppLink
                     key={href as string}

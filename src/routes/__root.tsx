@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Licensed 24/7 plumber in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Free estimates. Call 661-592-2721.",
+          "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661-592-2721.",
       },
       { name: "author", content: "Tommy's Plumbing Service" },
       { property: "og:type", content: "website" },

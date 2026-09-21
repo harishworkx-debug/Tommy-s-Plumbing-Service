@@ -23,7 +23,7 @@ function ServicesPage() {
         image={img("services-overview")}
         alt="Plumbing tools and fittings laid out for service in Bakersfield"
         h1="Plumbing Services in Bakersfield, CA"
-        lede="Ten core residential and commercial plumbing services, all delivered by a licensed California contractor available 24 hours a day."
+        lede="Residential plumbing information and local provider connections for ten common homeowner needs."
       />
       <Section>
         <SectionHead title="Choose the Service You Need" />

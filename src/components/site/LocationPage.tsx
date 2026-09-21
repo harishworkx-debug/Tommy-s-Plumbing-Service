@@ -31,8 +31,7 @@ export function LocationPage({ location }: { location: Location }) {
 
   const blocks: { h: string; p: string }[] = [
     { h: `Residential Plumbing in ${location.name}`, p: location.residential },
-    { h: `Commercial Plumbing in ${location.name}`, p: location.commercial },
-    { h: `24/7 Emergency Plumber in ${location.name}`, p: location.emergency },
+    { h: `Emergency Residential Plumber in ${location.name}`, p: location.emergency },
     { h: `Drain Cleaning in ${location.name}`, p: location.drains },
     { h: `Sewer Line Service in ${location.name}`, p: location.sewer },
     { h: `Water Heaters in ${location.name}`, p: location.waterHeaters },
@@ -122,7 +121,7 @@ export function LocationPage({ location }: { location: Location }) {
                 Plumber on call in {location.name} right now
               </h3>
               <p className="mt-2 text-sm text-navy-foreground/75">
-                Open 24 hours a day, 7 days a week. Free estimates before work begins.
+                Connect with an independent local provider. Availability and pricing vary by provider.
               </p>
               <a
                 href={business.phoneHref}
@@ -198,7 +197,7 @@ export function LocationPage({ location }: { location: Location }) {
 
       <CtaBand
         heading={`Need a Plumber in ${location.name} Today?`}
-        text={`Call ${business.phoneDisplay} for 24/7 licensed plumbing service and a free estimate.`}
+        text={`Call ${business.phoneDisplay} to request help connecting with an independent local residential provider.`}
       />
     </>
   );

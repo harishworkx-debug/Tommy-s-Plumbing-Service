@@ -1,4 +1,4 @@
-import { CheckCircle2, Wrench, ShieldCheck, Building2, Home } from "lucide-react";
+import { CheckCircle2, Wrench, ShieldCheck, Home } from "lucide-react";
 import type { Service } from "@/data/services";
 import { services } from "@/data/services";
 import { locations } from "@/data/locations";
@@ -122,7 +122,7 @@ export function ServicePage({ service }: { service: Service }) {
             <Reveal className="surface-navy rounded-2xl p-6">
               <h3 className="text-lg text-navy-foreground">Need it handled today?</h3>
               <p className="mt-2 text-sm text-navy-foreground/75">
-                We answer 24 hours a day and give free estimates before any work begins.
+                Provider availability and pricing vary. Ask the independent provider for details before work begins.
               </p>
               <a
                 href={business.phoneHref}
@@ -140,10 +140,11 @@ export function ServicePage({ service }: { service: Service }) {
                 {service.residential}
               </p>
               <h3 className="mt-5 flex items-center gap-2 text-lg">
-                <Building2 className="h-5 w-5 text-primary" /> Commercial
+                <ShieldCheck className="h-5 w-5 text-primary" /> Verify the provider
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {service.commercial}
+                Providers are independent. Homeowners should verify required licensing, insurance,
+                scope, pricing, and appointment availability before hiring.
               </p>
             </Reveal>
 
@@ -152,7 +153,7 @@ export function ServicePage({ service }: { service: Service }) {
                 <ShieldCheck className="h-5 w-5 text-primary" /> Licensed in California
               </h3>
               <p className="mt-2 text-sm text-muted-foreground">
-                State License {business.license} · Insured · {business.discount}
+                Confirm the provider&apos;s required license and insurance before work begins.
               </p>
             </Reveal>
           </aside>
@@ -204,7 +205,7 @@ export function ServicePage({ service }: { service: Service }) {
 
       <CtaBand
         heading={`Get ${service.name} Scheduled in Bakersfield`}
-        text={`Call ${business.phoneDisplay} any hour of the day for a free estimate from a licensed, insured local plumber.`}
+        text={`Call ${business.phoneDisplay} to request help connecting with an independent local residential provider.`}
       />
     </>
   );

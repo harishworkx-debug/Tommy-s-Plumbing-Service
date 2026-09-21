@@ -1,6 +1,6 @@
 // Remote stock photos from Pexels — used because local AI-generated assets
 // are not available in this environment. Each key maps to a real, on-topic
-// photo URL guaranteed to load.
+// Photo URLs are kept in one place for consistent rendering.
 
 export const images: Record<string, string> = {
   "hero-home":
@@ -32,8 +32,6 @@ export const images: Record<string, string> = {
     "https://images.pexels.com/photos/19980200/pexels-photo-19980200.jpeg?auto=compress&cs=tinysrgb&w=1200",
   "service-water-heater-installation":
     "https://images.pexels.com/photos/34938439/pexels-photo-34938439.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "service-commercial-plumbing":
-    "https://images.pexels.com/photos/10949030/pexels-photo-10949030.jpeg?auto=compress&cs=tinysrgb&w=1200",
 
   "loc-bakersfield":
     "https://images.pexels.com/photos/13278726/pexels-photo-13278726.jpeg?auto=compress&cs=tinysrgb&w=1200",

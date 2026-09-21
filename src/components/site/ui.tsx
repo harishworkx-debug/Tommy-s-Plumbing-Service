@@ -205,11 +205,11 @@ export function CtaBand({ heading, text }: { heading: string; text: string }) {
               href="/contact/"
               className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/30 px-6 py-3.5 text-base font-bold text-navy-foreground transition-colors hover:bg-navy-foreground/10"
             >
-              Request a Free Estimate
+              Get Connected
             </AppLink>
           </div>
           <p className="mt-5 text-sm text-navy-foreground/70">
-            {business.hours} · License {business.license} · {business.discount}
+            Residential homeowner connections · Provider availability varies by location
           </p>
         </Reveal>
       </div>
@@ -264,11 +264,11 @@ export function PageHero({
                 href="/contact/"
                 className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/30 px-6 py-3.5 text-base font-bold text-navy-foreground hover:bg-navy-foreground/10"
               >
-                Free Estimate
+                Get Connected
               </AppLink>
             </div>
             <p className="mt-5 text-sm text-navy-foreground/70">
-              Licensed &amp; insured · CA License {business.license} · Open 24/7
+              Independent providers · Verify licensing and insurance before hiring
             </p>
           </Reveal>
         </div>

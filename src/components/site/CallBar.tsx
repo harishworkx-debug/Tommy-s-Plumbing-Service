@@ -15,7 +15,7 @@ export function CallBar() {
         href="/contact/"
         className="flex items-center justify-center gap-2 rounded-xl bg-navy py-3 text-sm font-bold text-navy-foreground"
       >
-        <CalendarClock className="h-4 w-4" /> Free Estimate
+        <CalendarClock className="h-4 w-4" /> Get Connected
       </AppLink>
     </div>
   );
