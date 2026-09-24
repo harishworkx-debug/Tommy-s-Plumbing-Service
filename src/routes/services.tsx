@@ -10,7 +10,7 @@ export const Route = createFileRoute("/services")({
     pageHead({
       title: "Plumbing Services in Bakersfield, CA | Tommy's Plumbing Service",
       description:
-        "Full list of plumbing services in Bakersfield, CA: repairs, emergency plumbing, drain cleaning, sewer, leak detection, pipes and water heaters. Call 661-592-2721.",
+        "Full list of plumbing services in Bakersfield, CA: repairs, emergency plumbing, drain cleaning, sewer, leak detection, pipes and water heaters. Call 661 689-3958.",
       path: "/services/",
     }),
   component: ServicesPage,

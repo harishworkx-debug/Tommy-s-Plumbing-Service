@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
     pageHead({
       title: "About Tommy's Plumbing Service | Bakersfield, CA Plumber",
       description:
-        "Residential plumbing information and local provider connections in Bakersfield, CA. Call 661-592-2721.",
+        "Residential plumbing information and local provider connections in Bakersfield, CA. Call 661 689-3958.",
       path: "/about/",
     }),
   component: AboutPage,

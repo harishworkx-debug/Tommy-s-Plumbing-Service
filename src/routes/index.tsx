@@ -33,9 +33,9 @@ import { faqSchema, pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/")({
   head: () =>
     pageHead({
-      title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661-592-2721",
+      title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661 689-3958",
       description:
-        "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661-592-2721.",
+        "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661 689-3958.",
       path: "/",
     }),
   component: Home,
@@ -44,7 +44,7 @@ export const Route = createFileRoute("/")({
 const homeFaqs = [
   {
     q: "How does the local provider connection work?",
-    a: "Call 661-592-2721 to request help connecting with an independent local residential plumbing provider. Availability depends on provider participation, location, and appointment capacity.",
+    a: "Call 661 689-3958 to request help connecting with an independent local residential plumbing provider. Availability depends on provider participation, location, and appointment capacity.",
   },
   {
     q: "How is pricing handled?",
@@ -64,7 +64,7 @@ const homeFaqs = [
   },
   {
     q: "How fast can you get here for an emergency?",
-    a: "Participating providers respond as quickly as possible. Call 661-592-2721 to connect with an available emergency plumber.",
+    a: "Participating providers respond as quickly as possible. Call 661 689-3958 to connect with an available emergency plumber.",
   },
 ];
 

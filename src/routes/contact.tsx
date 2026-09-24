@@ -8,9 +8,9 @@ import { pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/contact")({
   head: () =>
     pageHead({
-      title: "Contact Tommy's Plumbing Service | Bakersfield, CA | 661-592-2721",
+      title: "Contact Tommy's Plumbing Service | Bakersfield, CA | 661 689-3958",
       description:
-        "Contact Tommy's Plumbing Service in Bakersfield, CA to request a residential plumbing provider connection. Call 661-592-2721.",
+        "Contact Tommy's Plumbing Service in Bakersfield, CA to request a residential plumbing provider connection. Call 661 689-3958.",
       path: "/contact/",
     }),
   component: ContactPage,

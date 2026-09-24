@@ -35,7 +35,7 @@ export const services: Service[] = [
     alt: "Plumber repairing a copper supply line and shut-off valve in a Bakersfield home",
     title: "Plumbing Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Licensed plumbing repair in Bakersfield, CA for leaks, valves, faucets, toilets and supply lines. pricing details, provider availability service. Call 661-592-2721.",
+      "Licensed plumbing repair in Bakersfield, CA for leaks, valves, faucets, toilets and supply lines. pricing details, provider availability service. Call 661 689-3958.",
     h1: "Plumbing Repair in Bakersfield, CA",
     lede:
       "From a dripping angle stop under the sink to a failed pressure regulator on the main line, Tommy's Plumbing Service repairs residential and residential plumbing across Bakersfield with straightforward pricing and workmanship that holds up.",
@@ -121,7 +121,7 @@ export const services: Service[] = [
     alt: "Emergency plumber stopping a burst pipe leak in a home laundry room at night",
     title: "Emergency Plumbing in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "provider availability emergency plumbing in Bakersfield, CA. Burst pipes, major leaks, sewer backups and no hot water. independent provider credentials, pricing details. Call 661-592-2721.",
+      "provider availability emergency plumbing in Bakersfield, CA. Burst pipes, major leaks, sewer backups and no hot water. independent provider credentials, pricing details. Call 661 689-3958.",
     h1: "Emergency Plumbing in Bakersfield, CA",
     lede:
       "Water does not wait for provider scheduling. Tommy's Plumbing Service answers emergency calls provider availabilitys a day, 7 days a week across Bakersfield and Kern County, with licensed technicians who can stop the damage and then fix the cause.",
@@ -162,7 +162,7 @@ export const services: Service[] = [
       "One company handles the stop-gap and the lasting fix, so nothing gets lost between trades",
     ],
     diagnostic: [
-      { h: "Phone triage", p: "When you call 661-592-2721 we walk you through shutting off the right valve before we arrive. That single step often saves thousands in damage." },
+      { h: "Phone triage", p: "When you call 661 689-3958 we walk you through shutting off the right valve before we arrive. That single step often saves thousands in damage." },
       { h: "Stop the source", p: "On arrival we isolate the failed section so the rest of the property can keep water where possible." },
       { h: "Assess the spread", p: "We check adjacent rooms, subfloor, ceilings below and cabinet bases to understand how far the water traveled." },
       { h: "Explain the repair path", p: "You get the emergency fix, the permanent fix and the pricing for both before we continue." },
@@ -206,7 +206,7 @@ export const services: Service[] = [
     alt: "Plumber using a professional drain cleaning machine on a floor drain in a Bakersfield home",
     title: "Drain Cleaning in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Professional drain cleaning in Bakersfield, CA for slow drains, clogs and main line stoppages. pricing details and provider availability service. Call 661-592-2721.",
+      "Professional drain cleaning in Bakersfield, CA for slow drains, clogs and main line stoppages. pricing details and provider availability service. Call 661 689-3958.",
     h1: "Drain Cleaning in Bakersfield, CA",
     lede:
       "Slow sinks, gurgling tubs and recurring clogs are symptoms, not the problem. We clear the line properly and tell you what caused the blockage so it does not come back next month.",
@@ -291,7 +291,7 @@ export const services: Service[] = [
     alt: "Plumber running a sewer inspection camera into a residential cleanout while watching the monitor",
     title: "Sewer Camera Inspection in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Sewer camera inspection in Bakersfield, CA to find roots, breaks, bellies and blockages before you dig. pricing details. Call 661-592-2721.",
+      "Sewer camera inspection in Bakersfield, CA to find roots, breaks, bellies and blockages before you dig. pricing details. Call 661 689-3958.",
     h1: "Sewer Camera Inspection in Bakersfield, CA",
     lede:
       "Guesswork is expensive underground. A video inspection shows exactly what is happening inside your sewer lateral so repairs are targeted instead of exploratory.",
@@ -375,7 +375,7 @@ export const services: Service[] = [
     alt: "Underground sewer line repair with new PVC pipe in an open trench at a California home",
     title: "Sewer Line Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Sewer line repair and replacement in Bakersfield, CA for root damage, cracks, offsets and collapses. independent provider credentials. Call 661-592-2721.",
+      "Sewer line repair and replacement in Bakersfield, CA for root damage, cracks, offsets and collapses. independent provider credentials. Call 661 689-3958.",
     h1: "Sewer Line Repair in Bakersfield, CA",
     lede:
       "When a sewer lateral fails, everything downstream of it stops working. We diagnose the exact failure, repair the section that is broken, and restore the yard properly when the work is done.",
@@ -460,7 +460,7 @@ export const services: Service[] = [
     alt: "Technician using electronic leak detection equipment on a bathroom floor in a Bakersfield home",
     title: "Leak Detection in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Professional leak detection in Bakersfield, CA for slab leaks, hidden pipe leaks and high water bills. pricing details, provider availability service. Call 661-592-2721.",
+      "Professional leak detection in Bakersfield, CA for slab leaks, hidden pipe leaks and high water bills. pricing details, provider availability service. Call 661 689-3958.",
     h1: "Leak Detection in Bakersfield, CA",
     lede:
       "A hidden leak can run for months behind drywall or under a slab before it shows. We find it precisely, with electronic equipment and pressure testing, so the repair opens one small area instead of half a room.",
@@ -545,7 +545,7 @@ export const services: Service[] = [
     alt: "Plumber replacing a damaged section of copper and PEX pipe inside an open wall cavity",
     title: "Pipe Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Pipe repair in Bakersfield, CA for pinhole leaks, corroded galvanized lines, burst pipes and reroutes. independent provider credentials. Call 661-592-2721.",
+      "Pipe repair in Bakersfield, CA for pinhole leaks, corroded galvanized lines, burst pipes and reroutes. independent provider credentials. Call 661 689-3958.",
     h1: "Pipe Repair in Bakersfield, CA",
     lede:
       "Whether it is a pinhole in a copper line, a corroded galvanized branch or a section damaged during a remodel, we repair piping so the fix outlasts the pipe around it.",
@@ -617,7 +617,7 @@ export const services: Service[] = [
       { q: "Should I replace all my galvanized pipe at once?", a: "Not necessarily. If pressure and water quality are still good in most of the house, targeted branch replacement can be the right call. We will show you what we find and give you both options." },
       { q: "What is a reroute and why would I want one?", a: "A reroute runs a new line through accessible space to bypass a section in a slab or inaccessible wall. It often costs less than repeated slab access and eliminates the problem area entirely." },
       { q: "Do you repair drain and vent piping too?", a: "Yes, we repair ABS and cast iron waste and vent lines as well as pressurized supply piping." },
-      { q: "How quickly can you respond to a burst pipe?", a: "We answer emergency calls provider availabilitys a day. Call 661-592-2721 and we will tell you what to shut off while we are on the way." },
+      { q: "How quickly can you respond to a burst pipe?", a: "We answer emergency calls provider availabilitys a day. Call 661 689-3958 and we will tell you what to shut off while we are on the way." },
     ],
     related: ["leak-detection", "plumbing-repair", "emergency-plumbing", "water-heater-repair"],
   },
@@ -630,7 +630,7 @@ export const services: Service[] = [
     alt: "Plumber diagnosing a gas water heater with a multimeter in a Bakersfield garage",
     title: "Water Heater Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Water heater repair in Bakersfield, CA for no hot water, leaks, pilot and thermostat issues. Tank and tankless. pricing details. Call 661-592-2721.",
+      "Water heater repair in Bakersfield, CA for no hot water, leaks, pilot and thermostat issues. Tank and tankless. pricing details. Call 661 689-3958.",
     h1: "Water Heater Repair in Bakersfield, CA",
     lede:
       "No hot water, rusty water, a pilot that will not stay lit or a puddle under the tank. We diagnose the actual failure and tell you honestly whether a repair or a replacement is the better spend.",
@@ -703,7 +703,7 @@ export const services: Service[] = [
       { q: "Should I repair or replace my water heater?", a: "Age is the deciding factor. Under about eight years with a sound tank, repair is usually worthwhile. Past ten to twelve years, or with a leaking tank body, replacement is the better investment. We give you both numbers." },
       { q: "Why does my hot water run out so fast?", a: "Usually sediment buildup reducing usable capacity, or a failed lower heating element on an electric unit. Both are diagnosable in one visit." },
       { q: "Can you repair tankless water heaters?", a: "Yes. We descale heat exchangers, diagnose error codes, and repair ignition, venting and flow sensor issues on tankless systems." },
-      { q: "Is a leaking water heater an emergency?", a: "If water is coming from the tank body, yes. Shut off the cold inlet and the gas or breaker and call 661-592-2721. We are available provider availabilitys a day." },
+      { q: "Is a leaking water heater an emergency?", a: "If water is coming from the tank body, yes. Shut off the cold inlet and the gas or breaker and call 661 689-3958. We are available provider availabilitys a day." },
       { q: "How often should a water heater be flushed?", a: "Once a year in this area. Our water is mineral heavy, and sediment shortens tank life and raises energy use noticeably." },
     ],
     related: ["water-heater-installation", "plumbing-repair", "emergency-plumbing", "leak-detection"],
@@ -717,7 +717,7 @@ export const services: Service[] = [
     alt: "Technician installing a new water heater with fresh copper connections in a residential garage",
     title: "Water Heater Installation in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Water heater installation in Bakersfield, CA. Tank and tankless units sized, installed and code-compliant. pricing details. Call 661-592-2721.",
+      "Water heater installation in Bakersfield, CA. Tank and tankless units sized, installed and code-compliant. pricing details. Call 661 689-3958.",
     h1: "Water Heater Installation in Bakersfield, CA",
     lede:
       "A water heater installed correctly runs quieter, lasts longer and costs less to operate. We size the unit to your household, install to California code, and haul the old one away.",

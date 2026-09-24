@@ -82,11 +82,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661-592-2721" },
+      { title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661 689-3958" },
       {
         name: "description",
         content:
-          "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661-592-2721.",
+          "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661 689-3958.",
       },
       { name: "author", content: "Tommy's Plumbing Service" },
       { property: "og:type", content: "website" },

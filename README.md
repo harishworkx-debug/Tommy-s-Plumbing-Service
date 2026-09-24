@@ -71,7 +71,7 @@ United States
 
 Primary Phone:
 
-661-592-2721
+661 689-3958
 
 IMPORTANT:
 
@@ -79,11 +79,11 @@ Never display `+1` to visitors.
 
 The visible phone number must ALWAYS be:
 
-661-592-2721
+661 689-3958
 
 Do not display:
 
-+1 661-592-2721
++1 661 689-3958
 
 Do not display:
 
@@ -95,7 +95,7 @@ tel:+16615922721
 
 but the visible website text must remain:
 
-661-592-2721
+661 689-3958
 
 Email:
 
@@ -423,7 +423,7 @@ Reviews
 
 Contact
 
-CALL 661-592-2721
+CALL 661 689-3958
 
 ============================================================
 SERVICES DROPDOWN
@@ -587,7 +587,7 @@ Licensed and insured residential and commercial plumbing services with 24/7 avai
 
 Primary CTA:
 
-Call 661-592-2721
+Call 661 689-3958
 
 Secondary CTA:
 
@@ -793,7 +793,7 @@ Why choose Tommy's Plumbing Service
 
 Free Estimate CTA
 
-Call 661-592-2721
+Call 661 689-3958
 
 Related services
 
@@ -1095,7 +1095,7 @@ Tommy's Plumbing Service
 
 Bakersfield, CA 93308
 
-661-592-2721
+661 689-3958
 
 [tps.tommy@gmail.com](mailto:tps.tommy@gmail.com)
 
@@ -1121,7 +1121,7 @@ Senior & Military Discount:
 
 Primary CTA:
 
-Call 661-592-2721
+Call 661 689-3958
 
 Secondary CTA:
 
@@ -1389,7 +1389,7 @@ Include:
 
 Helpful message
 
-Call 661-592-2721
+Call 661 689-3958
 
 Services
 
@@ -1463,7 +1463,7 @@ LEAD GENERATION
 
 Primary CTA:
 
-Call 661-592-2721
+Call 661 689-3958
 
 Secondary CTA:
 
@@ -1525,7 +1525,7 @@ Before completing the project, verify ALL of the following:
 
 16. Visible phone number is ONLY:
 
-661-592-2721
+661 689-3958
 
 17. Never visibly display +1.
 

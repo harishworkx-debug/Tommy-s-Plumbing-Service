@@ -13,7 +13,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "drain-cleaning", location: "rosedale",
     title: "Drain Cleaning in Rosedale, CA | Tommy's Plumbing Service",
-    description: "Drain cleaning in Rosedale, CA for slow sinks, kitchen clogs and main line stoppages. pricing details and provider availability service. Call 661-592-2721.",
+    description: "Drain cleaning in Rosedale, CA for slow sinks, kitchen clogs and main line stoppages. pricing details and provider availability service. Call 661 689-3958.",
     lede: "Rosedale's newer ABS drain systems clog for different reasons than older lines, and clearing them properly means understanding what actually built up inside.",
     intro: [
       "Most Rosedale homes are recent enough that the drain piping itself is in good condition. When a kitchen sink backs up here, the cause is almost always accumulated grease and food waste rather than a failing pipe, and that distinction changes the right tool for the job.",
@@ -34,7 +34,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "plumbing-repair", location: "oildale",
     title: "Plumbing Repair in Oildale, CA | Tommy's Plumbing Service",
-    description: "Plumbing repair in Oildale, CA for older galvanized pipe, valves, fixtures and leaks. pricing details and provider availability service. Call 661-592-2721.",
+    description: "Plumbing repair in Oildale, CA for older galvanized pipe, valves, fixtures and leaks. pricing details and provider availability service. Call 661 689-3958.",
     lede: "Repairing plumbing in Oildale means working on houses that have been repaired many times already, and doing it in a way that does not create the next failure.",
     intro: [
       "The typical Oildale service call starts with something small: a valve that will not close, a faucet that drips, a toilet that keeps running. What we usually find behind it is a system with mixed materials and a long history, where the original galvanized still feeds a copper repair from thirty years ago.",
@@ -55,7 +55,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "emergency-plumbing", location: "lamont",
     title: "Emergency Plumbing in Lamont, CA | Tommy's Plumbing Service",
-    description: "provider availability emergency plumbing in Lamont, CA for burst pipes, sewer backups and no water. independent provider credentials. Call 661-592-2721.",
+    description: "provider availability emergency plumbing in Lamont, CA for burst pipes, sewer backups and no water. independent provider credentials. Call 661 689-3958.",
     lede: "In a household where one bathroom serves everyone, a plumbing failure is not an inconvenience. We answer Lamont emergency calls provider availabilitys a day.",
     intro: [
       "Emergency priority is about impact, and in Lamont the impact is often immediate. A stopped main line in a full household means no toilet, no shower and no laundry, all at once. We treat those calls accordingly.",
@@ -68,7 +68,7 @@ export const serviceLocations: ServiceLocation[] = [
       { h: "No water situations", p: "A failed main valve or service line break stops everything, and with children in the house that cannot wait until morning." },
     ],
     faqs: [
-      { q: "How fast can you get to Lamont at night?", a: "We dispatch provider availabilitys a day from Bakersfield and give you an honest arrival window when you call 661-592-2721." },
+      { q: "How fast can you get to Lamont at night?", a: "We dispatch provider availabilitys a day from Bakersfield and give you an honest arrival window when you call 661 689-3958." },
       { q: "What should I do before you arrive?", a: "Shut off the main water valve, or the fixture stop if the leak is isolated. For a water heater, close the cold inlet and turn off the gas or breaker." },
       { q: "Do emergency calls cost more?", a: "You get pricing before work begins at any hour, and estimates are free." },
     ],
@@ -76,7 +76,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "water-heater-repair", location: "shafter",
     title: "Water Heater Repair in Shafter, CA | Tommy's Plumbing Service",
-    description: "Water heater repair in Shafter, CA for no hot water, leaks and pilot problems. Tank and tankless. pricing details. Call 661-592-2721.",
+    description: "Water heater repair in Shafter, CA for no hot water, leaks and pilot problems. Tank and tankless. pricing details. Call 661 689-3958.",
     lede: "Shafter's hard water is hard on water heaters. We diagnose the actual failure and tell you plainly whether repair or replacement is the better spend.",
     intro: [
       "Sediment is the quiet villain in almost every Shafter water heater call. Mineral deposit settles on the tank bottom, insulates the water from the burner, forces longer heat cycles and eventually causes the rumbling sound most homeowners here recognize.",
@@ -97,7 +97,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "sewer-line-repair", location: "wasco",
     title: "Sewer Line Repair in Wasco, CA | Tommy's Plumbing Service",
-    description: "Sewer line repair in Wasco, CA for root damage, cracks and repeat backups. Camera located, targeted repairs. Call 661-592-2721.",
+    description: "Sewer line repair in Wasco, CA for root damage, cracks and repeat backups. Camera located, targeted repairs. Call 661 689-3958.",
     lede: "Repeat sewer backups in Wasco usually trace to an aging clay lateral. We camera the line, locate the defect and repair the section that has actually failed.",
     intro: [
       "Wasco's older residential lines were installed when clay pipe was standard, and clay joints separate over time as soil moves with irrigation cycles and seasonal changes. Roots find those gaps, and once they are inside, cleaning only buys months.",
@@ -118,7 +118,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "leak-detection", location: "arvin",
     title: "Leak Detection in Arvin, CA | Tommy's Plumbing Service",
-    description: "Leak detection in Arvin, CA for slab leaks, irrigation leaks and high water bills. Non-destructive location. Call 661-592-2721.",
+    description: "Leak detection in Arvin, CA for slab leaks, irrigation leaks and high water bills. Non-destructive location. Call 661 689-3958.",
     lede: "A water bill that climbed with no explanation is the most common reason Arvin homeowners call us, and the answer is almost always a leak nobody can see.",
     intro: [
       "Arvin properties often combine slab-on-grade homes with irrigated yards and outbuildings, which gives a hidden leak plenty of places to run without ever surfacing. Water disappears into soil that is already being watered, so the only symptom is the bill.",
@@ -140,7 +140,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "pipe-repair", location: "mcfarland",
     title: "Pipe Repair in McFarland, CA | Tommy's Plumbing Service",
-    description: "Pipe repair in McFarland, CA for corroded galvanized lines, low pressure and hidden leaks. pricing details. Call 661-592-2721.",
+    description: "Pipe repair in McFarland, CA for corroded galvanized lines, low pressure and hidden leaks. pricing details. Call 661 689-3958.",
     lede: "Low pressure and rusty morning water are the two symptoms we hear most in McFarland, and both point to the same thing: supply pipe corroding from the inside.",
     intro: [
       "Galvanized steel piping was built to last, but not forever. After several decades the interior rusts and scales until the effective diameter is a fraction of the original. Pressure drops gradually enough that households adapt to it without realizing how much they have lost.",
@@ -161,7 +161,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "water-heater-installation", location: "tehachapi",
     title: "Water Heater Installation in Tehachapi, CA | Tommy's Plumbing Service",
-    description: "Water heater installation in Tehachapi, CA sized for cold mountain water. Tank and tankless, code compliant. Call 661-592-2721.",
+    description: "Water heater installation in Tehachapi, CA sized for cold mountain water. Tank and tankless, code compliant. Call 661 689-3958.",
     lede: "At Tehachapi's elevation, incoming water is significantly colder than in the valley, and that changes how a water heater should be sized.",
     intro: [
       "A tankless unit rated for a comfortable flow at valley inlet temperatures can fall well short on a January morning in Tehachapi, because the colder the incoming water, the less of it the unit can raise to temperature. Sizing on summer numbers is the most common mistake we correct here.",

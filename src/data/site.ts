@@ -8,7 +8,7 @@ export const business = {
   state: "CA",
   zip: "93308",
   country: "US",
-  phoneDisplay: "661-592-2721",
+  phoneDisplay: "661 689-3958",
   phoneHref: "tel:+16615922721",
   email: "tps.tommy@gmail.com",
   license: "#957013",

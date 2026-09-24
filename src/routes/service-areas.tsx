@@ -10,7 +10,7 @@ export const Route = createFileRoute("/service-areas")({
     pageHead({
       title: "Plumbing Service Areas in Kern County | Tommy's Plumbing Service",
       description:
-        "Tommy's Plumbing Service covers Bakersfield, Rosedale, Oildale, Lamont, Shafter, Wasco, Arvin, Taft, McFarland and Tehachapi. Call 661-592-2721.",
+        "Tommy's Plumbing Service covers Bakersfield, Rosedale, Oildale, Lamont, Shafter, Wasco, Arvin, Taft, McFarland and Tehachapi. Call 661 689-3958.",
       path: "/service-areas/",
     }),
   component: AreasPage,
