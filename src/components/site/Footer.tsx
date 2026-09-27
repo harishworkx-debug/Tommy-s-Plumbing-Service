@@ -99,11 +99,7 @@ export function Footer() {
 
       <div className="border-t border-navy-foreground/15 py-6">
         <div className="container-page flex flex-col gap-4 text-xs text-navy-foreground/65">
-          <p>
-            Tommy&apos;s Plumbing Service is a licensed, bonded, and insured plumbing contractor
-            operating under California State License #957013. We provide reliable residential and 
-            commercial plumbing services across Bakersfield and Kern County.
-          </p>
+
           <p>
             Same-day and 24/7 emergency services are available. Call us to schedule your service.
           </p>
