@@ -176,7 +176,9 @@ export const serviceLocations: ServiceLocation[] = [
     faqs: [
       { q: "Is tankless a good choice in Tehachapi?", a: "It can be, provided the unit is sized for winter inlet temperatures and the gas supply is adequate. We size for the coldest conditions, not the easiest." },
       { q: "Do you install to California code?", a: "Yes, including seismic strapping, drain pan, correct venting and proper relief valve discharge routing." },
-      { q: "Do you remove the old unit?", a: "Yes, removal and disposal are included, and we protect flooring along the removal path." },
+      { q: "Do you remove the old unit?", a: "Yes, removal and disposal are included, and we protect flooring along the removal path." }
+    ]
+  },
   {
     service: "commercial-plumbing", location: "shafter",
     title: "Commercial Plumbing in Shafter, CA | Tommy's Plumbing Service",
