@@ -1,59 +1,61 @@
-// Remote stock photos from Pexels — used because local AI-generated assets
-// are not available in this environment. Each key maps to a real, on-topic
-// Photo URLs are kept in one place for consistent rendering.
+// Replace these placeholder URLs with paths to real photos of your business in the /public/ folder.
+// Real photos are a major local SEO asset. Google uses them for entity validation, and customers trust real technicians over stock photos.
+// To use a local file, place it in public/ (e.g. public/hero.jpg) and change the string here to "/hero.jpg".
 
 export const images: Record<string, string> = {
   "hero-home":
-    "https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://placehold.co/1600x900/eeeeee/333333?text=Actual+Tommy's+Service+Van+at+Bakersfield+Home",
   "about-team":
-    "https://images.pexels.com/photos/13821194/pexels-photo-13821194.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Tommy's+Real+Team+Photo",
   "contact-estimate":
-    "https://images.pexels.com/photos/7578999/pexels-photo-7578999.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Technician+Providing+an+Estimate",
   "reviews-hero":
-    "https://images.pexels.com/photos/8486928/pexels-photo-8486928.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://placehold.co/1600x900/eeeeee/333333?text=Tommy's+Technician+with+Happy+Customer",
   "services-overview":
-    "https://images.pexels.com/photos/12105083/pexels-photo-12105083.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Tommy's+Fully+Stocked+Service+Van",
 
   "service-plumbing-repair":
-    "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Real+Plumbing+Repair+Work",
   "service-emergency-plumbing":
-    "https://images.pexels.com/photos/16509869/pexels-photo-16509869.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Actual+Emergency+Leak+Repair",
   "service-drain-cleaning":
-    "https://images.pexels.com/photos/7937300/pexels-photo-7937300.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Technician+using+Professional+Drain+Machine",
   "service-sewer-camera":
-    "https://images.pexels.com/photos/7937292/pexels-photo-7937292.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Actual+Sewer+Camera+Inspection+Screen",
   "service-sewer-line-repair":
-    "https://images.pexels.com/photos/29226620/pexels-photo-29226620.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Real+Sewer+Line+Spot+Repair",
   "service-leak-detection":
-    "https://images.pexels.com/photos/7937299/pexels-photo-7937299.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Technician+Using+Acoustic+Leak+Detector",
   "service-pipe-repair":
-    "https://images.pexels.com/photos/29226620/pexels-photo-29226620.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Copper+or+PEX+Pipe+Replacement+Job",
   "service-water-heater-repair":
-    "https://images.pexels.com/photos/19980200/pexels-photo-19980200.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Diagnosing+a+Real+Water+Heater",
   "service-water-heater-installation":
-    "https://images.pexels.com/photos/34938439/pexels-photo-34938439.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=New+Water+Heater+Installation+by+Tommy's",
+  "service-commercial-plumbing":
+    "https://placehold.co/1200x800/eeeeee/333333?text=Commercial+Hydro-Jetting+or+Flushometer+Repair",
 
   "loc-bakersfield":
-    "https://images.pexels.com/photos/13278726/pexels-photo-13278726.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Tommy's+Van+in+Downtown+Bakersfield",
   "loc-rosedale":
-    "https://images.pexels.com/photos/9716231/pexels-photo-9716231.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Service+Call+at+a+Rosedale+Home",
   "loc-oildale":
-    "https://images.pexels.com/photos/13190807/pexels-photo-13190807.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Tommy's+Van+in+an+Oildale+Neighborhood",
   "loc-lamont":
-    "https://images.pexels.com/photos/943700/pexels-photo-943700.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Service+Call+in+Lamont",
   "loc-shafter":
-    "https://images.pexels.com/photos/12641333/pexels-photo-12641333.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Commercial+or+Residential+Job+in+Shafter",
   "loc-wasco":
-    "https://images.pexels.com/photos/5393082/pexels-photo-5393082.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Sewer+Repair+Job+in+Wasco",
   "loc-arvin":
-    "https://images.pexels.com/photos/19061962/pexels-photo-19061962.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Leak+Detection+Job+in+Arvin",
   "loc-taft":
-    "https://images.pexels.com/photos/19512691/pexels-photo-19512691.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Tommy's+Van+on+a+Hillside+in+Taft",
   "loc-mcfarland":
-    "https://images.pexels.com/photos/13777907/pexels-photo-13777907.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Repipe+Job+in+McFarland",
   "loc-tehachapi":
-    "https://images.pexels.com/photos/8283929/pexels-photo-8283929.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://placehold.co/1200x800/eeeeee/333333?text=Freeze+Repair+Job+in+Tehachapi",
 };
 
 export const img = (key: string) =>
-  images[key] ?? images["hero-home"] ?? "https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=1600";
+  images[key] ?? images["hero-home"] ?? "https://placehold.co/1600x900/eeeeee/333333?text=Missing+Image";

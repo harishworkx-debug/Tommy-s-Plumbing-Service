@@ -20,7 +20,7 @@ export function Header() {
             {business.license}
           </p>
           <p className="text-navy-foreground/80">
-            Residential homeowner connections · Provider availability varies
+            Residential & Commercial Plumbing
           </p>
         </div>
       </div>

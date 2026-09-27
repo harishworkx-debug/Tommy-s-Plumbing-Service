@@ -35,13 +35,13 @@ export const services: Service[] = [
     alt: "Plumber repairing a copper supply line and shut-off valve in a Bakersfield home",
     title: "Plumbing Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Licensed plumbing repair in Bakersfield, CA for leaks, valves, faucets, toilets and supply lines. pricing details, provider availability service. Call 661 689-3958.",
+      "Licensed plumbing repair in Bakersfield, CA for leaks, valves, faucets, toilets and supply lines. upfront pricing, 24/7 service. Call 661 689-3958.",
     h1: "Plumbing Repair in Bakersfield, CA",
     lede:
-      "From a dripping angle stop under the sink to a failed pressure regulator on the main line, Tommy's Plumbing Service repairs residential and residential plumbing across Bakersfield with straightforward pricing and workmanship that holds up.",
+      "From a dripping angle stop under the sink to a failed pressure regulator on the main line, Tommy's Plumbing Service repairs residential and commercial plumbing across Bakersfield with straightforward pricing and workmanship that holds up.",
     intro: [
       "Most plumbing repairs start small. A faucet that weeps at the base, a toilet that runs for a few seconds every hour, a washing machine valve that stiffens up. Left alone in Bakersfield's hard water and hot summers, those small problems accelerate: mineral scale builds inside the fixture, rubber seats harden, and a five-minute repair becomes a cabinet full of water damage.",
-      "Our repair work is built around finding the actual cause instead of swapping parts and hoping. We check static water pressure at the hose bib, inspect shut-off valves, look at how the fixture was originally installed, and only then recommend a repair. If a component is worn beyond a reliable fix, we will tell you plainly and give you a pricing details for the replacement so you can decide.",
+      "Our repair work is built around finding the actual cause instead of swapping parts and hoping. We check static water pressure at the hose bib, inspect shut-off valves, look at how the fixture was originally installed, and only then recommend a repair. If a component is worn beyond a reliable fix, we will tell you plainly and give you an upfront price for the replacement so you can decide.",
     ],
     includes: [
       "Faucet repair and faucet installation for kitchen, bath, laundry and outdoor hose bibs",
@@ -74,7 +74,7 @@ export const services: Service[] = [
       "Protection against water damage, mold and drywall repair costs",
       "Correct water pressure, which extends the life of every fixture in the house",
       "Repairs completed to California plumbing code by a licensed contractor",
-      "pricing details before work begins and specialized warranties on qualifying repairs",
+      "upfront pricing before work begins and specialized warranties on qualifying repairs",
     ],
     diagnostic: [
       { h: "Listen first", p: "We start with what you have noticed: when the problem happens, what makes it worse, and whether it has changed over time. That history usually narrows the cause faster than any tool." },
@@ -104,11 +104,11 @@ export const services: Service[] = [
     safety:
       "Never force a corroded valve past resistance, and never over-tighten a compression nut to stop a drip; both can turn a small leak into an open line. Know where your main shut-off is before you need it, and if you smell gas or see water near electrical outlets, leave the area and call for emergency service.",
     faqs: [
-      { q: "Do you charge for an estimate on a plumbing repair?", a: "No. Tommy's Plumbing Service provides pricing details. We diagnose the issue, explain what is failing and give you pricing before any repair begins." },
-      { q: "Can most repairs be done in one visit?", a: "Yes. Our service vehicles carry the valves, cartridges, supply lines and fittings used in the majority of Bakersfield homes and homeowners, so single-fixture repairs are usually completed the one visit." },
+      { q: "Do you charge for an estimate on a plumbing repair?", a: "No. Tommy's Plumbing Service provides upfront pricing. We diagnose the issue, explain what is failing and give you pricing before any repair begins." },
+      { q: "Can most repairs be done in one visit?", a: "Yes. Our service vehicles carry the valves, cartridges, supply lines and fittings used in the majority of Bakersfield homes and businesses, so single-fixture repairs are usually completed the one visit." },
       { q: "Should I repair or replace an old fixture?", a: "If the fixture body is sound and parts are still available, repair is usually the better value. If the fixture is heavily scaled, corroded or discontinued, replacement often costs less over time. We will give you both prices." },
       { q: "Do you offer a discount?", a: "Yes, we offer a 10% discount for seniors and military personnel, and specialized warranties are available on qualifying work." },
-      { q: "Are you independent provider credentials?", a: "Yes. We are a independent provider credentials plumbing contractor operating under California State License #957013." },
+      { q: "Are you licensed, bonded, and insured?", a: "Yes. We are a licensed, bonded, and insured plumbing contractor operating under California State License #957013." },
     ],
     related: ["leak-detection", "pipe-repair", "drain-cleaning", "emergency-plumbing"],
   },
@@ -116,15 +116,15 @@ export const services: Service[] = [
   {
     slug: "emergency-plumbing",
     name: "Emergency Plumbing",
-    short: "provider availability response for burst pipes, major leaks, sewer backups and no-water situations.",
+    short: "24/7 response for burst pipes, major leaks, sewer backups and no-water situations.",
     image: "service-emergency-plumbing",
     alt: "Emergency plumber stopping a burst pipe leak in a home laundry room at night",
-    title: "Emergency Plumbing in Bakersfield, CA | Tommy's Plumbing Service",
+    title: "24/7 Emergency Plumber in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "provider availability emergency plumbing in Bakersfield, CA. Burst pipes, major leaks, sewer backups and no hot water. independent provider credentials, pricing details. Call 661 689-3958.",
+      "24/7 emergency plumbing in Bakersfield, CA. Burst pipes, major leaks, sewer backups and no hot water. licensed, bonded, and insured, upfront pricing. Call 661 689-3958.",
     h1: "Emergency Plumbing in Bakersfield, CA",
     lede:
-      "Water does not wait for provider scheduling. Tommy's Plumbing Service answers emergency calls provider availabilitys a day, 7 days a week across Bakersfield and Kern County, with licensed technicians who can stop the damage and then fix the cause.",
+      "Water does not wait for scheduling. Tommy's Plumbing Service answers emergency calls 24 hours a day, 7 days a week across Bakersfield and Kern County, with licensed technicians who can stop the damage and then fix the cause.",
     intro: [
       "A plumbing emergency is any failure that is actively damaging your property or making the building unusable: a supply line that let go, a sewer backing up into a tub, a water heater dumping its tank, or a main line break in the front yard. Every minute those run, the repair bill grows.",
       "Our first job on an emergency call is containment. We isolate the water, stop the flow and make the space safe. Only then do we move into diagnosis and repair, so you are not paying for exploratory work while the floor is still flooding.",
@@ -157,8 +157,8 @@ export const services: Service[] = [
     benefits: [
       "Round-the-clock availability, including nights, weekends and holidays",
       "Immediate containment that limits flooring, drywall and cabinet damage",
-      "independent provider credentials work under California State License #957013",
-      "pricing details for the permanent repair after the emergency is stabilized",
+      "licensed, bonded, and insured work under California State License #957013",
+      "upfront pricing for the permanent repair after the emergency is stabilized",
       "One company handles the stop-gap and the lasting fix, so nothing gets lost between trades",
     ],
     diagnostic: [
@@ -189,7 +189,7 @@ export const services: Service[] = [
     safety:
       "Keep people away from standing water near outlets, appliances or panels. Do not use a plunger on a line that is backing up from the main. If sewage has entered living space, limit contact and ventilate the area until it can be cleaned properly.",
     faqs: [
-      { q: "Are you really available provider availabilitys?", a: "Yes. Tommy's Plumbing Service is open provider availabilitys a day, 7 days a week for both scheduling and emergency plumbing calls in Bakersfield and the surrounding Kern County communities." },
+      { q: "Are you really available 24/7?", a: "Yes. Tommy's Plumbing Service is open 24 hours a day, 7 days a week for both scheduling and emergency plumbing calls in Bakersfield and the surrounding Kern County communities." },
       { q: "What should I do before the plumber arrives?", a: "Shut off the main water valve, or the fixture stop if the leak is isolated. For water heater leaks, close the cold inlet and turn off gas or the breaker. Move belongings out of the water and keep the area clear." },
       { q: "Is an emergency call more expensive?", a: "We give you pricing before work begins, at any hour, and estimates are always free. You will never be surprised by the number after the fact." },
       { q: "Can you handle a sewage backup?", a: "Yes. We clear main line stoppages and can run a sewer camera inspection afterward to identify roots, bellies, grease or a broken section that caused the backup." },
@@ -206,7 +206,7 @@ export const services: Service[] = [
     alt: "Plumber using a professional drain cleaning machine on a floor drain in a Bakersfield home",
     title: "Drain Cleaning in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Professional drain cleaning in Bakersfield, CA for slow drains, clogs and main line stoppages. pricing details and provider availability service. Call 661 689-3958.",
+      "Professional drain cleaning in Bakersfield, CA for slow drains, clogs and main line stoppages. upfront pricing and 24/7 service. Call 661 689-3958.",
     h1: "Drain Cleaning in Bakersfield, CA",
     lede:
       "Slow sinks, gurgling tubs and recurring clogs are symptoms, not the problem. We clear the line properly and tell you what caused the blockage so it does not come back next month.",
@@ -219,7 +219,7 @@ export const services: Service[] = [
       "Bathroom sink, tub, shower and toilet drain stoppages",
       "Laundry standpipe and floor drain clearing",
       "Main sewer line cabling through cleanouts",
-      "Hydro-jetting for grease-heavy residential and residential lines",
+      "Hydro-jetting for grease-heavy residential and commercial lines",
       "Drain inspection and camera verification after clearing",
       "Home kitchen line maintenance and drainage issues",
     ],
@@ -244,7 +244,7 @@ export const services: Service[] = [
       "Camera verification so you know whether the pipe itself is damaged",
       "No corrosive chemicals left sitting in your drain system",
       "Cleaner, faster drains and no recurring odor",
-      "pricing details and provider availability availability when a main line backs up at a bad time",
+      "upfront pricing and 24/7 availability when a main line backs up at a bad time",
     ],
     diagnostic: [
       { h: "Identify affected fixtures", p: "Which drains are slow tells us immediately whether this is a branch line or the main." },
@@ -274,7 +274,7 @@ export const services: Service[] = [
     safety:
       "Do not mix chemical drain products, and never cable a line after chemicals have been poured in without telling the technician; caustic liquid can splash back. If waste has overflowed onto floors, treat it as contaminated and keep children and pets away until it is cleaned.",
     faqs: [
-      { q: "How fast can you clear a clogged drain?", a: "Most branch line clogs are cleared in a single visit, often within an hour or two. Main sewer line stoppages take longer, and we are available provider availability when a backup cannot wait." },
+      { q: "How fast can you clear a clogged drain?", a: "Most branch line clogs are cleared in a single visit, often within an hour or two. Main sewer line stoppages take longer, and we are available 24/7 when a backup cannot wait." },
       { q: "Is hydro-jetting better than cabling?", a: "They solve different problems. Cabling breaks through and cuts obstructions such as roots. Jetting scours grease, sludge and scale off the pipe wall and restores closer to full flow. We recommend based on what is in your line." },
       { q: "Why does my drain keep clogging?", a: "Repeat clogs usually mean the underlying cause was never removed, or the pipe has a defect such as a belly, offset joint or root intrusion. A sewer camera inspection answers that question definitively." },
       { q: "Are chemical drain cleaners safe to use first?", a: "We do not recommend them. They can damage older pipe and fixtures, rarely clear a real blockage, and create a splash hazard for the technician who opens the line afterward." },
@@ -291,7 +291,7 @@ export const services: Service[] = [
     alt: "Plumber running a sewer inspection camera into a residential cleanout while watching the monitor",
     title: "Sewer Camera Inspection in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Sewer camera inspection in Bakersfield, CA to find roots, breaks, bellies and blockages before you dig. pricing details. Call 661 689-3958.",
+      "Sewer camera inspection in Bakersfield, CA to find roots, breaks, bellies and blockages before you dig. upfront pricing. Call 661 689-3958.",
     h1: "Sewer Camera Inspection in Bakersfield, CA",
     lede:
       "Guesswork is expensive underground. A video inspection shows exactly what is happening inside your sewer lateral so repairs are targeted instead of exploratory.",
@@ -344,7 +344,7 @@ export const services: Service[] = [
       { h: "Plan access", p: "Where excavation is required, we identify the least disruptive dig location before work is scheduled." },
     ],
     expect:
-      "A typical residential inspection takes under an hour once access is established. You will see the monitor during the run and get a clear explanation of findings, along with a pricing details for any recommended repair.",
+      "A typical residential inspection takes under an hour once access is established. You will see the monitor during the run and get a clear explanation of findings, along with an upfront price for any recommended repair.",
     residential:
       "For homeowners, the most common use is answering why a main line keeps backing up, and whether a house being purchased has a sewer problem hiding underground. Older Bakersfield neighborhoods with mature trees are prime candidates.",
 
@@ -375,7 +375,7 @@ export const services: Service[] = [
     alt: "Underground sewer line repair with new PVC pipe in an open trench at a California home",
     title: "Sewer Line Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Sewer line repair and replacement in Bakersfield, CA for root damage, cracks, offsets and collapses. independent provider credentials. Call 661 689-3958.",
+      "Sewer line repair and replacement in Bakersfield, CA for root damage, cracks, offsets and collapses. licensed, bonded, and insured. Call 661 689-3958.",
     h1: "Sewer Line Repair in Bakersfield, CA",
     lede:
       "When a sewer lateral fails, everything downstream of it stops working. We diagnose the exact failure, repair the section that is broken, and restore the yard properly when the work is done.",
@@ -460,7 +460,7 @@ export const services: Service[] = [
     alt: "Technician using electronic leak detection equipment on a bathroom floor in a Bakersfield home",
     title: "Leak Detection in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Professional leak detection in Bakersfield, CA for slab leaks, hidden pipe leaks and high water bills. pricing details, provider availability service. Call 661 689-3958.",
+      "Professional leak detection in Bakersfield, CA for slab leaks, hidden pipe leaks and high water bills. upfront pricing, 24/7 service. Call 661 689-3958.",
     h1: "Leak Detection in Bakersfield, CA",
     lede:
       "A hidden leak can run for months behind drywall or under a slab before it shows. We find it precisely, with electronic equipment and pressure testing, so the repair opens one small area instead of half a room.",
@@ -531,8 +531,8 @@ export const services: Service[] = [
       { q: "How do you find a leak without tearing out walls?", a: "We combine meter verification, zone isolation, pressure testing and acoustic listening equipment to narrow the location before any surface is opened, so access is limited to a small targeted area." },
       { q: "What is a slab leak?", a: "It is a leak in a pressurized water line that runs through or beneath the concrete foundation. Warm floor spots, unexplained moisture at wall bases and a constantly moving meter are common signs." },
       { q: "My water bill doubled but I see nothing. Is that a leak?", a: "Very likely. Shut every fixture off and watch the meter. If it still moves, water is escaping somewhere, and hidden leaks are the usual explanation." },
-      { q: "Can you repair the leak the one visit you find it?", a: "In most cases yes. provider technicians carry repair materials, and we will give you a pricing details before starting the repair." },
-      { q: "Do you handle leaks at night?", a: "Yes. We are available provider availabilitys a day for emergency leak repair throughout Bakersfield and surrounding communities." },
+      { q: "Can you repair the leak the one visit you find it?", a: "In most cases yes. our technicians carry repair materials, and we will give you an upfront price before starting the repair." },
+      { q: "Do you handle leaks at night?", a: "Yes. We are available 24 hours a day for emergency leak repair throughout Bakersfield and surrounding communities." },
     ],
     related: ["pipe-repair", "plumbing-repair", "emergency-plumbing", "sewer-camera-inspection"],
   },
@@ -545,7 +545,7 @@ export const services: Service[] = [
     alt: "Plumber replacing a damaged section of copper and PEX pipe inside an open wall cavity",
     title: "Pipe Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Pipe repair in Bakersfield, CA for pinhole leaks, corroded galvanized lines, burst pipes and reroutes. independent provider credentials. Call 661 689-3958.",
+      "Pipe repair in Bakersfield, CA for pinhole leaks, corroded galvanized lines, burst pipes and reroutes. licensed, bonded, and insured. Call 661 689-3958.",
     h1: "Pipe Repair in Bakersfield, CA",
     lede:
       "Whether it is a pinhole in a copper line, a corroded galvanized branch or a section damaged during a remodel, we repair piping so the fix outlasts the pipe around it.",
@@ -583,13 +583,13 @@ export const services: Service[] = [
       "Modern materials that resist corrosion and scale",
       "Reduced risk of a sudden burst and major water damage",
       "Reroutes that permanently remove problem sections from inaccessible areas",
-      "pricing details and specialized warranties on qualifying work",
+      "upfront pricing and specialized warranties on qualifying work",
     ],
     diagnostic: [
       { h: "Identify the material and age", p: "Galvanized, copper, CPVC and PEX each fail differently and need different repair strategies." },
       { h: "Find every affected point", p: "We check the run for additional corrosion or stress rather than repairing only the visible leak." },
       { h: "Assess access", p: "Sometimes a reroute through accessible space costs less and lasts longer than repairing a buried section." },
-      { h: "Quote clearly", p: "You get a pricing details for the repair and, when relevant, for the larger replacement so you can weigh both." },
+      { h: "Quote clearly", p: "You get an upfront price for the repair and, when relevant, for the larger replacement so you can weigh both." },
     ],
     work: [
       { h: "Isolate and drain", p: "The affected branch is shut down while the rest of the property keeps water where possible." },
@@ -617,7 +617,7 @@ export const services: Service[] = [
       { q: "Should I replace all my galvanized pipe at once?", a: "Not necessarily. If pressure and water quality are still good in most of the house, targeted branch replacement can be the right call. We will show you what we find and give you both options." },
       { q: "What is a reroute and why would I want one?", a: "A reroute runs a new line through accessible space to bypass a section in a slab or inaccessible wall. It often costs less than repeated slab access and eliminates the problem area entirely." },
       { q: "Do you repair drain and vent piping too?", a: "Yes, we repair ABS and cast iron waste and vent lines as well as pressurized supply piping." },
-      { q: "How quickly can you respond to a burst pipe?", a: "We answer emergency calls provider availabilitys a day. Call 661 689-3958 and we will tell you what to shut off while we are on the way." },
+      { q: "How quickly can you respond to a burst pipe?", a: "We answer emergency calls 24 hours a day. Call 661 689-3958 and we will tell you what to shut off while we are on the way." },
     ],
     related: ["leak-detection", "plumbing-repair", "emergency-plumbing", "water-heater-repair"],
   },
@@ -630,7 +630,7 @@ export const services: Service[] = [
     alt: "Plumber diagnosing a gas water heater with a multimeter in a Bakersfield garage",
     title: "Water Heater Repair in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Water heater repair in Bakersfield, CA for no hot water, leaks, pilot and thermostat issues. Tank and tankless. pricing details. Call 661 689-3958.",
+      "Water heater repair in Bakersfield, CA for no hot water, leaks, pilot and thermostat issues. Tank and tankless. upfront pricing. Call 661 689-3958.",
     h1: "Water Heater Repair in Bakersfield, CA",
     lede:
       "No hot water, rusty water, a pilot that will not stay lit or a puddle under the tank. We diagnose the actual failure and tell you honestly whether a repair or a replacement is the better spend.",
@@ -670,7 +670,7 @@ export const services: Service[] = [
       "Honest guidance on repair versus replacement based on age and condition",
       "Improved efficiency after sediment removal and burner service",
       "Code-compliant venting, strapping and relief valve installation",
-      "pricing details and specialized warranties on qualifying work",
+      "upfront pricing and specialized warranties on qualifying work",
     ],
     diagnostic: [
       { h: "Confirm the symptom", p: "No heat, not enough heat, or a leak; each points down a different diagnostic path." },
@@ -703,7 +703,7 @@ export const services: Service[] = [
       { q: "Should I repair or replace my water heater?", a: "Age is the deciding factor. Under about eight years with a sound tank, repair is usually worthwhile. Past ten to twelve years, or with a leaking tank body, replacement is the better investment. We give you both numbers." },
       { q: "Why does my hot water run out so fast?", a: "Usually sediment buildup reducing usable capacity, or a failed lower heating element on an electric unit. Both are diagnosable in one visit." },
       { q: "Can you repair tankless water heaters?", a: "Yes. We descale heat exchangers, diagnose error codes, and repair ignition, venting and flow sensor issues on tankless systems." },
-      { q: "Is a leaking water heater an emergency?", a: "If water is coming from the tank body, yes. Shut off the cold inlet and the gas or breaker and call 661 689-3958. We are available provider availabilitys a day." },
+      { q: "Is a leaking water heater an emergency?", a: "If water is coming from the tank body, yes. Shut off the cold inlet and the gas or breaker and call 661 689-3958. We are available 24 hours a day." },
       { q: "How often should a water heater be flushed?", a: "Once a year in this area. Our water is mineral heavy, and sediment shortens tank life and raises energy use noticeably." },
     ],
     related: ["water-heater-installation", "plumbing-repair", "emergency-plumbing", "leak-detection"],
@@ -717,7 +717,7 @@ export const services: Service[] = [
     alt: "Technician installing a new water heater with fresh copper connections in a residential garage",
     title: "Water Heater Installation in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Water heater installation in Bakersfield, CA. Tank and tankless units sized, installed and code-compliant. pricing details. Call 661 689-3958.",
+      "Water heater installation in Bakersfield, CA. Tank and tankless units sized, installed and code-compliant. upfront pricing. Call 661 689-3958.",
     h1: "Water Heater Installation in Bakersfield, CA",
     lede:
       "A water heater installed correctly runs quieter, lasts longer and costs less to operate. We size the unit to your household, install to California code, and haul the old one away.",
@@ -756,7 +756,7 @@ export const services: Service[] = [
       "Lower operating costs from an efficient, correctly configured unit",
       "Code-compliant strapping, venting, pan and relief valve routing",
       "Old unit removed and disposed of, with the area left clean",
-      "pricing details, specialized warranties and a 10% senior and military discount",
+      "upfront pricing, specialized warranties and a 10% senior and military discount",
     ],
     diagnostic: [
       { h: "Assess demand", p: "Occupants, bathrooms, appliance use and peak simultaneous demand determine capacity or flow rate." },
@@ -794,6 +794,83 @@ export const services: Service[] = [
     ],
     related: ["water-heater-repair", "plumbing-repair", "plumbing-repair", "pipe-repair"],
   },
+  {
+    slug: "commercial-plumbing",
+    name: "Commercial Plumbing",
+    short: "Comprehensive plumbing services for businesses, property managers, and commercial facilities.",
+    image: "service-commercial-plumbing",
+    alt: "Commercial plumbing equipment and pipes",
+    title: "Commercial Plumbing in Bakersfield, CA | Tommy's Plumbing Service",
+    description: "Expert commercial plumbing services in Bakersfield, CA. Drain cleaning, leak detection, repairs, and maintenance for businesses. Call 661 689-3958.",
+    h1: "Commercial Plumbing in Bakersfield, CA",
+    lede: "Reliable commercial plumbing solutions for businesses across Bakersfield and Kern County, backed by our 24/7 emergency response.",
+    intro: [
+      "Commercial plumbing systems handle a significantly higher volume of use than residential systems, and failures can directly impact your business operations, employees, and customers.",
+      "Tommy's Plumbing Service provides fast, professional commercial plumbing repairs, maintenance, and installations. We understand that downtime costs money, which is why we prioritize commercial emergencies and work efficiently to get your facility back online."
+    ],
+    includes: [
+      "Commercial drain cleaning and high-pressure hydro-jetting",
+      "Restroom repairs, including commercial toilets, urinals, and sinks",
+      "Sewer line camera inspections and repairs",
+      "Commercial water heater repair and replacement",
+      "Leak detection and pipe repair for multi-unit and commercial properties",
+      "Preventative maintenance plans for heavy-use systems",
+      "Grease trap and interceptor line maintenance"
+    ],
+    problems: [
+      { h: "Frequent drain clogs", p: "Heavy use in commercial kitchens and public restrooms leads to recurring blockages. We use hydro-jetting to clear grease and scale completely rather than just punching a hole through it." },
+      { h: "Fixture failures", p: "Commercial flushometers, automated faucets, and heavy-duty fixtures require specialized repair knowledge. We carry the right parts to fix them quickly." },
+      { h: "Water pressure issues", p: "Low pressure in a multi-story or large facility can disrupt operations. We diagnose booster pumps, regulators, and main lines to restore proper flow." },
+      { h: "Hidden leaks", p: "Slab leaks and hidden pipe failures can cause massive damage and disrupt business. We use advanced leak detection to pinpoint the issue with minimal disruption." },
+      { h: "Sewer backups", p: "A sewer backup in a commercial setting is a health hazard and a liability. We respond 24/7 to clear main lines and safely restore service." }
+    ],
+    signs: [
+      "Slow draining sinks or floor drains in commercial kitchens or restrooms",
+      "Unexplained increases in monthly water bills",
+      "Foul odors near drains or in restrooms",
+      "Water stains on ceiling tiles or walls below plumbing fixtures",
+      "Multiple plumbing fixtures backing up simultaneously"
+    ],
+    professional: "Commercial plumbing involves complex codes, higher water pressures, and specialized fixtures. It requires a licensed, bonded, and insured plumbing contractor with the right equipment and experience. California License #957013 covers all our commercial work.",
+    benefits: [
+      "Minimized downtime for your business operations",
+      "Compliance with commercial plumbing codes and health standards",
+      "24/7 emergency response to protect your property",
+      "Clear, upfront pricing before any commercial repair begins",
+      "Preventative maintenance options to avoid future emergencies"
+    ],
+    diagnostic: [
+      { h: "Assess the impact", p: "We first determine how the issue is affecting your business and prioritize stabilizing the situation to minimize downtime." },
+      { h: "System-wide evaluation", p: "Commercial systems are interconnected. We look beyond the immediate symptom to ensure we are addressing the root cause." },
+      { h: "Commercial-grade diagnostics", p: "Using camera inspections, pressure testing, and leak detection tailored for larger properties." },
+      { h: "Clear proposals", p: "We provide detailed explanations and upfront pricing for repairs, allowing you to make informed decisions for your business." }
+    ],
+    work: [
+      { h: "Coordinate with management", p: "We communicate clearly with property managers or business owners about water shutoffs and expected timelines." },
+      { h: "Work safely and cleanly", p: "We protect the work area and adhere to safety standards, minimizing disruption to your staff and customers." },
+      { h: "Professional repairs", p: "Using commercial-grade parts and materials designed to withstand heavy daily use." },
+      { h: "Verify and test", p: "We thoroughly test the repaired system under normal operating conditions before leaving." },
+      { h: "Detailed documentation", p: "We provide clear invoices and documentation for your maintenance records." }
+    ],
+    expect: "Expect a fast, professional response from technicians who understand the urgency of commercial plumbing issues. We arrive equipped to handle large-scale problems and work efficiently to restore your facility's plumbing with minimal interruption.",
+    residential: "While we excel in commercial environments, we bring the same level of professionalism, equipment, and expertise to our residential services.",
+    maintenance: [
+      "Schedule regular hydro-jetting for commercial kitchen drain lines",
+      "Have backflow preventers tested annually as required by local codes",
+      "Inspect commercial water heaters and boilers periodically",
+      "Maintain a relationship with a reliable commercial plumber before an emergency happens",
+      "Educate staff on proper disposal to prevent restroom and kitchen clogs"
+    ],
+    safety: "Commercial plumbing emergencies can involve significant water volume or biological hazards. If a major leak or sewer backup occurs, evacuate the immediate area, shut off the main water supply if safe to do so, and call for emergency service immediately.",
+    faqs: [
+      { q: "Do you offer 24/7 emergency service for businesses?", a: "Yes, we provide 24 hours a day emergency plumbing services for commercial properties across Bakersfield and Kern County." },
+      { q: "Can you handle plumbing for restaurants and commercial kitchens?", a: "Absolutely. We specialize in the high-demand plumbing needs of commercial kitchens, including hydro-jetting for grease lines and disposal repairs." },
+      { q: "Do you work with property management companies?", a: "Yes, we partner with property managers to handle plumbing maintenance and emergencies for multi-tenant buildings and commercial complexes." },
+      { q: "Are you licensed and insured for commercial work?", a: "Yes, we are a fully licensed, bonded, and insured plumbing contractor operating under California State License #957013, qualified for commercial projects." },
+      { q: "Do you provide upfront pricing for commercial jobs?", a: "Yes, we always diagnose the issue and provide an upfront price before beginning any commercial repair or installation." }
+    ],
+    related: ["drain-cleaning", "emergency-plumbing", "sewer-line-repair", "leak-detection"]
+  }
 ];
 
 export const serviceBySlug = (slug: string) => services.find((s) => s.slug === slug)!;

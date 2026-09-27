@@ -122,7 +122,7 @@ export function ServicePage({ service }: { service: Service }) {
             <Reveal className="surface-navy rounded-2xl p-6">
               <h3 className="text-lg text-navy-foreground">Need it handled today?</h3>
               <p className="mt-2 text-sm text-navy-foreground/75">
-                Provider availability and pricing vary. Ask the independent provider for details before work begins.
+                Call our licensed plumbers for fast, reliable service and clear, upfront pricing.
               </p>
               <a
                 href={business.phoneHref}
@@ -140,11 +140,10 @@ export function ServicePage({ service }: { service: Service }) {
                 {service.residential}
               </p>
               <h3 className="mt-5 flex items-center gap-2 text-lg">
-                <ShieldCheck className="h-5 w-5 text-primary" /> Verify the provider
+                <ShieldCheck className="h-5 w-5 text-primary" /> Commercial
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                Providers are independent. Homeowners should verify required licensing, insurance,
-                scope, pricing, and appointment availability before hiring.
+                We also provide comprehensive plumbing services for commercial properties and businesses.
               </p>
             </Reveal>
 
@@ -153,7 +152,7 @@ export function ServicePage({ service }: { service: Service }) {
                 <ShieldCheck className="h-5 w-5 text-primary" /> Licensed in California
               </h3>
               <p className="mt-2 text-sm text-muted-foreground">
-                Confirm the provider&apos;s required license and insurance before work begins.
+                We are a fully licensed, bonded, and insured plumbing contractor (CA License #957013).
               </p>
             </Reveal>
           </aside>
@@ -205,7 +204,7 @@ export function ServicePage({ service }: { service: Service }) {
 
       <CtaBand
         heading={`Get ${service.name} Scheduled in Bakersfield`}
-        text={`Call ${business.phoneDisplay} to request help connecting with an independent local residential provider.`}
+        text={`Call ${business.phoneDisplay} to schedule your plumbing service with our local experts.`}
       />
     </>
   );

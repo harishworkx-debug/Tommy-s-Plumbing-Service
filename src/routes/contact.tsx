@@ -10,7 +10,7 @@ export const Route = createFileRoute("/contact")({
     pageHead({
       title: "Contact Tommy's Plumbing Service | Bakersfield, CA | 661 689-3958",
       description:
-        "Contact Tommy's Plumbing Service in Bakersfield, CA to request a residential plumbing provider connection. Call 661 689-3958.",
+        "Contact Tommy's Plumbing Service in Bakersfield, CA for expert residential and commercial plumbing. Call 661 689-3958.",
       path: "/contact/",
     }),
   component: ContactPage,
@@ -23,14 +23,14 @@ function ContactPage() {
         image={img("contact-estimate")}
         alt="Plumber providing a written estimate to a Bakersfield homeowner"
         h1="Contact Tommy's Plumbing Service"
-        lede="Call to request help connecting with an independent local residential plumbing provider in Bakersfield and Kern County."
+        lede="Call to schedule your residential or commercial plumbing service in Bakersfield and Kern County."
       />
       <Section>
         <div className="grid gap-10 lg:grid-cols-2">
           <Reveal>
             <h2 className="text-3xl">Reach Us Directly</h2>
             <p className="mt-3 leading-relaxed text-muted-foreground">
-              The fastest way to request a connection is a phone call. We collect the
+              The fastest way to schedule a service is a phone call. We collect the
               questions that matter and dispatch with the right equipment on the truck.
             </p>
             <ul className="mt-6 space-y-4 text-sm text-muted-foreground">

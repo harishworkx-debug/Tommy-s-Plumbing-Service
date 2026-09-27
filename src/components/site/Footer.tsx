@@ -14,8 +14,7 @@ export function Footer() {
             Tommy&apos;s Plumbing Service
           </p>
           <p className="mt-3 text-sm leading-relaxed text-navy-foreground/75">
-            A service helping homeowners connect with independent local residential plumbing
-            providers in Bakersfield and Kern County.
+            A licensed plumbing company servicing residential and commercial properties in Bakersfield and Kern County. California License #957013.
           </p>
           <ul className="mt-5 space-y-2 text-sm text-navy-foreground/80">
             <li className="flex gap-2">
@@ -101,18 +100,12 @@ export function Footer() {
       <div className="border-t border-navy-foreground/15 py-6">
         <div className="container-page flex flex-col gap-4 text-xs text-navy-foreground/65">
           <p>
-            Disclaimer: Tommy&apos;s Plumbing Service is a free service to assist homeowners in
-            connecting with local service providers. All contractors/providers are independent and
-            Tommy&apos;s Plumbing Service does not warrant or guarantee any work performed. It is the
-            responsibility of the homeowner to verify that the hired contractor furnishes the
-            necessary license and insurance required for the work being performed. All persons
-            depicted in a photo or video are actors or models and not contractors listed on
-            Tommy&apos;s Plumbing Service.
+            Tommy&apos;s Plumbing Service is a licensed, bonded, and insured plumbing contractor
+            operating under California State License #957013. We provide reliable residential and 
+            commercial plumbing services across Bakersfield and Kern County.
           </p>
           <p>
-            Same-day and 24/7 emergency services are subject to provider participation, location,
-            technician availability, and demand. Availability is not guaranteed and may vary by
-            market and appointment capacity.
+            Same-day and 24/7 emergency services are available. Call us to schedule your service.
           </p>
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <p>© {new Date().getFullYear()} Tommy&apos;s Plumbing Service</p>

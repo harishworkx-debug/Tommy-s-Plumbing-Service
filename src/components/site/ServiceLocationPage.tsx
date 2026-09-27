@@ -65,10 +65,10 @@ export function ServiceLocationPage({
           ))}
           <h2>What Homeowners Can Expect</h2>
           <ul>
-            <li>Help connecting with an independent local residential provider</li>
-            <li>Provider availability depends on location, participation, and appointment capacity</li>
-            <li>Pricing and scope are provided by the independent provider before work begins</li>
-            <li>Homeowners should verify the provider&apos;s required license and insurance</li>
+            <li>Direct service from a licensed and insured plumbing contractor</li>
+            <li>Clear, upfront pricing before any work begins</li>
+            <li>Fast response times for emergencies</li>
+            <li>Guaranteed workmanship on all repairs and installations</li>
           </ul>
         </div>
       </Section>
@@ -101,7 +101,7 @@ export function ServiceLocationPage({
 
       <CtaBand
         heading={`${service.name} in ${location.name} — Call ${business.phoneDisplay}`}
-        text="Connect with an independent local provider for residential plumbing help."
+        text="Call to schedule your residential or commercial plumbing service today."
       />
     </>
   );

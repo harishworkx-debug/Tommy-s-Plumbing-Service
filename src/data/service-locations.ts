@@ -13,7 +13,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "drain-cleaning", location: "rosedale",
     title: "Drain Cleaning in Rosedale, CA | Tommy's Plumbing Service",
-    description: "Drain cleaning in Rosedale, CA for slow sinks, kitchen clogs and main line stoppages. pricing details and provider availability service. Call 661 689-3958.",
+    description: "Drain cleaning in Rosedale, CA for slow sinks, kitchen clogs and main line stoppages. upfront pricing and 24/7 service. Call 661 689-3958.",
     lede: "Rosedale's newer ABS drain systems clog for different reasons than older lines, and clearing them properly means understanding what actually built up inside.",
     intro: [
       "Most Rosedale homes are recent enough that the drain piping itself is in good condition. When a kitchen sink backs up here, the cause is almost always accumulated grease and food waste rather than a failing pipe, and that distinction changes the right tool for the job.",
@@ -34,7 +34,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "plumbing-repair", location: "oildale",
     title: "Plumbing Repair in Oildale, CA | Tommy's Plumbing Service",
-    description: "Plumbing repair in Oildale, CA for older galvanized pipe, valves, fixtures and leaks. pricing details and provider availability service. Call 661 689-3958.",
+    description: "Plumbing repair in Oildale, CA for older galvanized pipe, valves, fixtures and leaks. upfront pricing and 24/7 service. Call 661 689-3958.",
     lede: "Repairing plumbing in Oildale means working on houses that have been repaired many times already, and doing it in a way that does not create the next failure.",
     intro: [
       "The typical Oildale service call starts with something small: a valve that will not close, a faucet that drips, a toilet that keeps running. What we usually find behind it is a system with mixed materials and a long history, where the original galvanized still feeds a copper repair from thirty years ago.",
@@ -55,8 +55,8 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "emergency-plumbing", location: "lamont",
     title: "Emergency Plumbing in Lamont, CA | Tommy's Plumbing Service",
-    description: "provider availability emergency plumbing in Lamont, CA for burst pipes, sewer backups and no water. independent provider credentials. Call 661 689-3958.",
-    lede: "In a household where one bathroom serves everyone, a plumbing failure is not an inconvenience. We answer Lamont emergency calls provider availabilitys a day.",
+    description: "24/7 emergency plumbing in Lamont, CA for burst pipes, sewer backups and no water. licensed, bonded, and insured. Call 661 689-3958.",
+    lede: "In a household where one bathroom serves everyone, a plumbing failure is not an inconvenience. We answer Lamont emergency calls 24 hours a day.",
     intro: [
       "Emergency priority is about impact, and in Lamont the impact is often immediate. A stopped main line in a full household means no toilet, no shower and no laundry, all at once. We treat those calls accordingly.",
       "The first thing we do on the phone is get water shut off or the fixture isolated so the situation stops getting worse while a technician is on the way from Bakersfield.",
@@ -68,7 +68,7 @@ export const serviceLocations: ServiceLocation[] = [
       { h: "No water situations", p: "A failed main valve or service line break stops everything, and with children in the house that cannot wait until morning." },
     ],
     faqs: [
-      { q: "How fast can you get to Lamont at night?", a: "We dispatch provider availabilitys a day from Bakersfield and give you an honest arrival window when you call 661 689-3958." },
+      { q: "How fast can you get to Lamont at night?", a: "We dispatch 24 hours a day from Bakersfield and give you an honest arrival window when you call 661 689-3958." },
       { q: "What should I do before you arrive?", a: "Shut off the main water valve, or the fixture stop if the leak is isolated. For a water heater, close the cold inlet and turn off the gas or breaker." },
       { q: "Do emergency calls cost more?", a: "You get pricing before work begins at any hour, and estimates are free." },
     ],
@@ -76,7 +76,7 @@ export const serviceLocations: ServiceLocation[] = [
   {
     service: "water-heater-repair", location: "shafter",
     title: "Water Heater Repair in Shafter, CA | Tommy's Plumbing Service",
-    description: "Water heater repair in Shafter, CA for no hot water, leaks and pilot problems. Tank and tankless. pricing details. Call 661 689-3958.",
+    description: "Water heater repair in Shafter, CA for no hot water, leaks and pilot problems. Tank and tankless. upfront pricing. Call 661 689-3958.",
     lede: "Shafter's hard water is hard on water heaters. We diagnose the actual failure and tell you plainly whether repair or replacement is the better spend.",
     intro: [
       "Sediment is the quiet villain in almost every Shafter water heater call. Mineral deposit settles on the tank bottom, insulates the water from the burner, forces longer heat cycles and eventually causes the rumbling sound most homeowners here recognize.",
@@ -133,14 +133,14 @@ export const serviceLocations: ServiceLocation[] = [
     faqs: [
       { q: "How do I know if I have a hidden leak?", a: "Shut every fixture off and watch the water meter. If it keeps moving, water is escaping somewhere in the system." },
       { q: "Can you detect a leak without breaking concrete?", a: "Yes. Meter verification, zone isolation and acoustic listening equipment locate the point first, so any opening is small and targeted." },
-      { q: "Can you repair it the one visit?", a: "Usually yes. We carry repair materials and will give you a pricing details before starting." },
+      { q: "Can you repair it the one visit?", a: "Usually yes. We carry repair materials and will give you an upfront price before starting." },
     ],
   },
 
   {
     service: "pipe-repair", location: "mcfarland",
     title: "Pipe Repair in McFarland, CA | Tommy's Plumbing Service",
-    description: "Pipe repair in McFarland, CA for corroded galvanized lines, low pressure and hidden leaks. pricing details. Call 661 689-3958.",
+    description: "Pipe repair in McFarland, CA for corroded galvanized lines, low pressure and hidden leaks. upfront pricing. Call 661 689-3958.",
     lede: "Low pressure and rusty morning water are the two symptoms we hear most in McFarland, and both point to the same thing: supply pipe corroding from the inside.",
     intro: [
       "Galvanized steel piping was built to last, but not forever. After several decades the interior rusts and scales until the effective diameter is a fraction of the original. Pressure drops gradually enough that households adapt to it without realizing how much they have lost.",
@@ -177,6 +177,67 @@ export const serviceLocations: ServiceLocation[] = [
       { q: "Is tankless a good choice in Tehachapi?", a: "It can be, provided the unit is sized for winter inlet temperatures and the gas supply is adequate. We size for the coldest conditions, not the easiest." },
       { q: "Do you install to California code?", a: "Yes, including seismic strapping, drain pan, correct venting and proper relief valve discharge routing." },
       { q: "Do you remove the old unit?", a: "Yes, removal and disposal are included, and we protect flooring along the removal path." },
+  {
+    service: "commercial-plumbing", location: "shafter",
+    title: "Commercial Plumbing in Shafter, CA | Tommy's Plumbing Service",
+    description: "Commercial plumbing in Shafter, CA for logistics facilities, warehouses, and local businesses. 24/7 emergency response. Call 661 689-3958.",
+    lede: "Shafter’s growing logistics corridor and established local businesses require plumbing that can handle industrial-scale use and commercial demands.",
+    intro: [
+      "Shafter is expanding rapidly, with massive warehouse facilities and distribution centers operating around the clock. A plumbing failure in these environments isn't just an inconvenience; it halts operations and affects hundreds of employees.",
+      "We provide fast, commercial-grade plumbing repairs and maintenance tailored to the specific needs of Shafter's businesses, ensuring that your facilities remain compliant and functional."
     ],
+    local: [
+      { h: "Distribution centers", p: "High-traffic employee restrooms and breakroom facilities require heavy-duty fixtures and regular maintenance to prevent backups." },
+      { h: "Agricultural processing", p: "Local packing and processing facilities need reliable water pressure and specialized drain clearing to handle agricultural washing and waste." },
+      { h: "Main line clearing", p: "Long commercial sewer laterals require powerful hydro-jetting to clear obstructions effectively without damaging the lines." },
+      { h: "24/7 operations", p: "Facilities that never close need a plumber who never closes. We respond to commercial emergencies at any hour." }
+    ],
+    faqs: [
+      { q: "Can you service large warehouse restrooms?", a: "Yes, we handle commercial flushometers, urinals, and high-capacity drain lines common in Shafter's logistics facilities." },
+      { q: "Do you offer preventative maintenance?", a: "Yes, we can schedule routine hydro-jetting and inspection for commercial properties to stop emergencies before they happen." },
+      { q: "How fast can you reach a facility in Shafter?", a: "We dispatch immediately for commercial emergencies and can reach Shafter quickly via the 99 or 7th Standard Road." }
+    ]
   },
+  {
+    service: "drain-cleaning", location: "taft",
+    title: "Drain Cleaning in Taft, CA | Tommy's Plumbing Service",
+    description: "Drain cleaning in Taft, CA for slow drains, roots, and main line stoppages in older homes. upfront pricing. Call 661 689-3958.",
+    lede: "Taft's historic housing stock often relies on original cast iron or clay drain lines. When they slow down, they need careful clearing, not harsh chemicals.",
+    intro: [
+      "Many homes in Taft were built decades ago and still utilize their original waste lines. Over time, cast iron scales internally and clay pipe joints shift, creating perfect traps for debris and tree roots.",
+      "We approach Taft drain cleaning with the right equipment for older pipes. We clear the blockage without stressing brittle lines, and we can inspect the pipe with a camera to show you its true condition."
+    ],
+    local: [
+      { h: "Cast iron scale", p: "Original cast iron pipes narrow as they age and rust internally, catching hair and soap scum much faster than modern ABS." },
+      { h: "Root intrusion in clay laterals", p: "Mature trees in older Taft neighborhoods frequently send roots into shifting clay sewer joints." },
+      { h: "Hillside soil movement", p: "Taft's unique geography and soil can cause older lines to settle, creating bellies that hold water and cause recurring clogs." },
+      { h: "Chemical damage", p: "Over-the-counter drain cleaners can eat through aging metal pipes, turning a simple clog into a costly pipe replacement." }
+    ],
+    faqs: [
+      { q: "Is it safe to cable old cast iron pipes?", a: "Yes, when done by an experienced technician using the correct blade size and cable tension. We clear the line without unnecessary force." },
+      { q: "Why do my drains smell even when they aren't clogged?", a: "It could be a dry P-trap, or it could be heavy buildup lining the pipe walls. Hydro-jetting can scour away the source of the odor." },
+      { q: "Do you provide camera inspections in Taft?", a: "Yes, if a drain clogs repeatedly, we highly recommend a camera inspection to see exactly what is happening underground." }
+    ]
+  },
+  {
+    service: "emergency-plumbing", location: "rosedale",
+    title: "Emergency Plumbing in Rosedale, CA | Tommy's Plumbing Service",
+    description: "24/7 emergency plumbing in Rosedale, CA for slab leaks, water heater failures, and burst pipes. Call 661 689-3958.",
+    lede: "When a water heater bursts or a slab leak surfaces in a finished Rosedale home, fast containment is the only way to save the flooring and drywall.",
+    intro: [
+      "Rosedale is known for larger, newer homes with extensive finished spaces. A plumbing failure here isn't just about the pipe; it's about the hardwood, the custom cabinetry, and the drywall standing in the water's path.",
+      "Our emergency response in Rosedale prioritizes immediate water shutoff and containment. Once the property is safe, we diagnose the failure and provide a permanent, code-compliant repair."
+    ],
+    local: [
+      { h: "Slab leaks", p: "Pressurized copper lines running under the concrete foundation can fail, pushing water up through expensive flooring." },
+      { h: "Water heater ruptures", p: "Large homes often have 50-gallon or 75-gallon water heaters in the garage. When they fail, they release a massive volume of water quickly." },
+      { h: "Fixture supply line breaks", p: "A failed braided hose under a kitchen sink or behind a washing machine can flood a home in minutes." },
+      { h: "Sewer backups", p: "Even newer ABS systems can back up if something improper is flushed, shutting down multiple bathrooms at once." }
+    ],
+    faqs: [
+      { q: "How fast can you get to Rosedale?", a: "We are based just minutes away in Bakersfield and dispatch 24 hours a day for immediate emergency response." },
+      { q: "What should I do if water is coming through the floor?", a: "Shut off the main water valve to the house immediately. If you don't know where it is, call us at 661 689-3958 and we will guide you." },
+      { q: "Do you fix the drywall too?", a: "We focus on the professional plumbing repair to stop the leak permanently. We can recommend trusted local restoration specialists for the drywall and flooring." }
+    ]
+  }
 ];

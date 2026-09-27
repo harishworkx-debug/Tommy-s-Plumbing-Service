@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
     pageHead({
       title: "About Tommy's Plumbing Service | Bakersfield, CA Plumber",
       description:
-        "Residential plumbing information and local provider connections in Bakersfield, CA. Call 661 689-3958.",
+        "Expert residential and commercial plumbing services in Bakersfield, CA. Call 661 689-3958.",
       path: "/about/",
     }),
   component: AboutPage,
@@ -22,43 +22,45 @@ function AboutPage() {
         image={img("about-team")}
         alt="Tommy's Plumbing Service technicians beside a service van in Bakersfield"
         h1="About Tommy's Plumbing Service"
-        lede="A residential connection service helping Bakersfield homeowners find independent local plumbing providers."
+        lede="A fully licensed plumbing contractor serving residential and commercial properties in Bakersfield and Kern County."
       />
       <Section>
         <div className="prose-local mx-auto max-w-3xl">
-          <h2 className="!mt-0">Residential Information and Local Connections</h2>
+          <h2 className="!mt-0">Serving Kern County Since 2011</h2>
           <p>
-            Tommy&apos;s Plumbing Service helps homeowners in {business.city}, {business.state}
-            request a connection with an independent local residential plumbing provider. Call{" "}
-            {business.phoneDisplay} to ask about available provider options.
+            Established in 2011, Tommy&apos;s Plumbing Service has been providing expert residential and commercial plumbing solutions to homeowners and businesses throughout {business.city} and surrounding communities for over a decade.
           </p>
           <p>
-            Residential topics include everyday repairs, urgent plumbing needs, drain cleaning,
-            sewer line service, leak detection, pipe repair and repiping, and water heater repair
-            and installation.
+            When you call {business.phoneDisplay}, you are reaching a local company based right here in Bakersfield, not an out-of-state call center. Our dispatchers understand the area, and our technicians know the specific plumbing challenges of the San Joaquin Valley—from the hard mineral scale that ruins water heaters to the expansive soils that stress underground sewer lines.
           </p>
-          <h2>How We Work</h2>
+          
+          <h2>Our Credentials & Commitment</h2>
           <p>
-            Independent providers set their own scope, pricing, scheduling, and service terms.
-            Homeowners should ask questions and confirm those details before work begins.
+            Plumbing is essential to the health and safety of your property, which is why we take our professional credentials seriously. We are a fully licensed, bonded, and insured California plumbing contractor (<strong>License #957013</strong>). 
           </p>
           <p>
-            Homeowners should verify that the provider they hire furnishes the license and insurance
-            required for the work being performed.
+            We provide clear, upfront pricing before any work begins, so there are no surprise charges when the job is done. Furthermore, we stand behind our workmanship with robust warranties on our repairs and installations.
           </p>
-          <h2>What You Can Count On</h2>
+          
+          <h2>Complete Plumbing Solutions</h2>
+          <p>
+            Our experienced technicians are equipped to handle:
+          </p>
           <ul>
-            <li>Residential homeowner focus</li>
-            <li>Independent provider connections when available</li>
-            <li>Provider participation and appointment capacity vary by location</li>
-            <li>Homeowners verify provider licensing and insurance before hiring</li>
-            <li>Credit cards, NFC mobile payments, Apple Pay and Google Pay accepted</li>
+            <li><strong>Residential & Commercial Plumbing:</strong> From single-family homes to commercial facilities.</li>
+            <li><strong>24/7 Emergency Service:</strong> We respond around the clock to burst pipes, major leaks, and sewer backups.</li>
+            <li><strong>Core Services:</strong> Drain cleaning, sewer camera inspections, leak detection, repiping, and water heater repair/installation.</li>
           </ul>
+
+          <h2>Payment & Financing</h2>
+          <p>
+            We believe professional plumbing should be accessible. We offer flexible financing options for larger projects like sewer line replacements or tankless water heater installations. We also accept all major credit cards, NFC mobile payments, Apple Pay, and Google Pay.
+          </p>
         </div>
       </Section>
       <CtaBand
-        heading="Connect With a Local Residential Provider"
-        text={`Call ${business.phoneDisplay} to request help connecting with an independent provider.`}
+        heading="Schedule Your Plumbing Service"
+        text={`Call ${business.phoneDisplay} to speak with our team today.`}
       />
     </>
   );

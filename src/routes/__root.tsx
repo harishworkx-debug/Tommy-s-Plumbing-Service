@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661 689-3958.",
+          "Expert residential and commercial plumbing services in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661 689-3958.",
       },
       { name: "author", content: "Tommy's Plumbing Service" },
       { property: "og:type", content: "website" },

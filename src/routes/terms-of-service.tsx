@@ -23,13 +23,12 @@ export const Route = createFileRoute("/terms-of-service")({
         </p>
         <h2>Scheduling and emergency service</h2>
         <p>
-          Provider availability varies. Emergency response times depend on current call volume and
-          travel distance within Kern County.
+          We provide 24/7 emergency service. Response times depend on current call volume and
+          travel distance within Kern County, but we prioritize emergencies such as active flooding or sewer backups.
         </p>
         <h2>Workmanship and licensing</h2>
         <p>
-          Work is performed by independent service providers. Homeowners should verify the provider&apos;s
-          license, insurance, and any warranties offered before the job begins.
+          All work is performed by Tommy's Plumbing Service technicians operating under our California State License #957013. We are fully bonded and insured, and we stand behind our work with written warranties on all qualifying repairs and installations.
         </p>
         <h2>Payment</h2>
         <p>

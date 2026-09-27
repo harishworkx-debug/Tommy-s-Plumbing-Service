@@ -209,7 +209,7 @@ export function CtaBand({ heading, text }: { heading: string; text: string }) {
             </AppLink>
           </div>
           <p className="mt-5 text-sm text-navy-foreground/70">
-            Residential homeowner connections · Provider availability varies by location
+            Licensed & Insured · Residential & Commercial Plumbing
           </p>
         </Reveal>
       </div>
@@ -268,7 +268,7 @@ export function PageHero({
               </AppLink>
             </div>
             <p className="mt-5 text-sm text-navy-foreground/70">
-              Independent providers · Verify licensing and insurance before hiring
+              Licensed & Insured Plumbing Contractor · CA License #957013
             </p>
           </Reveal>
         </div>

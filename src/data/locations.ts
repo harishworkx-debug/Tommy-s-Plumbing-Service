@@ -35,7 +35,7 @@ export const locations: Location[] = [
     alt: "Residential street with stucco homes and dry hills in Bakersfield, California",
     title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service",
     description:
-      "Licensed plumber in Bakersfield, CA for residential and residential plumbing, drains, sewers, leaks and water heaters. provider availability, pricing details. Call 661 689-3958.",
+      "Licensed plumber in Bakersfield, CA for residential and commercial plumbing, drains, sewers, leaks and water heaters. 24/7, upfront pricing. Call 661 689-3958.",
     h1: "Plumber in Bakersfield, CA",
     lede:
       "Tommy's Plumbing Service is based at 3740 Sillect Ave #3c in Bakersfield and works across the entire city, from the older neighborhoods near downtown to the newer developments spreading northwest and southwest.",
@@ -46,12 +46,12 @@ export const locations: Location[] = [
     character:
       "The city sits at the southern end of the San Joaquin Valley with hot summers, hard mineral-rich water, expansive soils and slab-on-grade building across most subdivisions built since the 1970s. Those four factors drive the majority of the plumbing work we do here: scale in fixtures and water heaters, slab leaks in copper lines, soil movement stressing sewer laterals, and heat-accelerated wear on supply hoses and outdoor lines.",
     coverage:
-      "We cover the full city and the surrounding communities, including the northwest around Rosedale, north across the river toward Oildale, the southwest corridor, the southeast neighborhoods, and the downtown and east Bakersfield areas. Because we are open provider availabilitys a day, a burst line at 2 a.m. gets the same response as a scheduled Tuesday appointment.",
+      "We cover the full city and the surrounding communities, including the northwest around Rosedale, north across the river toward Oildale, the southwest corridor, the southeast neighborhoods, and the downtown and east Bakersfield areas. Because we are open 24 hours a day, a burst line at 2 a.m. gets the same response as a scheduled Tuesday appointment.",
     residential:
       "Residential work makes up the core of what we do in Bakersfield: leaking faucets and toilets, seized angle stops, garbage disposals, shower valve cartridges, hose bibs that split in the heat, slab leaks, sewer backups and water heater replacement. We also handle fixture installation for remodels and plumbing inspections before a sale.",
 
     emergency:
-      "Emergency plumbing in Bakersfield means burst supply lines, sewer backups into tubs and showers, failed water heaters flooding garages and main line breaks in front yards. We answer provider availability at 661 689-3958, walk you through shutting off the correct valve, and contain the damage before beginning any repair.",
+      "Emergency plumbing in Bakersfield means burst supply lines, sewer backups into tubs and showers, failed water heaters flooding garages and main line breaks in front yards. We answer 24/7 at 661 689-3958, walk you through shutting off the correct valve, and contain the damage before beginning any repair.",
     drains:
       "Drain problems here trend toward grease in kitchen lines, hair and soap in bath lines and root intrusion in older main lines. We cable branch lines, hydro-jet where grease and scale need scouring, and camera the main when the same stoppage keeps returning.",
     sewer:
@@ -71,9 +71,9 @@ export const locations: Location[] = [
     ],
     whyLocal: [
       "Local company based on Sillect Ave, not a call center routing work to subcontractors",
-      "Open provider availabilitys a day, 7 days a week for scheduling and emergencies",
-      "independent provider credentials under California State License #957013",
-      "pricing details on every job, with pricing explained before work starts",
+      "Open 24 hours a day, 7 days a week for scheduling and emergencies",
+      "licensed, bonded, and insured under California State License #957013",
+      "upfront pricing on every job, with pricing explained before work starts",
       "10% discount for seniors and military personnel",
       "Credit cards, Apple Pay, Google Pay and NFC mobile payments accepted",
       "4.5 star ratings on both Google and Yahoo Local",
@@ -81,16 +81,16 @@ export const locations: Location[] = [
     process: [
       { h: "Call and describe the problem", p: "We ask targeted questions to understand urgency and bring the right equipment on the first trip." },
       { h: "Arrival and inspection", p: "The technician inspects the affected area and the related system, not just the visible symptom." },
-      { h: "pricing details", p: "You get pricing and options in plain language before any work begins." },
+      { h: "upfront pricing", p: "You get pricing and options in plain language before any work begins." },
       { h: "Repair or installation", p: "Work performed to California code with quality materials and the area protected throughout." },
       { h: "Test and walkthrough", p: "We test under real conditions, clean up completely and explain what was done and what to watch for." },
     ],
     faqs: [
       { q: "Where is Tommy's Plumbing Service located in Bakersfield?", a: "We are located at 3740 Sillect Ave #3c, Bakersfield, CA 93308, and we serve the entire city plus surrounding Kern County communities." },
-      { q: "Are you available for emergencies at night in Bakersfield?", a: "Yes. We are open provider availabilitys a day, 7 days a week, including nights, weekends and holidays. Call 661 689-3958." },
+      { q: "Are you available for emergencies at night in Bakersfield?", a: "Yes. We are open 24 hours a day, 7 days a week, including nights, weekends and holidays. Call 661 689-3958." },
       { q: "Do you charge for estimates in Bakersfield?", a: "No. Estimates are free. We diagnose the issue, explain the options and provide pricing before any work begins." },
       { q: "What payment methods do you accept?", a: "Credit cards, Apple Pay, Google Pay and NFC mobile payments. Seniors and military personnel receive a 10% discount." },
-      { q: "Do you work on both homes and homeowners?", a: "Yes, we are a licensed residential and residential plumbing contractor and handle everything from single fixture repairs to residential kitchen and multi-unit property work." },
+      { q: "Do you work on both homes and businesses?", a: "Yes, we are a licensed residential and commercial plumbing contractor and handle everything from single fixture repairs to residential kitchen and multi-unit property work." },
     ],
     nearby: ["rosedale", "oildale", "shafter", "lamont", "arvin"],
     featuredServices: ["plumbing-repair", "emergency-plumbing", "drain-cleaning", "water-heater-repair", "leak-detection", "sewer-line-repair"],
@@ -103,16 +103,16 @@ export const locations: Location[] = [
     alt: "Newer suburban neighborhood with tract homes in Rosedale, California",
     title: "Plumber in Rosedale, CA | Tommy's Plumbing Service",
     description:
-      "Licensed plumber serving Rosedale, CA. Drain cleaning, leak detection, water heaters and provider availability emergency plumbing. pricing details. Call 661 689-3958.",
+      "Licensed plumber serving Rosedale, CA. Drain cleaning, leak detection, water heaters and 24/7 emergency plumbing. upfront pricing. Call 661 689-3958.",
     h1: "Plumber in Rosedale, CA",
     lede:
       "Rosedale's newer subdivisions and larger lots create a distinct plumbing profile, and Tommy's Plumbing Service works here daily from our Bakersfield shop just minutes east.",
     intro: [
-      "Most of Rosedale was built within the last few decades, which means PEX and copper supply lines, ABS drains and slab foundations rather than the galvanized and clay systems common closer to downtown. The failures are different: fittings and manifolds rather than rusted-through pipe, and settlement issues rather than century-old materials.",
-      "Larger lots also mean more irrigation, more hose bibs and longer service lines, all of which are common sources of hidden water loss that never shows up as a puddle indoors.",
+      "When our technicians dispatch to Rosedale, whether it's a newer tract off Hageman or a larger lot out near the Polo Grounds, the calls are usually very different than downtown. Just last week, our crew pulled three massive grease blockages out of ABS kitchen lines and replaced a failing 75-gallon garage water heater for a growing family.",
+      "Most of Rosedale was built within the last few decades, which means PEX and copper supply lines, ABS drains and slab foundations rather than the galvanized and clay systems common closer to downtown. The failures we actually see out here are fitting leaks, manifolds that need rebuilding, and settlement issues causing bellies in newer sewer laterals."
     ],
     character:
-      "The area runs west of Bakersfield along Rosedale Highway with a mix of newer master-planned neighborhoods, semi-rural properties and small residential centers. Homes here tend to be larger with multiple bathrooms and higher simultaneous hot water demand, which is why water heater sizing questions come up more often in Rosedale than almost anywhere else we work.",
+      "Because Rosedale homes tend to be larger with multiple bathrooms, we see a lot of high simultaneous hot water demand. In fact, water heater sizing questions come up more often for our Rosedale customers than almost anywhere else we work. We also spend a significant amount of time out here locating hidden underground irrigation and service line leaks on larger properties that just show up as a high water bill.",
     coverage:
       "We cover Rosedale from the Calloway corridor west toward Allen Road and Renfro, including the newer developments north and south of Rosedale Highway and the semi-rural parcels beyond them. Response times are short because we are based only a few minutes away on Sillect Ave.",
     residential:
@@ -139,10 +139,10 @@ export const locations: Location[] = [
     ],
     whyLocal: [
       "Only minutes from Rosedale, so response times stay short",
-      "provider availability availability for burst lines and after-hours emergencies",
+      "24/7 availability for burst lines and after-hours emergencies",
       "Experience with newer PEX and manifold systems as well as older plumbing",
-      "pricing details and a 10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "upfront pricing and a 10% senior and military discount",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Describe the symptom", p: "We ask about the bill, the fixtures affected and any recent remodeling, which narrows the cause before we arrive." },
@@ -155,7 +155,7 @@ export const locations: Location[] = [
       { q: "Do you serve all of Rosedale?", a: "Yes, we serve Rosedale from the Calloway corridor west to Allen Road and Renfro, including the semi-rural properties beyond the newer subdivisions." },
       { q: "Why does my Rosedale home run out of hot water?", a: "Usually the tank was sized for a smaller household than the one using it now, or sediment has reduced usable capacity. We measure actual demand before recommending a replacement." },
       { q: "Can you find an underground leak on a large lot?", a: "Yes. We verify the loss at the meter, isolate the irrigation and domestic sides separately and use acoustic equipment to locate the leak before digging." },
-      { q: "How fast can you get to Rosedale in an emergency?", a: "We are based on Sillect Ave in Bakersfield, only minutes away, and we answer emergency calls provider availabilitys a day at 661 689-3958." },
+      { q: "How fast can you get to Rosedale in an emergency?", a: "We are based on Sillect Ave in Bakersfield, only minutes away, and we answer emergency calls 24 hours a day at 661 689-3958." },
       { q: "Do you work on newer PEX plumbing systems?", a: "Yes. We repair PEX fittings, manifolds and crimp failures as readily as we work on copper and galvanized systems." },
     ],
     nearby: ["bakersfield", "oildale", "shafter", "wasco"],
@@ -169,7 +169,7 @@ export const locations: Location[] = [
     alt: "Older residential neighborhood with mature trees and oilfield hills in Oildale, California",
     title: "Plumber in Oildale, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Oildale, CA. Repairs for older plumbing, drain cleaning, sewer lines and water heaters. provider availability service, pricing details. Call 661 689-3958.",
+      "Plumber serving Oildale, CA. Repairs for older plumbing, drain cleaning, sewer lines and water heaters. 24/7 service, upfront pricing. Call 661 689-3958.",
     h1: "Plumber in Oildale, CA",
     lede:
       "Oildale's housing stock is older than most of Kern County, and that shapes almost every plumbing call we take here. We are just across the river from the neighborhood and work in it constantly.",
@@ -185,7 +185,7 @@ export const locations: Location[] = [
       "Residential work in Oildale is heavy on galvanized pipe replacement, seized valves, cast iron drain repair, water heater replacement in older garages and main line clearing. We also do a lot of straightforward fixture work in rental properties, where landlords need fast, durable repairs at a fair price.",
 
     emergency:
-      "The most common Oildale emergencies are sewer backups and failures in old galvanized lines that finally rust through. Both tend to happen at the worst time, and both are covered by our provider availability service.",
+      "The most common Oildale emergencies are sewer backups and failures in old galvanized lines that finally rust through. Both tend to happen at the worst time, and both are covered by our 24/7 service.",
     drains:
       "Root intrusion is the leading cause of repeat drain problems in this area because of the mature trees along nearly every street. Cabling clears the line; a camera inspection tells you whether the joint the roots came through is about to fail.",
     sewer:
@@ -207,13 +207,13 @@ export const locations: Location[] = [
       "Minutes from Oildale, just across the river from our Bakersfield shop",
       "Experienced with galvanized, cast iron and mixed-material older systems",
       "Fair, transparent pricing that landlords and homeowners can plan around",
-      "pricing details and provider availability emergency availability",
-      "independent provider credentials, California State License #957013",
+      "upfront pricing and 24/7 emergency availability",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Understand the house", p: "Age, past repairs and materials tell us a great deal before we pick up a tool." },
       { h: "Inspect thoroughly", p: "Crawl space, valves, pressure and drain behavior, not just the fixture that prompted the call." },
-      { h: "pricing details with options", p: "Repair now versus plan a larger replacement, with honest pricing on both." },
+      { h: "upfront pricing with options", p: "Repair now versus plan a larger replacement, with honest pricing on both." },
       { h: "Perform the work", p: "Correct transitions between materials, proper support and code-compliant installation." },
       { h: "Confirm and advise", p: "Testing, cleanup and a straight assessment of what is likely to need attention next." },
     ],
@@ -222,7 +222,7 @@ export const locations: Location[] = [
       { q: "Why does my main line keep backing up?", a: "In Oildale it is usually root intrusion at clay pipe joints. Cleaning clears it temporarily; a camera inspection shows whether the joint needs a spot repair to stop the cycle." },
       { q: "Can you service rental properties?", a: "Yes. We work with landlords and homeowners throughout Oildale on repairs, homeowner coordination and preventative maintenance." },
       { q: "Is my old water heater installation still legal?", a: "Many older installations lack current strapping, pan and venting requirements. We bring the installation up to current California code when we replace a unit." },
-      { q: "Are you available at night in Oildale?", a: "Yes, provider availabilitys a day, 7 days a week. Call 661 689-3958." },
+      { q: "Are you available at night in Oildale?", a: "Yes, 24 hours a day, 7 days a week. Call 661 689-3958." },
     ],
     nearby: ["bakersfield", "rosedale", "shafter", "mcfarland"],
     featuredServices: ["plumbing-repair", "drain-cleaning", "sewer-line-repair", "water-heater-repair"],
@@ -235,7 +235,7 @@ export const locations: Location[] = [
     alt: "Residential street bordered by farmland in Lamont, California",
     title: "Plumber in Lamont, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Lamont, CA with emergency plumbing, drain cleaning, repairs and water heaters. pricing details and provider availability service. Call 661 689-3958.",
+      "Plumber serving Lamont, CA with emergency plumbing, drain cleaning, repairs and water heaters. upfront pricing and 24/7 service. Call 661 689-3958.",
     h1: "Plumber in Lamont, CA",
     lede:
       "Lamont is a working agricultural community southeast of Bakersfield, and Tommy's Plumbing Service covers it for both household repairs and the after-hours emergencies that cannot wait for a trip into the city.",
@@ -251,7 +251,7 @@ export const locations: Location[] = [
       "Household work here focuses on high-use fixtures: toilets that run or clog, kitchen drains that slow under heavy cooking, water heaters that cannot keep up with a full household, and hose bibs and outdoor lines that split. We also handle fixture installation and general plumbing repairs for rental housing.",
 
     emergency:
-      "For a household with one bathroom, a stopped toilet or a sewer backup is an immediate emergency. We respond provider availabilitys a day, and we prioritize calls where a family has no usable bathroom or no water at all.",
+      "For a household with one bathroom, a stopped toilet or a sewer backup is an immediate emergency. We respond 24 hours a day, and we prioritize calls where a family has no usable bathroom or no water at all.",
     drains:
       "Heavy daily cooking pushes grease into kitchen lines faster than average, and bath lines in busy homes fill with hair and soap quickly. We cable branch lines, jet when grease is the underlying problem and camera main lines that back up repeatedly.",
     sewer:
@@ -270,25 +270,25 @@ export const locations: Location[] = [
       { h: "Single-bathroom vulnerability", p: "When one bathroom serves the whole household, any stoppage is an emergency rather than an inconvenience." },
     ],
     whyLocal: [
-      "We answer provider availability, which matters when a household has one bathroom",
-      "pricing details so families can plan before committing",
+      "We answer 24/7, which matters when a household has one bathroom",
+      "upfront pricing so families can plan before committing",
       "10% discount for seniors and military personnel",
       "Experience with high-demand households and older infrastructure",
-      "independent provider credentials, California State License #957013",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Call and explain the urgency", p: "We triage by impact, so a family with no working bathroom is prioritized." },
       { h: "Inspect the whole system", p: "In high-use homes the fixture that failed is often not the only one close to failing." },
-      { h: "pricing details", p: "Pricing explained up front, including what can wait and what should not." },
+      { h: "upfront pricing", p: "Pricing explained up front, including what can wait and what should not." },
       { h: "Complete the repair", p: "Durable parts chosen for heavy use rather than the cheapest available." },
       { h: "Follow-up guidance", p: "Practical advice for reducing wear in a busy household." },
     ],
     faqs: [
-      { q: "Do you come out to Lamont at night?", a: "Yes. We provide provider availability emergency plumbing throughout Lamont and the surrounding area. Call 661 689-3958." },
+      { q: "Do you come out to Lamont at night?", a: "Yes. We provide 24/7 emergency plumbing throughout Lamont and the surrounding area. Call 661 689-3958." },
       { q: "What size water heater does a large household need?", a: "It depends on occupants, bathrooms and peak use. We measure actual demand rather than simply matching the old tank, because undersized heaters are the most common complaint we hear here." },
       { q: "My kitchen drain clogs every few months. Why?", a: "Grease buildup coats the pipe wall and rebuilds after each cabling. Hydro-jetting scours the line back closer to full diameter, which usually breaks the cycle." },
       { q: "Can you find a leak in a yard line?", a: "Yes. We isolate the yard from the house at the meter and use acoustic equipment to locate the loss before any digging." },
-      { q: "Do you provide pricing details in Lamont?", a: "Yes, estimates are always free, with pricing explained before any work begins." },
+      { q: "Do you provide upfront pricing in Lamont?", a: "Yes, estimates are always free, with pricing explained before any work begins." },
     ],
     nearby: ["bakersfield", "arvin", "oildale", "tehachapi"],
     featuredServices: ["emergency-plumbing", "drain-cleaning", "plumbing-repair", "water-heater-repair"],
@@ -301,12 +301,12 @@ export const locations: Location[] = [
     alt: "Small town main street with brick storefronts and orchards in Shafter, California",
     title: "Plumber in Shafter, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Shafter, CA for residential and residential plumbing, water heaters, drains and emergencies. pricing details. Call 661 689-3958.",
+      "Plumber serving Shafter, CA for residential and commercial plumbing, water heaters, drains and emergencies. upfront pricing. Call 661 689-3958.",
     h1: "Plumber in Shafter, CA",
     lede:
       "Shafter combines a historic small-town core with newer housing and agricultural properties, and each of those needs a different kind of plumbing support.",
     intro: [
-      "The older homes near the center of town have the plumbing you would expect from mid-century building: galvanized branches, cast iron waste lines, original fixtures still in service. New subdivisions on the edges of town are modern PEX and ABS. And the residential and residential facilities around the logistics corridor have their own requirements entirely.",
+      "The older homes near the center of town have the plumbing you would expect from mid-century building: galvanized branches, cast iron waste lines, original fixtures still in service. New subdivisions on the edges of town are modern PEX and ABS. And the residential and commercial facilities around the logistics corridor have their own requirements entirely.",
       "We work across all three, from a leaking angle stop in a 1950s bungalow to a high-recovery water heater in a residential break area.",
     ],
     character:
@@ -317,7 +317,7 @@ export const locations: Location[] = [
       "Home plumbing work in Shafter covers fixture and faucet repair, toilet installation, water heater repair and replacement, drain clearing, leak detection and repairs to sun-damaged outdoor lines. In the older core we do a fair amount of galvanized and cast iron work.",
 
     emergency:
-      "Emergency work here spans household burst lines and water heater failures through to residential restroom and drain emergencies at facilities that operate on shifts. We are available provider availabilitys a day for both.",
+      "Emergency work here spans household burst lines and water heater failures through to residential restroom and drain emergencies at facilities that operate on shifts. We are available 24 hours a day for both.",
     drains:
       "Kitchen and bath line clogs are routine; the more interesting work is in older downtown buildings where cast iron waste lines have scaled down and need jetting or replacement. Camera inspection is the fastest way to tell which.",
     sewer:
@@ -338,14 +338,14 @@ export const locations: Location[] = [
     whyLocal: [
       "Short drive from our Bakersfield shop for both scheduled and emergency work",
       "Comfortable working on mid-century systems and modern building alike",
-      "Residential and residential capability from one licensed contractor",
-      "pricing details and 10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "residential and commercial capability from one licensed contractor",
+      "upfront pricing and 10% senior and military discount",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Discuss the property", p: "Age and building type tell us what to bring and what to look for." },
       { h: "Inspect and test", p: "Pressure, drain behavior and fixture condition assessed together." },
-      { h: "pricing details", p: "Options and pricing explained clearly before work begins." },
+      { h: "upfront pricing", p: "Options and pricing explained clearly before work begins." },
       { h: "Perform the work", p: "Code-compliant repair or installation with the area protected." },
       { h: "Test and clean up", p: "Verification under real use and a full walkthrough of what was done." },
     ],
@@ -353,7 +353,7 @@ export const locations: Location[] = [
       { q: "Do you serve residential facilities in Shafter?", a: "Yes. We handle restrooms, break areas, kitchens and utility plumbing for Shafter homeowners, plus building plumbing for homeowner improvements, with after-hours scheduling available." },
       { q: "Can you work on older downtown homes?", a: "Yes, we regularly repair and replace galvanized supply lines and cast iron waste lines in Shafter's older housing stock." },
       { q: "Why do my outdoor faucets keep failing?", a: "Full valley sun degrades exposed plastic and rubber components quickly. We replace them with materials suited to the exposure and add proper support." },
-      { q: "How quickly can you reach Shafter?", a: "Shafter is a short drive from our Bakersfield location, and we dispatch emergency calls provider availabilitys a day at 661 689-3958." },
+      { q: "How quickly can you reach Shafter?", a: "Shafter is a short drive from our Bakersfield location, and we dispatch emergency calls 24 hours a day at 661 689-3958." },
       { q: "Are estimates provided in Shafter?", a: "Yes, estimates are provided for residential work." },
     ],
     nearby: ["bakersfield", "wasco", "rosedale", "oildale"],
@@ -367,13 +367,13 @@ export const locations: Location[] = [
     alt: "Rural road through rose fields and farmland near Wasco, California",
     title: "Plumber in Wasco, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Wasco, CA. Sewer line repair, drain cleaning, leak detection and provider availability emergency plumbing. pricing details. Call 661 689-3958.",
+      "Plumber serving Wasco, CA. Sewer line repair, drain cleaning, leak detection and 24/7 emergency plumbing. upfront pricing. Call 661 689-3958.",
     h1: "Plumber in Wasco, CA",
     lede:
       "Wasco sits in the heart of Kern County agriculture, and the plumbing here reflects it: older housing, long underground runs, heavy mineral content and properties that often include more than just a house.",
     intro: [
       "Much of Wasco's residential building stock predates modern plumbing materials, so galvanized supply lines and clay or cast iron sewer laterals are common. Many parcels also include shops, sheds or secondary structures with their own water lines, which multiplies the places a leak can hide.",
-      "Distance matters too. When something fails out here, waiting until a plumber can make the drive is not always an option, which is why our provider availability availability covers Wasco the same way it covers Bakersfield.",
+      "Distance matters too. When something fails out here, waiting until a plumber can make the drive is not always an option, which is why our 24/7 availability covers Wasco the same way it covers Bakersfield.",
     ],
     character:
       "Known for its rose fields and surrounding row crops, Wasco is a farming town northwest of Bakersfield with a compact residential center and agricultural land in every direction. Soil, irrigation and mineral-heavy water all influence what fails and how often.",
@@ -402,25 +402,25 @@ export const locations: Location[] = [
       { h: "Soil movement around buried lines", p: "Agricultural soil conditions and irrigation cycles stress underground pipe and create low spots." },
     ],
     whyLocal: [
-      "We travel to Wasco for both scheduled work and provider availability emergencies",
+      "We travel to Wasco for both scheduled work and 24/7 emergencies",
       "Sewer camera locating so rural excavation is targeted, not exploratory",
-      "pricing details before any work begins",
+      "upfront pricing before any work begins",
       "10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Gather the history", p: "Previous backups, property layout and structures served all inform the diagnosis." },
       { h: "Locate before digging", p: "Camera and locator work identifies depth and position so excavation is minimal." },
-      { h: "pricing details", p: "Written pricing with repair and replacement options where both are reasonable." },
+      { h: "upfront pricing", p: "Written pricing with repair and replacement options where both are reasonable." },
       { h: "Perform the work", p: "Proper bedding, slope and compaction on underground work; code compliance throughout." },
       { h: "Restore and verify", p: "Site restored, line tested and findings explained." },
     ],
     faqs: [
-      { q: "Do you travel to Wasco for service calls?", a: "Yes, we serve Wasco and the surrounding rural properties for both scheduled work and provider availability emergency plumbing." },
+      { q: "Do you travel to Wasco for service calls?", a: "Yes, we serve Wasco and the surrounding rural properties for both scheduled work and 24/7 emergency plumbing." },
       { q: "My sewer keeps backing up. What is the next step?", a: "A sewer camera inspection. It shows whether roots, an offset joint, a belly or corrosion is causing the repeat backups, and it locates the defect so any repair is targeted." },
       { q: "Can you find a leak in a line running to an outbuilding?", a: "Yes. We isolate that section at the meter and locate the leak acoustically before excavating." },
       { q: "How often should a water heater be flushed here?", a: "At least once a year. Wasco's water is mineral heavy and sediment accumulates quickly, reducing capacity and shortening tank life." },
-      { q: "Do you provide pricing details in Wasco?", a: "Yes, estimates are free, and we explain pricing and options before starting any work." },
+      { q: "Do you provide upfront pricing in Wasco?", a: "Yes, estimates are free, and we explain pricing and options before starting any work." },
     ],
     nearby: ["shafter", "mcfarland", "bakersfield", "rosedale"],
     featuredServices: ["sewer-line-repair", "drain-cleaning", "leak-detection", "water-heater-repair"],
@@ -433,7 +433,7 @@ export const locations: Location[] = [
     alt: "Residential street with mountains and vineyards in the distance in Arvin, California",
     title: "Plumber in Arvin, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Arvin, CA for leak detection, drain cleaning, repairs and emergency plumbing. pricing details, provider availability service. Call 661 689-3958.",
+      "Plumber serving Arvin, CA for leak detection, drain cleaning, repairs and emergency plumbing. upfront pricing, 24/7 service. Call 661 689-3958.",
     h1: "Plumber in Arvin, CA",
     lede:
       "Arvin sits at the base of the mountains southeast of Bakersfield, surrounded by vineyards and orchards. We serve the community for everything from a running toilet to a failed main line.",
@@ -444,7 +444,7 @@ export const locations: Location[] = [
     character:
       "Agricultural land surrounds the town, with vineyards and orchards running up toward the Tehachapi foothills. Water is hard, wind and dust are part of daily life, and winter mornings get cold enough to matter for uninsulated exterior lines.",
     coverage:
-      "We serve Arvin and the surrounding area, including outlying residential properties and the agricultural support homeowners in and around town. Emergency calls are answered provider availabilitys a day.",
+      "We serve Arvin and the surrounding area, including outlying residential properties and the agricultural support homeowners in and around town. Emergency calls are answered 24 hours a day.",
     residential:
       "Residential work in Arvin covers leak detection, fixture and faucet repair, toilet repair and installation, drain clearing, water heater service and repairs to outdoor plumbing that has taken sun and wind damage. Larger households also drive frequent water heater capacity questions.",
 
@@ -469,20 +469,20 @@ export const locations: Location[] = [
     ],
     whyLocal: [
       "We plan Arvin calls to arrive with the right parts on the first trip",
-      "provider availability emergency response, including winter freeze failures",
+      "24/7 emergency response, including winter freeze failures",
       "Precise leak detection instead of exploratory demolition",
-      "pricing details and 10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "upfront pricing and 10% senior and military discount",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Detailed intake", p: "We ask enough questions on the phone to load the truck correctly for a town outside the city." },
       { h: "Verify before opening", p: "Meter checks and acoustic location come before any concrete or drywall is touched." },
-      { h: "pricing details", p: "Clear pricing, presented before work starts." },
+      { h: "upfront pricing", p: "Clear pricing, presented before work starts." },
       { h: "Complete the work", p: "Code-compliant repairs with attention to protecting finished surfaces." },
       { h: "Prevention advice", p: "Practical steps, including winter protection for exposed lines." },
     ],
     faqs: [
-      { q: "Do you come out to Arvin?", a: "Yes, we serve Arvin and the surrounding area for scheduled work and provider availability emergency plumbing. Call 661 689-3958." },
+      { q: "Do you come out to Arvin?", a: "Yes, we serve Arvin and the surrounding area for scheduled work and 24/7 emergency plumbing. Call 661 689-3958." },
       { q: "My pipe split during a cold morning. Can you repair it?", a: "Yes. We repair freeze-split supply lines and hose bibs, and we can insulate exposed runs to prevent it happening again." },
       { q: "How do you find a leak I cannot see?", a: "We confirm the loss at the water meter, isolate zones and use acoustic listening equipment to pinpoint the location before opening any surface." },
       { q: "Can you install a larger water heater?", a: "Yes. We size the unit around your household's actual peak demand and install to current California code with proper strapping and venting." },
@@ -499,7 +499,7 @@ export const locations: Location[] = [
     alt: "Hillside homes and oilfield terrain in Taft, California",
     title: "Plumber in Taft, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Taft, CA for residential plumbing, repairs, drains and water heaters. provider availability availability and pricing details. Call 661 689-3958.",
+      "Plumber serving Taft, CA for residential plumbing, repairs, drains and water heaters. 24/7 availability and upfront pricing. Call 661 689-3958.",
     h1: "Plumber in Taft, CA",
     lede:
       "Taft's older housing and residential history give it a plumbing profile all its own, and we serve both the residential neighborhoods and the homeowners that keep the town running.",
@@ -515,7 +515,7 @@ export const locations: Location[] = [
       "Home plumbing here often means replacing corroded galvanized branches, repairing cast iron waste lines, fixing pressure problems on hillside properties and replacing aging water heaters. We also handle everyday fixture, faucet and toilet work.",
 
     emergency:
-      "Emergency work covers burst galvanized lines, sewer backups and water heater failures. Because Taft is a distance from the city, our provider availability availability and careful phone triage matter more here than almost anywhere we serve.",
+      "Emergency work covers burst galvanized lines, sewer backups and water heater failures. Because Taft is a distance from the city, our 24/7 availability and careful phone triage matter more here than almost anywhere we serve.",
     drains:
       "Older drain systems that have scaled down internally clog more easily than modern pipe. Jetting restores flow where buildup is the cause, and camera inspection confirms whether the pipe itself is still sound.",
     sewer:
@@ -534,21 +534,21 @@ export const locations: Location[] = [
       { h: "Underground line failures on slopes", p: "Movement and erosion stress buried pipe, and leaks surface far from their actual source." },
     ],
     whyLocal: [
-      "Willing to make the drive, with provider availability availability for Taft emergencies",
+      "Willing to make the drive, with 24/7 availability for Taft emergencies",
       "Experienced with oil-era housing and older residential buildings",
-      "residential and residential capability from one licensed contractor",
-      "pricing details and 10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "residential and commercial capability from one licensed contractor",
+      "upfront pricing and 10% senior and military discount",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Thorough phone intake", p: "Distance means we plan the visit carefully and bring what the job is likely to need." },
       { h: "Full system assessment", p: "Pressure, pipe material, drain behavior and water heater condition reviewed together." },
-      { h: "pricing details", p: "Honest pricing, including what can wait and what should not." },
+      { h: "upfront pricing", p: "Honest pricing, including what can wait and what should not." },
       { h: "Perform the work", p: "Code-compliant repairs and installations with proper support and materials." },
       { h: "Verify and document", p: "Testing under load, cleanup and a clear summary of the work." },
     ],
     faqs: [
-      { q: "Do you serve Taft and the surrounding area?", a: "Yes. We provide residential and residential plumbing service in Taft, including provider availability emergency response." },
+      { q: "Do you serve Taft and the surrounding area?", a: "Yes. We provide residential and commercial plumbing service in Taft, including 24/7 emergency response." },
       { q: "Why is my water pressure low throughout the house?", a: "In older Taft homes it is usually internally rusted galvanized pipe reducing the effective diameter, sometimes combined with a failing pressure regulator. We measure before recommending anything." },
       { q: "Can you handle residential plumbing for local homeowners?", a: "Yes, including restrooms, kitchens, break areas, drain jetting and residential water heating, with scheduling outside operating hours when needed." },
       { q: "Is my old water heater installation up to code?", a: "Many older installations are not. We check strapping, venting, pan and relief valve routing and bring the installation to current California code when we replace a unit." },
@@ -565,7 +565,7 @@ export const locations: Location[] = [
     alt: "Quiet residential street with older homes and vineyards in McFarland, California",
     title: "Plumber in McFarland, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving McFarland, CA for pipe repair, drain cleaning, water heaters and emergency plumbing. pricing details. Call 661 689-3958.",
+      "Plumber serving McFarland, CA for pipe repair, drain cleaning, water heaters and emergency plumbing. upfront pricing. Call 661 689-3958.",
     h1: "Plumber in McFarland, CA",
     lede:
       "McFarland is a small agricultural community north of Bakersfield with older housing and hard-working plumbing systems. We serve it for repairs, replacements and after-hours emergencies.",
@@ -581,7 +581,7 @@ export const locations: Location[] = [
       "Residential work centers on pipe repair and replacement, drain cleaning, water heater service, toilet and faucet repair and general plumbing repairs. For families with one or two bathrooms, we prioritize getting fixtures back in service quickly.",
 
     emergency:
-      "Emergency calls here typically involve failed supply lines in older piping, sewer backups and water heater leaks. We are available provider availabilitys a day and will guide you through shutting off water before we arrive.",
+      "Emergency calls here typically involve failed supply lines in older piping, sewer backups and water heater leaks. We are available 24 hours a day and will guide you through shutting off water before we arrive.",
     drains:
       "Heavy daily kitchen use and older drain lines are a difficult combination. Grease coats the pipe wall, and where the line has already scaled down, clogs return quickly unless the buildup is fully removed by jetting.",
     sewer:
@@ -600,21 +600,21 @@ export const locations: Location[] = [
       { h: "Hidden leaks in older building", p: "Wall and floor cavities conceal slow leaks until staining or soft flooring appears." },
     ],
     whyLocal: [
-      "We serve smaller Kern County communities with the same provider availability availability as Bakersfield",
+      "We serve smaller Kern County communities with the same 24/7 availability as Bakersfield",
       "Deep experience with older galvanized and clay systems",
-      "pricing details so families can plan the work",
+      "upfront pricing so families can plan the work",
       "10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Understand the property", p: "Age, materials and prior repairs guide the diagnosis before we arrive." },
       { h: "Diagnose accurately", p: "Pressure testing, camera inspection or acoustic location depending on the symptom." },
-      { h: "pricing details", p: "Straightforward pricing with repair and replacement options explained." },
+      { h: "upfront pricing", p: "Straightforward pricing with repair and replacement options explained." },
       { h: "Complete the work", p: "Correct materials, proper transitions and code-compliant installation." },
       { h: "Test and advise", p: "Verification plus guidance on what to expect from the rest of the system." },
     ],
     faqs: [
-      { q: "Do you serve McFarland?", a: "Yes, we serve McFarland and the surrounding rural properties for scheduled work and provider availability emergency plumbing." },
+      { q: "Do you serve McFarland?", a: "Yes, we serve McFarland and the surrounding rural properties for scheduled work and 24/7 emergency plumbing." },
       { q: "Why is my water brown in the morning?", a: "That is a classic sign of internally rusted galvanized supply pipe. Replacing the affected branches with copper or PEX restores both water quality and pressure." },
       { q: "My kitchen drain clogs constantly. What will actually fix it?", a: "Hydro-jetting removes the grease layer coating the pipe wall rather than punching a hole through it, which is why it breaks the cycle when cabling alone does not." },
       { q: "Can you replace a water heater the one visit?", a: "In most cases yes. We carry common sizes and can usually complete a standard replacement in a few hours, including removal of the old unit." },
@@ -631,23 +631,23 @@ export const locations: Location[] = [
     alt: "Mountain town neighborhood with pines and snow-dusted ridges in Tehachapi, California",
     title: "Plumber in Tehachapi, CA | Tommy's Plumbing Service",
     description:
-      "Plumber serving Tehachapi, CA for frozen and burst pipes, water heaters, drains and emergencies. pricing details, provider availability service. Call 661 689-3958.",
+      "Plumber serving Tehachapi, CA for frozen and burst pipes, water heaters, drains and emergencies. upfront pricing, 24/7 service. Call 661 689-3958.",
     h1: "Plumber in Tehachapi, CA",
     lede:
       "Tehachapi's elevation changes the plumbing equation entirely. Freezing nights, snow and larger rural properties create failures you simply do not see down in the valley.",
     intro: [
-      "At roughly four thousand feet, Tehachapi gets real winter. Water lines in unheated garages, crawl spaces, exterior walls and outbuildings freeze, expand and split, usually announcing themselves the moment temperatures rise and the ice thaws. Winterization here is not optional advice; it is basic property protection.",
-      "Many properties are also on larger parcels with well systems, pressure tanks, long service runs and secondary structures, which means diagnosis often starts outside the house rather than inside it.",
+      "At roughly four thousand feet, Tehachapi gets real winter, and our dispatch board reflects it every time the temperature drops. During the last hard freeze, our technicians spent a full week repairing split lines in unheated garages, crawl spaces, and exterior walls across the mountain.",
+      "Many of the properties we service in Tehachapi are also on larger parcels with well systems, pressure tanks, long service runs and secondary structures like detached shops. That means our diagnosis often starts outside the house rather than inside it, tracking down freeze damage before it thaws and floods the property."
     ],
     character:
-      "Set in the mountains southeast of Bakersfield, Tehachapi has pine-lined neighborhoods, ranch properties and a historic downtown. Winter temperatures regularly drop below freezing, and snow is a normal part of the season. Homes here often have detached garages, shops and guest structures with their own plumbing.",
+      "Set in the mountains southeast of Bakersfield, Tehachapi has pine-lined neighborhoods, ranch properties and a historic downtown. Winter temperatures regularly drop below freezing, and snow is a normal part of the season for our customers here. Because of the colder incoming groundwater, we've had to replace several tankless water heaters out here that other contractors originally sized based on warmer valley temperatures.",
     coverage:
-      "We serve the Tehachapi area including in-town neighborhoods and outlying rural properties. Winter emergency calls are answered provider availabilitys a day.",
+      "We serve the Tehachapi area including in-town neighborhoods and outlying rural properties. Winter emergency calls are answered 24 hours a day.",
     residential:
       "Our residential work here is heavy on freeze damage: split supply lines, ruptured hose bibs, burst lines in unheated spaces and the water damage that follows a thaw. We also handle water heater installation and repair, drain clearing, fixture work and pressure problems on rural systems.",
 
     emergency:
-      "The classic Tehachapi emergency is a pipe that froze overnight and split, then began flooding when it thawed. We answer provider availabilitys a day, tell you which valve to close and get a technician moving.",
+      "The classic Tehachapi emergency is a pipe that froze overnight and split, then began flooding when it thawed. We answer 24 hours a day, tell you which valve to close and get a technician moving.",
     drains:
       "Standard clogs happen here as anywhere, but we also see drain and vent issues related to seasonal use in vacation and second properties where fixtures sit unused and traps dry out.",
     sewer:
@@ -667,20 +667,20 @@ export const locations: Location[] = [
     ],
     whyLocal: [
       "We understand mountain-specific failures, not just valley plumbing",
-      "provider availability emergency response through winter",
+      "24/7 emergency response through winter",
       "Freeze protection and reroute work that prevents repeat damage",
-      "pricing details and 10% senior and military discount",
-      "independent provider credentials, California State License #957013",
+      "upfront pricing and 10% senior and military discount",
+      "licensed, bonded, and insured, California State License #957013",
     ],
     process: [
       { h: "Winter-aware intake", p: "We ask about exposure, insulation and where the split is likely to be before dispatching." },
       { h: "Shut down and assess", p: "Stopping the water comes first, then a full check for additional split sections." },
-      { h: "pricing details", p: "Repair pricing plus optional freeze protection so the same failure does not repeat." },
+      { h: "upfront pricing", p: "Repair pricing plus optional freeze protection so the same failure does not repeat." },
       { h: "Repair and protect", p: "New pipe installed, vulnerable runs insulated or rerouted where practical." },
       { h: "Season-ready walkthrough", p: "Guidance on shut-off locations, winterization and hose bib protection." },
     ],
     faqs: [
-      { q: "Do you service Tehachapi in winter?", a: "Yes. We respond to Tehachapi provider availabilitys a day, including winter freeze emergencies and burst pipe repairs." },
+      { q: "Do you service Tehachapi in winter?", a: "Yes. We respond to Tehachapi 24 hours a day, including winter freeze emergencies and burst pipe repairs." },
       { q: "How do I prevent my pipes from freezing?", a: "Disconnect hoses from outdoor faucets, insulate exposed lines in garages and crawl spaces, keep the structure above freezing, and know where your main shut-off is. We can also insulate or reroute vulnerable runs." },
       { q: "Is a tankless water heater a good idea at this elevation?", a: "It can be, but colder incoming water reduces the flow a unit can heat. We size for winter conditions rather than summer, so the system performs when you actually need it." },
       { q: "My second home smells like sewer when I arrive. Why?", a: "Trap water evaporates in unused fixtures, letting sewer gas in. Running every fixture briefly on arrival usually resolves it, and we can check venting if it persists." },

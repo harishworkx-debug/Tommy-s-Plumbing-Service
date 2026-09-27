@@ -23,7 +23,7 @@ function ServicesPage() {
         image={img("services-overview")}
         alt="Plumbing tools and fittings laid out for service in Bakersfield"
         h1="Plumbing Services in Bakersfield, CA"
-        lede="Residential plumbing information and local provider connections for ten common homeowner needs."
+        lede="Expert residential and commercial plumbing solutions for your home or business."
       />
       <Section>
         <SectionHead title="Choose the Service You Need" />
@@ -42,7 +42,7 @@ function ServicesPage() {
       </Section>
       <CtaBand
         heading="Not Sure Which Service You Need?"
-        text={`Call ${business.phoneDisplay} to connect with a provider for diagnosis and estimates.`}
+        text={`Call ${business.phoneDisplay} to schedule your plumbing service today.`}
       />
     </>
   );

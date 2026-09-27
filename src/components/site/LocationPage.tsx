@@ -121,7 +121,7 @@ export function LocationPage({ location }: { location: Location }) {
                 Plumber on call in {location.name} right now
               </h3>
               <p className="mt-2 text-sm text-navy-foreground/75">
-                Connect with an independent local provider. Availability and pricing vary by provider.
+                Call your licensed local plumber for fast, reliable service.
               </p>
               <a
                 href={business.phoneHref}
@@ -197,7 +197,7 @@ export function LocationPage({ location }: { location: Location }) {
 
       <CtaBand
         heading={`Need a Plumber in ${location.name} Today?`}
-        text={`Call ${business.phoneDisplay} to request help connecting with an independent local residential provider.`}
+        text={`Call ${business.phoneDisplay} to schedule your plumbing service.`}
       />
     </>
   );

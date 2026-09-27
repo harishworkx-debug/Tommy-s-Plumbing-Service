@@ -31,15 +31,22 @@ export function pageHead({ title, description, path, image }: MetaInput) {
 
 export const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "PlumbingService",
   name: business.name,
   image: `${SITE_URL}/og-image.jpg`,
   "@id": `${SITE_URL}/#business`,
   url: SITE_URL,
   telephone: business.phoneDisplay,
   email: business.email,
-  description:
-    "A service helping homeowners connect with independent local residential plumbing providers.",
+  description: "Tommy's Plumbing Service provides residential and commercial plumbing repair, drain cleaning, sewer services, leak detection and water heater services in Bakersfield, CA.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: business.street,
+    addressLocality: business.city,
+    addressRegion: business.state,
+    postalCode: business.zip,
+    addressCountry: "US",
+  },
 };
 
 export function faqSchema(faqs: { q: string; a: string }[]) {

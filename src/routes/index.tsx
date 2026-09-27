@@ -10,12 +10,15 @@ import {
   Droplets,
   AlertTriangle,
   CheckCircle2,
+  Star,
+  ArrowRight,
 } from "lucide-react";
 import { services } from "@/data/services";
 import { locations } from "@/data/locations";
 import { serviceLocations } from "@/data/service-locations";
 import { business } from "@/data/site";
 import { img } from "@/data/images";
+import { reviews } from "@/data/reviews";
 import {
   AppLink,
   CallButton,
@@ -33,9 +36,9 @@ import { faqSchema, pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/")({
   head: () =>
     pageHead({
-      title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service | 661 689-3958",
+      title: "Plumber in Bakersfield, CA | Tommy's Plumbing Service",
       description:
-        "Residential plumbing information and local provider connections in Bakersfield, CA. Drain cleaning, leak detection, sewer and water heater service. Call 661 689-3958.",
+        "Tommy's Plumbing Service provides plumbing repair, drain cleaning, sewer, leak detection and water heater services in Bakersfield, CA. Call today.",
       path: "/",
     }),
   component: Home,
@@ -43,16 +46,16 @@ export const Route = createFileRoute("/")({
 
 const homeFaqs = [
   {
-    q: "How does the local provider connection work?",
-    a: "Call 661 689-3958 to request help connecting with an independent local residential plumbing provider. Availability depends on provider participation, location, and appointment capacity.",
+    q: "Are you a licensed plumbing company?",
+    a: "Yes, we are a fully licensed, bonded, and insured plumbing contractor operating under California State License #957013.",
   },
   {
     q: "How is pricing handled?",
-    a: "The independent provider explains scope and pricing before work begins. Ask the provider about any inspection or estimate charges before scheduling.",
+    a: "We provide clear, upfront pricing before any work begins. There are no hidden fees or surprise charges.",
   },
   {
-    q: "How can homeowners verify provider credentials?",
-    a: "Providers are independent. Homeowners are responsible for verifying that the provider has the license and insurance required for the work being performed.",
+    q: "Do you handle both residential and commercial plumbing?",
+    a: "Yes! We provide comprehensive plumbing services for both homes and businesses in our service area.",
   },
   {
     q: "Which areas around Bakersfield do you serve?",
@@ -63,8 +66,8 @@ const homeFaqs = [
     a: "Credit cards, NFC mobile payments, Apple Pay and Google Pay.",
   },
   {
-    q: "How fast can you get here for an emergency?",
-    a: "Participating providers respond as quickly as possible. Call 661 689-3958 to connect with an available emergency plumber.",
+    q: "Do you offer emergency plumbing services?",
+    a: "Yes, we provide emergency plumbing response. Call 661 689-3958 for immediate assistance with burst pipes, sewer backups, or other urgent issues.",
   },
 ];
 
@@ -85,15 +88,13 @@ function Home() {
           <div className="max-w-2xl">
             <Reveal>
               <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/15 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-accent">
-                <Clock className="h-3.5 w-3.5" /> Residential provider connections
+                <Clock className="h-3.5 w-3.5" /> Fast & Reliable Service
               </span>
               <h1 className="mt-5 text-4xl text-navy-foreground md:text-6xl">
-                Residential Plumbing Connections in Bakersfield, CA
+                Plumber in Bakersfield, CA
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-navy-foreground/80">
-                Tommy&apos;s Plumbing Service helps homeowners connect with independent local
-                providers for residential drains, sewers, leaks, pipes, and water heaters across
-                Bakersfield and Kern County.
+                Tommy's Plumbing Service provides residential and commercial plumbing repair, drain cleaning, sewer services, leak detection and water heater services throughout Bakersfield and surrounding Kern County communities.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <CallButton />
@@ -124,9 +125,9 @@ function Home() {
       <div className="border-b border-border bg-card">
         <div className="container-page grid gap-6 py-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: Clock, t: "Provider availability", d: "Varies by location and capacity" },
-            { icon: ShieldCheck, t: "Verify credentials", d: "Ask providers about licensing and insurance" },
-            { icon: BadgeCheck, t: "Clear provider terms", d: "Discuss scope and pricing before work" },
+            { icon: Clock, t: "Fast Response", d: "Emergency services available" },
+            { icon: ShieldCheck, t: "Licensed & Insured", d: "California License #957013" },
+            { icon: BadgeCheck, t: "Upfront Pricing", d: "Clear estimates before work begins" },
             { icon: CreditCard, t: "Easy Payments", d: "Cards, Apple Pay, Google Pay" },
           ].map((i) => (
             <div key={i.t} className="flex items-center gap-3">
@@ -143,12 +144,12 @@ function Home() {
       {/* 3. Intro */}
       <Section>
         <div className="prose-local mx-auto max-w-3xl text-center">
-          <h2 className="!mt-0">Connecting Bakersfield Homeowners Since Day One</h2>
+          <h2 className="!mt-0">Serving Bakersfield Since Day One</h2>
           <p>
             Tommy&apos;s Plumbing Service operates out of {business.street} in Bakersfield, and
-            helps connect you with local professionals who understand this valley: hard mineral-rich water, triple-digit
+            provides experienced plumbers who understand this valley: hard mineral-rich water, triple-digit
             summers, expansive soils that shift under sewer laterals and slab-on-grade homes where
-            a copper pinhole leak hides under concrete for months. We connect you with an independent local provider.
+            a copper pinhole leak hides under concrete for months. We provide reliable, direct plumbing services.
           </p>
           <p>
             That local focus matters because plumbing failures in Kern County follow patterns. In
@@ -167,7 +168,7 @@ function Home() {
         <SectionHead
           eyebrow="Plumbing Services"
           title="Everything We Repair, Replace and Install"
-          sub="Residential plumbing information and provider connections across Bakersfield and Kern County."
+          sub="Expert residential and commercial plumbing services across Bakersfield and Kern County."
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
@@ -196,8 +197,8 @@ function Home() {
             <p className="mt-4 leading-relaxed text-navy-foreground/80">
               Plumbing emergencies can happen at any time. A supply line lets go behind a
               washing machine, a water heater dumps forty gallons into a garage, or sewage backs up
-              into a tub during a holiday weekend. We can help you request a connection with an
-              independent local provider, subject to provider participation and availability.
+              into a tub during a holiday weekend. Our licensed plumbers are ready to respond
+              directly to your emergency with the right tools and expertise.
             </p>
             <ul className="mt-6 grid gap-2 text-sm text-navy-foreground/80 sm:grid-cols-2">
               {[
@@ -233,23 +234,21 @@ function Home() {
       <Section>
         <SectionHead
           eyebrow="Who we serve"
-          title="Residential Plumbing Help for Bakersfield Homeowners"
+          title="Reliable Plumbing for Homes & Businesses"
         />
         <div className="mx-auto max-w-3xl rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)]">
-          <h3 className="text-2xl">Residential services and local connections</h3>
+          <h3 className="text-2xl">Residential & Commercial Services</h3>
           <p className="mt-3 leading-relaxed text-muted-foreground">
-            Homeowners can request help with faucets, toilets, drains, leaks, sewer lines, pipes,
-            and water heaters. Tommy&apos;s Plumbing Service is a connection service, not the
-            contractor performing the work. We help homeowners find an independent local provider
-            and encourage them to confirm scope, pricing, licensing, insurance, and availability
-            directly with that provider.
+            Whether you're a homeowner or business owner, you can trust us with your faucets, toilets, drains, leaks, sewer lines, pipes,
+            and water heaters. Tommy&apos;s Plumbing Service is a fully licensed and insured contractor (License #957013) that performs the work directly. 
+            We provide clear scope, upfront pricing, and guaranteed workmanship on every job.
           </p>
           <ul className="mt-5 space-y-2 text-sm text-muted-foreground">
             {[
-              "Single-family homes, condos, and other residential properties",
-              "Residential repairs, maintenance, and installations",
-              "Help with urgent residential plumbing needs when providers participate",
-              "Clear provider details before homeowners schedule work",
+              "Single-family homes, condos, and commercial properties",
+              "Expert repairs, routine maintenance, and new installations",
+              "Rapid response for urgent and emergency plumbing needs",
+              "Clear, upfront pricing and scope before any work begins",
             ].map((i) => (
               <li key={i} className="flex gap-2">
                 <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -260,34 +259,66 @@ function Home() {
         </div>
       </Section>
 
-      {/* 7. Why choose */}
+      {/* 7. Reviews */}
+      <Section>
+        <SectionHead
+          eyebrow="Real Feedback"
+          title="What Our Customers Say"
+        />
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {reviews.slice(0, 3).map((r, i) => (
+            <Reveal key={i} delay={i * 0.1} className="rounded-2xl border border-border bg-card p-6 shadow-sm flex flex-col">
+              <div className="flex gap-1 mb-4">
+                {Array.from({ length: r.stars }).map((_, idx) => (
+                  <Star key={idx} className="h-5 w-5 fill-[#fbbc04] text-[#fbbc04]" />
+                ))}
+              </div>
+              <p className="flex-grow text-sm leading-relaxed text-muted-foreground mb-6">"{r.text}"</p>
+              <div>
+                <p className="font-bold text-card-foreground">{r.name}</p>
+                <p className="text-xs text-muted-foreground mt-1">{r.time}</p>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <AppLink
+            href="/reviews/"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-2.5 text-sm font-semibold hover:border-primary hover:text-primary"
+          >
+            Read All Reviews <ArrowRight className="h-4 w-4" />
+          </AppLink>
+        </div>
+      </Section>
+
+      {/* 8. Why choose */}
       <Section tone="muted">
         <SectionHead eyebrow="Why Tommy's" title="Six Reasons Bakersfield Keeps Our Number" />
         <div className="grid gap-6 md:grid-cols-3">
           {[
             {
-              t: "Local residential focus",
-              d: "Information and connection help for homeowners seeking residential plumbing providers in Bakersfield and Kern County.",
+              t: "Local expertise",
+              d: "We are a locally owned and operated plumbing contractor that understands the unique needs of Bakersfield properties.",
             },
             {
-              t: "Independent providers",
-              d: "Providers are independent. Homeowners should verify required licensing, insurance, scope, and pricing before hiring.",
+              t: "Fully Licensed",
+              d: "We operate under California State License #957013, fully bonded and insured for your protection.",
             },
             {
-              t: "Clear next steps",
-              d: "Request help connecting with a local provider and discuss the service details directly before work begins.",
+              t: "Clear communication",
+              d: "We explain the problem and present your options clearly so you can make an informed decision.",
             },
             {
-              t: "Availability varies",
-              d: "single-visit and emergency options depend on provider participation, location, technician availability, and demand.",
+              t: "Fast response",
+              d: "Our fully stocked trucks and experienced technicians ensure we can resolve most issues in a single visit.",
             },
             {
               t: "Diagnostics, not guesswork",
               d: "Camera inspection, acoustic leak location and pressure testing mean we repair the actual defect instead of trenching or opening walls on a hunch.",
             },
             {
-              t: "Homeowner-first information",
-              d: "Compare the provider's scope and pricing, and confirm the protections you expect before scheduling.",
+              t: "Guaranteed workmanship",
+              d: "We stand behind our work. If it's not done right, we'll make it right.",
             },
           ].map((c, i) => (
             <Reveal key={c.t} delay={i * 0.05}>
@@ -416,14 +447,14 @@ function Home() {
       {/* 12. Homeowner notice */}
       <Section>
         <SectionHead
-          eyebrow="For homeowners"
-          title="Connect with an independent local provider"
-          sub="Provider participation, service scope, pricing, and appointment availability vary by location."
+          eyebrow="Trust the Experts"
+          title="Licensed, Bonded, and Insured"
+          sub="We are a direct service provider committed to quality and safety."
         />
         <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-card p-6 text-center text-sm leading-relaxed text-muted-foreground">
-          This site does not perform plumbing work or guarantee provider results. Before hiring,
-          ask the independent provider about licensing, insurance, pricing, scheduling, and the
-          work included.
+          Tommy&apos;s Plumbing Service is a licensed plumbing contractor (California License #957013). 
+          Our technicians are trained, insured, and dedicated to performing all work to code. 
+          When you hire us, you are hiring a professional team that stands behind its work.
         </div>
       </Section>
 
@@ -559,13 +590,13 @@ function Home() {
           <Reveal delay={0.08}>
             <h2 className="text-3xl md:text-4xl">About Tommy&apos;s Plumbing Service</h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              Tommy&apos;s Plumbing Service helps homeowners request connections with independent
-              local residential providers in {business.city}, {business.state}. This site does not
-              perform plumbing work or guarantee provider results.
+              Established in 2011, Tommy&apos;s Plumbing Service provides expert residential and commercial plumbing 
+              services in {business.city}, {business.state}. We are a fully licensed, bonded, and insured California contractor (License #957013) dedicated to
+              solving your plumbing problems with integrity and skill.
             </p>
             <p className="mt-3 leading-relaxed text-muted-foreground">
-              Homeowners can ask providers about diagnostics, materials, scope, pricing, licensing,
-              insurance, and the expected schedule before authorizing work.
+              From routine maintenance to complex repiping and emergency repairs, our experienced technicians have the 
+              tools and local knowledge to get the job done right the first time. All work comes with clear, upfront pricing and robust warranties.
             </p>
             <div className="mt-7">
               <AppLink
@@ -588,7 +619,7 @@ function Home() {
       <Section>
         <div className="grid gap-10 lg:grid-cols-2">
           <Reveal>
-            <h2 className="text-3xl md:text-4xl">Call About Residential Provider Connections</h2>
+            <h2 className="text-3xl md:text-4xl">Call Your Local Bakersfield Plumber</h2>
             <ul className="mt-6 space-y-4 text-sm text-muted-foreground">
               <li className="flex gap-3">
                 <Phone className="mt-0.5 h-5 w-5 text-primary" />
@@ -628,8 +659,8 @@ function Home() {
       </Section>
 
       <CtaBand
-        heading="Talk to a Local Residential Provider"
-        text={`Call ${business.phoneDisplay} to request help connecting with an independent provider.`}
+        heading="Talk to a Licensed Local Plumber"
+        text={`Call ${business.phoneDisplay} to schedule your plumbing service today.`}
       />
     </>
   );
