@@ -106,12 +106,24 @@ function Home() {
                 </AppLink>
               </div>
               <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-navy-foreground/75">
-                <span className="flex items-center gap-2">
-                  <ShieldCheck className="h-4 w-4 text-accent" /> CA License {business.license}
-                </span>
-                <span className="flex items-center gap-2">
-                  <Stars rating={4.5} /> 4.5 on Google &amp; Yahoo
-                </span>
+                <a
+                  href={business.cslbUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 underline underline-offset-4 hover:text-accent"
+                  title="Verify on California Contractors State License Board"
+                >
+                  <ShieldCheck className="h-4 w-4 text-accent" /> CA License {business.license} (Verify CSLB)
+                </a>
+                <a
+                  href={business.googleReviewUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 underline underline-offset-4 hover:text-accent"
+                  title="View reviews on Google Maps"
+                >
+                  <Stars rating={4.8} /> 4.8 on Google (Verified)
+                </a>
                 <span className="flex items-center gap-2">
                   <BadgeCheck className="h-4 w-4 text-accent" /> 10% senior &amp; military discount
                 </span>
@@ -125,19 +137,54 @@ function Home() {
       <div className="border-b border-border bg-card">
         <div className="container-page grid gap-6 py-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: Clock, t: "Fast Response", d: "Emergency services available" },
-            { icon: ShieldCheck, t: "Licensed & Insured", d: "California License #957013" },
-            { icon: BadgeCheck, t: "Upfront Pricing", d: "Clear estimates before work begins" },
-            { icon: CreditCard, t: "Easy Payments", d: "Cards, Apple Pay, Google Pay" },
-          ].map((i) => (
-            <div key={i.t} className="flex items-center gap-3">
-              <i.icon className="h-8 w-8 shrink-0 text-primary" strokeWidth={1.6} />
-              <div>
-                <p className="text-sm font-bold text-card-foreground">{i.t}</p>
-                <p className="text-xs text-muted-foreground">{i.d}</p>
+            {
+              icon: Clock,
+              t: "Fast Response",
+              d: "24/7 emergency dispatch available",
+            },
+            {
+              icon: ShieldCheck,
+              t: "C-36 Licensed & Insured",
+              d: "CA Lic #957013 · Verify on CSLB",
+              href: business.cslbUrl,
+            },
+            {
+              icon: BadgeCheck,
+              t: "Upfront Pricing",
+              d: "Written quote before work begins",
+            },
+            {
+              icon: CreditCard,
+              t: "Transparent Payments",
+              d: "Cards, Apple Pay, Google Pay",
+            },
+          ].map((i) => {
+            const content = (
+              <div key={i.t} className="flex items-center gap-3">
+                <i.icon className="h-8 w-8 shrink-0 text-primary" strokeWidth={1.6} />
+                <div>
+                  <p className="text-sm font-bold text-card-foreground flex items-center gap-1">
+                    {i.t}
+                    {i.href ? <span className="text-xs text-primary font-normal">↗</span> : null}
+                  </p>
+                  <p className="text-xs text-muted-foreground">{i.d}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+            return i.href ? (
+              <a
+                key={i.t}
+                href={i.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-85 transition-opacity"
+              >
+                {content}
+              </a>
+            ) : (
+              content
+            );
+          })}
         </div>
       </div>
 

@@ -51,7 +51,7 @@ export const services: Service[] = [
       "Garbage disposal repair and replacement, plus P-trap and tailpiece corrections",
       "Shower valve cartridges, tub diverters and mixing valve repairs",
       "Supply line and stub-out repairs behind sinks, toilets and appliances",
-      "General plumbing repairs for rentals, homeowners and light residential spaces",
+      "General plumbing repairs for homeowners, rental properties and light commercial spaces",
     ],
     problems: [
       { h: "Dripping and weeping faucets", p: "Hard water chews through rubber washers and ceramic cartridges. A steady drip wastes water every day and stains sinks and tubs. Rebuilding or replacing the cartridge usually restores the fixture completely." },
@@ -136,13 +136,13 @@ export const services: Service[] = [
       "Main water line breaks and failed main shut-off valves",
       "Water heater failures, leaking tanks and complete loss of hot water",
       "Frozen or ruptured lines during Tehachapi-area cold snaps",
-      "residential emergencies for residentials, homes and residential that cannot close",
+      "Commercial plumbing emergencies for businesses, offices and retail facilities that cannot close",
     ],
     problems: [
       { h: "Supply line and pipe bursts", p: "Braided hoses, old galvanized nipples and pressure-stressed copper are the most common failures. Water can move through drywall and flooring in minutes, so shutting the main off first matters more than finding the exact spot." },
       { h: "Sewer backups", p: "Waste rising into the lowest fixture in the house is a main line problem, not a fixture problem. It needs cabling or hydro-jetting and often a camera inspection to find what caused it." },
       { h: "Water heater failure", p: "A tank that ruptures releases forty gallons plus whatever keeps refilling it. Shutting off the cold inlet and gas or breaker is the immediate step; replacement usually follows." },
-      { h: "No water at all", p: "A failed main valve, a broken service line or a stuck pressure regulator can cut supply to the whole property. This is an emergency for households and a major inconvenience for home kitchens." },
+      { h: "No water at all", p: "A failed main valve, a broken service line or a stuck pressure regulator can cut supply to the whole property. This is an urgent emergency for households and a major disruption for commercial facilities." },
       { h: "Gas odors near appliances", p: "Leave the building and call from outside. Once the property is safe, we can inspect and repair the appliance connection." },
     ],
     signs: [
@@ -390,7 +390,7 @@ export const services: Service[] = [
       "Underground plumbing and sewer line locating before excavation",
       "Transition repairs where old clay or cast iron meets newer pipe",
       "Backfill, compaction and surface restoration of the work area",
-      "residential lateral repair for residentials, residential and multi-unit properties",
+      "Sewer lateral repair for single-family residences, commercial buildings and multi-unit properties",
     ],
     problems: [
       { h: "Root-crushed joints", p: "Years of root growth can pry a joint apart entirely. Cutting roots buys time; the joint still needs repair before it collapses." },

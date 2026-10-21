@@ -31,7 +31,7 @@ export function LocationPage({ location }: { location: Location }) {
 
   const blocks: { h: string; p: string }[] = [
     { h: `Residential Plumbing in ${location.name}`, p: location.residential },
-    { h: `Emergency Residential Plumber in ${location.name}`, p: location.emergency },
+    { h: `24/7 Emergency Plumbing in ${location.name}`, p: location.emergency },
     { h: `Drain Cleaning in ${location.name}`, p: location.drains },
     { h: `Sewer Line Service in ${location.name}`, p: location.sewer },
     { h: `Water Heaters in ${location.name}`, p: location.waterHeaters },

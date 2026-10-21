@@ -14,7 +14,16 @@ export function Footer() {
             Tommy&apos;s Plumbing Service
           </p>
           <p className="mt-3 text-sm leading-relaxed text-navy-foreground/75">
-            A licensed plumbing company servicing residential and commercial properties in Bakersfield and Kern County. California License #957013.
+            A licensed plumbing company servicing residential and commercial properties in Bakersfield and Kern County.{" "}
+            <a
+              href={business.cslbUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-accent underline underline-offset-2 hover:text-accent/80"
+            >
+              CA License #957013 (Verify on CSLB)
+            </a>
+            .
           </p>
           <ul className="mt-5 space-y-2 text-sm text-navy-foreground/80">
             <li className="flex gap-2">
